@@ -1,4 +1,4 @@
-import sys
+import os
 import urllib.request
 import urllib.parse
 from time import gmtime, strftime
@@ -32,8 +32,10 @@ f = open('../../../../_DATA/nomenclatures/persons.txt', encoding='utf8', mode='r
 for i, line in enumerate(f):
     person_name = line.split('	', 1)[0]
     file_name = '../../../../_DATA/wikipedia/' + person_name + '.txt'
+    file_name = file_name.replace('"', "_")
     url = 'http://en.wikipedia.org/wiki/' + urllib.parse.quote(person_name)
 
+    wiki_file = None
     try:
         wiki_file = open(file_name, encoding='utf8', mode='x')
 
@@ -41,11 +43,16 @@ for i, line in enumerate(f):
         html_content = modify_html_content(html_content)
 
         wiki_file.write(html_content)
-        wiki_file.close()
     except FileExistsError as e:
         pass
     except urllib.error.HTTPError as e:
         print(str(e.code) + ": " + url)
+        wiki_file.close()
+        os.remove(file_name)
+    finally:
+        if wiki_file != None:
+            wiki_file.close()
+
 
     if (i+1) % 50 == 0:
         print("------- " + str(i+1) + " persons added: Now on " + person_name + " (" + strftime("%H:%M:%S", gmtime()) + ") -------")
