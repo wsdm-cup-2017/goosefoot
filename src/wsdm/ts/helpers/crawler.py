@@ -37,22 +37,17 @@ for i, line in enumerate(f):
 
     wiki_file = None
     try:
-        wiki_file = open(file_name, encoding='utf8', mode='x')
+        if not os.path.isfile(file_name):
+            html_content = get_wikipedia_html_content(url)
+            html_content = modify_html_content(html_content)
 
-        html_content = get_wikipedia_html_content(url)
-        html_content = modify_html_content(html_content)
-
-        wiki_file.write(html_content)
-    except FileExistsError as e:
-        pass
+            wiki_file = open(file_name, encoding='utf8', mode='x')
+            wiki_file.write(html_content)
     except urllib.error.HTTPError as e:
         print(str(e.code) + ": " + url)
-        wiki_file.close()
-        os.remove(file_name)
     finally:
         if wiki_file != None:
             wiki_file.close()
-
 
     if (i+1) % 50 == 0:
         print("------- " + str(i+1) + " persons added: Now on " + person_name + " (" + strftime("%H:%M:%S", gmtime()) + ") -------")
