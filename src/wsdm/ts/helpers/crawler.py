@@ -20,7 +20,7 @@ def modify_html_content(html_content):
 
 def write_content_to_file(content, person_name):
         try:
-            file = open('../../../../_DATA/wikipedia/' + person_name + '.txt', encoding='utf8', mode='x')
+            file = open('../../../../_DATA/wikipedia/crawl/' + person_name + '.txt', encoding='utf8', mode='x')
             file.write(content)
             file.close()
             print(person_name + ' added!')
