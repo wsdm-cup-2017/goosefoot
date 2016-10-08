@@ -1,4 +1,5 @@
 import gensim, logging
+import countries
 
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
 
@@ -8,6 +9,7 @@ class MySentences(object):
 
     def __iter__(self):
         for line in open(self.file_name, encoding='utf8'):
+            line = countries.process_line(line)
             yield line.split()
 
 sentences = MySentences('../../../../_DATA/wikipedia/wiki-sentences.txt')
