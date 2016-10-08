@@ -12,7 +12,7 @@ class MySentences(object):
             line = countries.process_line(line)
             yield line.split()
 
-sentences = MySentences('../../../../_DATA/wikipedia/wiki-sentences.txt')
+sentences = MySentences('../../../../_DATA/wiki_sentences/wiki-sentences.txt')
 model = gensim.models.Word2Vec(sentences, workers=4)
 
-model.save('../../../../_DATA/wikipedia/word2vec_model.txt')
+model.save('../../../../_DATA/word2vec_model.txt')

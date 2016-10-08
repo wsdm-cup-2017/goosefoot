@@ -4,7 +4,7 @@ import urllib.parse
 from time import gmtime, strftime
 from bs4 import BeautifulSoup
 
-def get_wikipedia_html_content(url):
+def get_html_content(url):
     with urllib.request.urlopen(url) as response:
         return response.read().decode("utf-8")
 
@@ -20,7 +20,7 @@ def modify_html_content(html_content):
 
 def write_content_to_file(content, person_name):
         try:
-            file = open('../../../../_DATA/wikipedia/crawl/' + person_name + '.txt', encoding='utf8', mode='x')
+            file = open('../../../../_DATA/persons/' + person_name + '.txt', encoding='utf8', mode='x')
             file.write(content)
             file.close()
             print(person_name + ' added!')
@@ -31,14 +31,14 @@ f = open('../../../../_DATA/nomenclatures/persons.txt', encoding='utf8', mode='r
 
 for i, line in enumerate(f):
     person_name = line.split('	', 1)[0]
-    file_name = '../../../../_DATA/wikipedia/' + person_name + '.txt'
+    file_name = '../../../../_DATA/persons/' + person_name + '.txt'
     file_name = file_name.replace('"', "_")
     url = 'http://en.wikipedia.org/wiki/' + urllib.parse.quote(person_name)
 
     wiki_file = None
     try:
         if not os.path.isfile(file_name):
-            html_content = get_wikipedia_html_content(url)
+            html_content = get_html_content(url)
             html_content = modify_html_content(html_content)
 
             wiki_file = open(file_name, encoding='utf8', mode='x')
