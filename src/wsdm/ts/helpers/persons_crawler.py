@@ -1,6 +1,7 @@
 import os
 import urllib.request
 import urllib.parse
+import persons
 from time import gmtime, strftime
 from bs4 import BeautifulSoup
 
@@ -15,24 +16,17 @@ def modify_html_content(html_content):
         .find_all(["h2", "p"])
 
     inner_content = BeautifulSoup('\n\n'.join(str(s) for s in inner_content), "html.parser")
+    content_text = inner_content.get_text()
 
-    return inner_content.get_text()
-
-def write_content_to_file(content, person_name):
-        try:
-            file = open('../../../../_DATA/persons/' + person_name + '.txt', encoding='utf8', mode='x')
-            file.write(content)
-            file.close()
-            print(person_name + ' added!')
-        except FileExistsError as e:
-            pass
+    # Remove empty lines:
+    return os.linesep.join([s for s in content_text.splitlines() if s])
 
 f = open('../../../../_DATA/nomenclatures/persons.txt', encoding='utf8', mode='r')
 
 for i, line in enumerate(f):
     person_name = line.split('	', 1)[0]
-    file_name = '../../../../_DATA/persons/' + person_name + '.txt'
-    file_name = file_name.replace('"', "_")
+    modified_name = persons.remove_spaces(person_name)
+    file_name = '../../../../_DATA/persons/' + modified_name + '.txt'
     url = 'http://en.wikipedia.org/wiki/' + urllib.parse.quote(person_name)
 
     wiki_file = None

@@ -18,15 +18,6 @@ def modify_html_content(html_content):
 
     return inner_content.get_text()
 
-def write_content_to_file(content, profession):
-        try:
-            file = open('../../../../_DATA/professions/' + profession + '.txt', encoding='utf8', mode='x')
-            file.write(content)
-            file.close()
-            print(profession + ' added!')
-        except FileExistsError as e:
-            pass
-
 f = open('../../../../_DATA/nomenclatures/professions.txt', encoding='utf8', mode='r')
 
 for i, line in enumerate(f):

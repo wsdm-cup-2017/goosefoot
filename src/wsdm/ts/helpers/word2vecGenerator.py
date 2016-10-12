@@ -1,6 +1,7 @@
 import gensim, logging
 import os
 import countries
+import persons
 
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
 
@@ -11,9 +12,19 @@ class MySentences(object):
 
     def __iter__(self):
         for fname in os.listdir(self.dirname):
-            for line in open(os.path.join(self.dirname, fname), encoding='utf8'):
+            file = open(os.path.join(self.dirname, fname), encoding='utf8')
+
+            person_name = os.path.splitext(fname)[0]
+            first_line = file.readline()
+            alternative_names = persons.get_persons_names(first_line)
+            file.seek(0)
+
+            for line in file:
                 line = countries.process_line(line)
-                yield line.lower().split()
+
+                splitted = persons.process_splitted(line.split(), person_name, alternative_names)
+
+                yield [word.lower() for word in splitted]
 
 persons_folder = MySentences('../../../../_DATA/persons')
 professions_folder = MySentences('../../../../_DATA/professions')

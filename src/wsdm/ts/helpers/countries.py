@@ -135,6 +135,7 @@ countries_dict = {
     'American': 'United States of America',
     'Latvian': 'Latvia',
     'Peruvian': 'Peru',
+    'Turkic': 'Turkey',
     'Turk': 'Turkey',
     'Hong Kongese': 'Hong Kong',
     'Englishman': 'England',
