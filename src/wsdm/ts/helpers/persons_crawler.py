@@ -2,6 +2,8 @@ import os
 import urllib.request
 import urllib.parse
 import persons
+import logging
+import traceback
 from time import gmtime, strftime
 from bs4 import BeautifulSoup
 from multiprocessing.dummy import Pool as ThreadPool
@@ -40,6 +42,8 @@ def download_file(*args):
             wiki_file.write(html_content)
     except urllib.error.HTTPError as e:
         print(str(e.code) + ": " + url)
+    except Exception as e:
+        logging.error(traceback.format_exc())
     finally:
         if wiki_file != None:
             wiki_file.close()
