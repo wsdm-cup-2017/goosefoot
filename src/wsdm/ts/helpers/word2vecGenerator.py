@@ -13,7 +13,7 @@ class MySentences(object):
         for fname in os.listdir(self.dirname):
             for line in open(os.path.join(self.dirname, fname), encoding='utf8'):
                 line = countries.process_line(line)
-                yield line.split()
+                yield line.lower().split()
 
 persons_folder = MySentences('../../../../_DATA/persons')
 professions_folder = MySentences('../../../../_DATA/professions')
