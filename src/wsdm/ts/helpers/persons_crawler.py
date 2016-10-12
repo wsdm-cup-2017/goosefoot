@@ -21,9 +21,7 @@ def modify_html_content(html_content):
     # Remove empty lines:
     return os.linesep.join([s for s in content_text.splitlines() if s])
 
-f = open('../../../../_DATA/nomenclatures/persons.txt', encoding='utf8', mode='r')
-
-for i, line in enumerate(f):
+def download_file(i, line):
     person_name = line.split('	', 1)[0]
     modified_name = persons.remove_spaces(person_name)
     file_name = '../../../../_DATA/persons/' + modified_name + '.txt'
@@ -43,7 +41,9 @@ for i, line in enumerate(f):
         if wiki_file != None:
             wiki_file.close()
 
-    if (i+1) % 100 == 0:
-        print("------- " + str(i+1) + " persons added: Now on " + person_name + " (" + strftime("%H:%M:%S", gmtime()) + ") -------")
+    if (i + 1) % 100 == 0:
+        print("------- " + str(i + 1) + " persons added: Now on " + person_name + " (" + strftime("%H:%M:%S", gmtime()) + ") -------")
 
-f.close()
+with open('../../../../_DATA/nomenclatures/persons.txt', encoding='utf8', mode='r') as f:
+    for i, line in enumerate(f):
+        download_file(i, line)
