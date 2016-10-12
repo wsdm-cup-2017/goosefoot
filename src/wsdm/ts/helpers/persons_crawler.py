@@ -4,6 +4,7 @@ import urllib.parse
 import persons
 from time import gmtime, strftime
 from bs4 import BeautifulSoup
+from multiprocessing.dummy import Pool as ThreadPool
 
 def get_html_content(url):
     with urllib.request.urlopen(url) as response:
@@ -21,7 +22,8 @@ def modify_html_content(html_content):
     # Remove empty lines:
     return os.linesep.join([s for s in content_text.splitlines() if s])
 
-def download_file(i, line):
+def download_file(*args):
+    line = args[0]
     person_name = line.split('	', 1)[0]
     modified_name = persons.remove_spaces(person_name)
     file_name = '../../../../_DATA/persons/' + modified_name + '.txt'
@@ -41,9 +43,6 @@ def download_file(i, line):
         if wiki_file != None:
             wiki_file.close()
 
-    if (i + 1) % 100 == 0:
-        print("------- " + str(i + 1) + " persons added: Now on " + person_name + " (" + strftime("%H:%M:%S", gmtime()) + ") -------")
-
 with open('../../../../_DATA/nomenclatures/persons.txt', encoding='utf8', mode='r') as f:
-    for i, line in enumerate(f):
-        download_file(i, line)
+    pool = ThreadPool(4)
+    pool.map(download_file, f)
