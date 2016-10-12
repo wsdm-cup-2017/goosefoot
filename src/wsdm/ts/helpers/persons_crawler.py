@@ -32,10 +32,11 @@ def download_file(*args):
     wiki_file = None
     try:
         if not os.path.isfile(file_name):
+            wiki_file = open(file_name, encoding='utf8', mode='x')
+
             html_content = get_html_content(url)
             html_content = modify_html_content(html_content)
 
-            wiki_file = open(file_name, encoding='utf8', mode='x')
             wiki_file.write(html_content)
     except urllib.error.HTTPError as e:
         print(str(e.code) + ": " + url)

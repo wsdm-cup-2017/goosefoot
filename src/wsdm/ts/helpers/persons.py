@@ -15,7 +15,7 @@ def process_splitted(splitted, person_name, alternative_names):
     return splitted
 
 def remove_spaces(person):
-    return person.replace('"', "_").replace(" ", "_")
+    return person.replace('"', "_").replace(" ", "_").replace("/","_")
 
 def split_to_names(person):
     return person.replace("_", " ")
