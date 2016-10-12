@@ -43,7 +43,7 @@ for i, line in enumerate(f):
         if wiki_file != None:
             wiki_file.close()
 
-    if (i+1) % 50 == 0:
+    if (i+1) % 100 == 0:
         print("------- " + str(i+1) + " persons added: Now on " + person_name + " (" + strftime("%H:%M:%S", gmtime()) + ") -------")
 
 f.close()
