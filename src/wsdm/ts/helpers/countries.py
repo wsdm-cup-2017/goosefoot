@@ -1,9 +1,34 @@
 from bs4 import BeautifulSoup
 
+def remove_spaces(input):
+    for country, modified_country in countries_spaces_dict.items():
+        input = input.replace(country, modified_country)
+    return input
+
 def process_line(line):
     for synonym, country in countries_dict.items():
         line = line.replace(synonym, country)
+        line = remove_spaces(line)
     return line
+
+countries_spaces_dict = {
+    'Bosnia and Herzegovina': 'Bosnia_and_Herzegovina',
+    'Czech Republic': 'Czech_Republic',
+    'Dominican Republic': 'Dominican_Republic',
+    'Hong Kong': 'Hong_Kong',
+    'Ivory Coast': 'Ivory_Coast',
+    'New Zealand': 'New_Zealand',
+    'Northern Ireland': 'Northern_Ireland',
+    'Puerto Rico': 'Puerto_Rico',
+    'Republic of Ireland': 'Republic_of_Ireland',
+    'Saudi Arabia': 'Saudi_Arabia',
+    'South Africa': 'South_Africa',
+    'South Korea': 'South_Korea',
+    'Soviet Union': 'Soviet_Union',
+    'Sri Lanka': 'Sri_Lanka',
+    'United Kingdom': 'United_Kingdom',
+    'United States of America': 'United_States_of_America'
+}
 
 countries_dict = {
     'Dane': 'Denmark',
@@ -107,6 +132,7 @@ countries_dict = {
     'Nepalese': 'Nepal',
     'Belgian': 'Belgium',
     'US': 'United States of America',
+    'American': 'United States of America',
     'Latvian': 'Latvia',
     'Peruvian': 'Peru',
     'Turk': 'Turkey',
