@@ -16,7 +16,7 @@ class MySentences(object):
 
             person_name = os.path.splitext(fname)[0]
             first_line = file.readline()
-            alternative_names = persons.get_persons_names(first_line)
+            alternative_names = persons.get_persons_names(first_line, person_name)
             file.seek(0)
 
             for line in file:
