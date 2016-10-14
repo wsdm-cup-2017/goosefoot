@@ -8,10 +8,7 @@ from definitions import PERSONS_DIR
 from definitions import NOMENCLATURES_DIR
 from bs4 import BeautifulSoup
 from multiprocessing.dummy import Pool as ThreadPool
-
-def get_html_content(url):
-    with urllib.request.urlopen(url) as response:
-        return response.read().decode("utf-8")
+from src.wsdm.ts.helpers.persons.common import get_html_content
 
 def modify_html_content(html_content):
     soup = BeautifulSoup(html_content, "html.parser")

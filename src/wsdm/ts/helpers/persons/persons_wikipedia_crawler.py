@@ -6,24 +6,9 @@ import logging
 import traceback
 from definitions import PERSONS_DIR
 from definitions import NOMENCLATURES_DIR
-from bs4 import BeautifulSoup
 from multiprocessing.dummy import Pool as ThreadPool
-
-def get_html_content(url):
-    with urllib.request.urlopen(url) as response:
-        return response.read().decode("utf-8")
-
-def modify_html_content(html_content):
-    soup = BeautifulSoup(html_content, "html.parser")
-    inner_content = soup\
-        .find( "div", { "id" : "mw-content-text" })\
-        .find_all(["h2", "p"])
-
-    inner_content = BeautifulSoup('\n\n'.join(str(s) for s in inner_content), "html.parser")
-    content_text = inner_content.get_text()
-
-    # Remove empty lines:
-    return os.linesep.join([s for s in content_text.splitlines() if s])
+from src.wsdm.ts.helpers.persons.common import get_html_content
+from src.wsdm.ts.helpers.persons.common import modify_wikipedia_content
 
 def download_file(*args):
     line = args[0]
@@ -36,7 +21,7 @@ def download_file(*args):
     try:
         if not os.path.isfile(file_name):
             html_content = get_html_content(url)
-            html_content = modify_html_content(html_content)
+            html_content = modify_wikipedia_content(html_content)
 
             wiki_file = open(file_name, encoding='utf8', mode='x')
             wiki_file.write(html_content)
