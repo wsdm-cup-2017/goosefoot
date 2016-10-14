@@ -1,9 +1,11 @@
 import os
 import urllib.request
 import urllib.parse
-from . import persons
+from src.wsdm.ts.helpers.persons import persons
 import logging
 import traceback
+from definitions import PERSONS_DIR
+from definitions import NOMENCLATURES_DIR
 from bs4 import BeautifulSoup
 from multiprocessing.dummy import Pool as ThreadPool
 
@@ -27,7 +29,7 @@ def download_file(*args):
     line = args[0]
     person_name = line.split('	', 1)[0]
     modified_name = persons.remove_spaces(person_name)
-    file_name = '../../../../_DATA/persons/' + modified_name + '.txt'
+    file_name = os.path.join(PERSONS_DIR, modified_name + '.txt')
     url = 'http://en.wikipedia.org/wiki/' + urllib.parse.quote(person_name)
 
     wiki_file = None
@@ -47,6 +49,6 @@ def download_file(*args):
         if wiki_file != None:
             wiki_file.close()
 
-with open('../../../../_DATA/nomenclatures/persons.txt', encoding='utf8', mode='r') as f:
+with open(os.path.join(NOMENCLATURES_DIR, 'persons.txt'), encoding='utf8', mode='r') as f:
     pool = ThreadPool(4)
     pool.map(download_file, f)

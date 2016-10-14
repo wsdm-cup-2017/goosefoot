@@ -1,7 +1,11 @@
 import gensim, logging
 import os
-from ..persons import persons
-from ..countries import countries
+from src.wsdm.ts.helpers.persons import persons
+from src.wsdm.ts.helpers.countries import countries
+
+from definitions import WORD2VEC_MODEL_DIR
+from definitions import PERSONS_DIR
+from definitions import PROFESSIONS_DIR
 
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
 
@@ -26,12 +30,7 @@ class MySentences(object):
 
                 yield [word.lower() for word in splitted]
 
-persons_folder = MySentences('../../../../_DATA/persons')
-professions_folder = MySentences('../../../../_DATA/professions')
+model = gensim.models.Word2Vec(PERSONS_DIR, workers=4, min_count=1)
+model.train(PROFESSIONS_DIR)
 
-wiki_sentences_folder = MySentences('../../../../_DATA/wiki_sentences')
-
-model = gensim.models.Word2Vec(persons_folder, workers=4, min_count=1)
-model.train(professions_folder)
-
-model.save('../../../../_DATA/word2vec_model.txt')
+model.save(WORD2VEC_MODEL_DIR)

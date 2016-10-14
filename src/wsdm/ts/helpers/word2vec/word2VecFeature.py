@@ -1,12 +1,14 @@
 import gensim
 
-from ..persons import persons
-from ..countries import countries
-from ..professions import professions
+from src.wsdm.ts.helpers.persons import persons
+from src.wsdm.ts.helpers.countries import countries
+from src.wsdm.ts.helpers.professions import professions
+
+from definitions import WORD2VEC_MODEL_DIR
 
 def load_module():
     global model
-    model = gensim.models.Word2Vec.load('../../../../_DATA/word2vec_model.txt')
+    model = gensim.models.Word2Vec.load(WORD2VEC_MODEL_DIR)
 
 def find_profession_similarity(person_name, profession):
     global model

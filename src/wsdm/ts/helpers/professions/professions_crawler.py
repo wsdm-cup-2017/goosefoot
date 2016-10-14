@@ -3,6 +3,8 @@ import urllib.request
 import urllib.parse
 from time import gmtime, strftime
 from bs4 import BeautifulSoup
+from definitions import NOMENCLATURES_DIR
+from definitions import PROFESSIONS_DIR
 
 def get_html_content(url):
     with urllib.request.urlopen(url) as response:
@@ -18,11 +20,11 @@ def modify_html_content(html_content):
 
     return inner_content.get_text()
 
-f = open('../../../../_DATA/nomenclatures/professions.txt', encoding='utf8', mode='r')
+f = open(os.path.join(NOMENCLATURES_DIR, 'professions.txt'), encoding='utf8', mode='r')
 
 for i, line in enumerate(f):
     init_profession = line.rstrip()
-    file_name = '../../../../_DATA/professions/' + init_profession + '.txt'
+    file_name = os.path.join(PROFESSIONS_DIR, init_profession + '.txt')
     file_name = file_name.replace('"', "_")
 
     profession = init_profession
