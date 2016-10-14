@@ -16,10 +16,8 @@ def get_html_content(url):
 def modify_html_content(html_content):
     soup = BeautifulSoup(html_content, "html.parser")
     inner_content = soup\
-        .find( "div", { "id" : "mw-content-text" })\
-        .find_all(["h2", "p"])
+        .find( "p", { "class" : "lead" })
 
-    inner_content = BeautifulSoup('\n\n'.join(str(s) for s in inner_content), "html.parser")
     content_text = inner_content.get_text()
 
     # Remove empty lines:
@@ -30,24 +28,25 @@ def download_file(*args):
     person_name = line.split('	', 1)[0]
     modified_name = persons.remove_spaces(person_name)
     file_name = os.path.join(PERSONS_DIR, modified_name + '.txt')
-    url = 'http://en.wikipedia.org/wiki/' + urllib.parse.quote(person_name)
+    url = 'http://dbpedia.org/page/' + urllib.parse.quote(modified_name)
 
-    wiki_file = None
+    dbpedia_file = None
     try:
         if not os.path.isfile(file_name):
             html_content = get_html_content(url)
             html_content = modify_html_content(html_content)
 
-            wiki_file = open(file_name, encoding='utf8', mode='x')
-            wiki_file.write(html_content)
+            if len(html_content) > 0:
+                dbpedia_file = open(file_name, encoding='utf8', mode='x')
+                dbpedia_file.write(html_content)
     except urllib.error.HTTPError as e:
         print(str(e.code) + ": " + url)
     except Exception as e:
         logging.error(traceback.format_exc())
     finally:
-        if wiki_file != None:
-            wiki_file.close()
+        if dbpedia_file != None:
+            dbpedia_file.close()
 
-with open(os.path.join(NOMENCLATURES_DIR, 'persons.txt'), encoding='utf8', mode='r') as f:
+with open(os.path.join(NOMENCLATURES_DIR, 'missing_persons.txt'), encoding='utf8', mode='r') as f:
     pool = ThreadPool(4)
     pool.map(download_file, f)

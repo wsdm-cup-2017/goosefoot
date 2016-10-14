@@ -10,11 +10,13 @@ with open(os.path.join(NOMENCLATURES_DIR, "persons.txt"), encoding='utf8', mode=
             modified_name = persons.remove_spaces(person_name)
             file_name = os.path.join(PERSONS_DIR, modified_name + '.txt')
             if not os.path.isfile(file_name):
-                fw.write(person_name + "\n")
+                fw.write(line)
+            '''
             elif os.path.getsize(file_name) < 200:
                 with open(file_name, encoding='utf8', mode='r') as person_file:
-                    for line in person_file:
-                        if 'may refer to' in line:
+                    for person_line in person_file:
+                        if 'may refer to' in person_line:
                             print(modified_name)
                             break
+            '''
 
