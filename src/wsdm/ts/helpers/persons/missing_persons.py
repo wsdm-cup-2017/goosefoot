@@ -1,5 +1,5 @@
 import os
-import persons
+from . import persons
 
 with open('../../../../_DATA/nomenclatures/persons.txt', encoding='utf8', mode='r') as fr:
     with open('../../../../_DATA/nomenclatures/missing_persons.txt', encoding='utf8', mode='w') as fw:

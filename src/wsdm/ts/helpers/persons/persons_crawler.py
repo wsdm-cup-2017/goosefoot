@@ -1,10 +1,9 @@
 import os
 import urllib.request
 import urllib.parse
-import persons
+from . import persons
 import logging
 import traceback
-from time import gmtime, strftime
 from bs4 import BeautifulSoup
 from multiprocessing.dummy import Pool as ThreadPool
 

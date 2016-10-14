@@ -1,7 +1,7 @@
 import gensim, logging
 import os
-import countries
-import persons
+from ..persons import persons
+from ..countries import countries
 
 logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
 

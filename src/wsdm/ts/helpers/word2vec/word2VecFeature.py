@@ -1,8 +1,8 @@
 import gensim
 
-import persons
-import countries
-import professions
+from ..persons import persons
+from ..countries import countries
+from ..professions import professions
 
 def load_module():
     global model
