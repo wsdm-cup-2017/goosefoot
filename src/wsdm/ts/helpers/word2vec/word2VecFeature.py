@@ -1,4 +1,6 @@
 import gensim
+import logging
+import traceback
 
 from src.wsdm.ts.helpers.persons import persons
 from src.wsdm.ts.helpers.countries import countries
@@ -17,7 +19,10 @@ def find_profession_similarity(person_name, profession):
     profession_words = professions.get_similarity_words(profession)
     result = 0;
     for word in profession_words:
-        result += model.similarity(person_name.lower(), word.lower())
+        try:
+            result += model.similarity(person_name.lower(), word.lower())
+        except Exception as e:
+            logging.error(traceback.format_exc())
     result /= len(profession_words)
     return result
 
@@ -26,4 +31,8 @@ def find_nationality_similarity(person_name, nationality):
 
     person_name = persons.remove_spaces(person_name)
     nationality = countries.remove_spaces(nationality)
-    return model.similarity(person_name.lower(), nationality.lower())
+    try:
+        return model.similarity(person_name.lower(), nationality.lower())
+    except Exception as e:
+        logging.error(traceback.format_exc())
+        return 0
