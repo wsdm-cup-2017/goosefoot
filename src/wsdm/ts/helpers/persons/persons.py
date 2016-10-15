@@ -1,8 +1,10 @@
 import re
+from src.wsdm.ts.helpers.persons.common import split_to_words
 
 def process_splitted(splitted, person_name, alternative_names):
     for index, word in enumerate(splitted):
-        if (splitted[index] in alternative_names):
+        if splitted[index] in alternative_names and len(splitted[index]) > 1:
+            # print(splitted[index], ' -> ', person_name)
             splitted[index] = person_name
 
     i = 1
@@ -20,14 +22,15 @@ def remove_spaces(person):
         .replace("/","_")\
         .replace("*","_")
 
-def split_to_names(person):
+def add_spaces(person):
     return person.replace("_", " ")
 
 def get_persons_names(first_line, person_name):
     splitted = first_line.split('(')
     if len(splitted) > 1:
         full_name = splitted[0].strip()
-        return full_name.split(' ')
+        return split_to_words(full_name)
     else:
-        return split_to_names(person_name)
+        full_name = add_spaces(person_name)
+        return split_to_words(full_name)
 

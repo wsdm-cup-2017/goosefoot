@@ -1,8 +1,12 @@
 import urllib
 import os
 from bs4 import BeautifulSoup
+import re
 
 header = {'User-Agent': 'Mozilla/5.0'}
+
+def split_to_words(input):
+    return re.findall(r"[\w']+", input)
 
 def get_html_content(url):
     request = urllib.request.Request(url)
