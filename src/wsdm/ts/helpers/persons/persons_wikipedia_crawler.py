@@ -10,12 +10,15 @@ from multiprocessing.dummy import Pool as ThreadPool
 from src.wsdm.ts.helpers.persons.common import get_html_content
 from src.wsdm.ts.helpers.persons.common import modify_wikipedia_content
 
+base_wiki_url = 'http://en.wikipedia.org/wiki/'
+# base_wiki_url = 'http://deletionpedia.org/en/'
+
 def download_file(*args):
     line = args[0]
     person_name = line.split('	', 1)[0]
     modified_name = persons.remove_spaces(person_name)
     file_name = os.path.join(PERSONS_DIR, modified_name + '.txt')
-    url = 'http://en.wikipedia.org/wiki/' + urllib.parse.quote(person_name)
+    url = base_wiki_url + urllib.parse.quote(person_name)
 
     wiki_file = None
     try:

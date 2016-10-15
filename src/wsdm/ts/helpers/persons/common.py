@@ -2,8 +2,12 @@ import urllib
 import os
 from bs4 import BeautifulSoup
 
+header = {'User-Agent': 'Mozilla/5.0'}
+
 def get_html_content(url):
-    with urllib.request.urlopen(url) as response:
+    request = urllib.request.Request(url)
+    request.add_header('User-Agent', 'Mozilla/5.0')
+    with urllib.request.urlopen(request) as response:
         return response.read().decode("utf-8")
 
 def modify_wikipedia_content(html_content):
