@@ -1,5 +1,5 @@
 import re
 
 def get_similarity_words(profession):
-    return re.split(' -')
+    return re.findall(r"[\w]+", profession)
 
