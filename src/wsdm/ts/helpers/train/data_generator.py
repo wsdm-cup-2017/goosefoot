@@ -53,9 +53,35 @@ def init_negative_countries():
 
     return result
 
+def init_positive_countries():
+    global persons
+
+    result = init_countries_empty_dict()
+
+    total_count = 0
+    while total_count < 1000:
+        person = random.choice(persons)
+        person_file = os.path.join(definitions.PERSONS_DIR, p_lib.remove_spaces(person) + ".txt")
+        if os.path.isfile(person_file):
+            with open(person_file, 'r', encoding='utf8') as fr:
+                first_line = fr.readline()
+                for synonym, coun in c_lib.countries_dict.items():
+                    first_line = first_line.replace(synonym, coun)
+
+                mentioned_countries = tuple(temp_country for temp_country in result  if temp_country in first_line)
+                if len(mentioned_countries) == 1 and person not in result[mentioned_countries[0]]:
+                    result[mentioned_countries[0]].append(person)
+                    total_count += 1
+                    print(total_count, mentioned_countries[0], person)
+
+
+
+    return result
+
 
 init_persons()
 
 negative_countries = init_negative_countries()
+positive_countries = init_positive_countries()
 
-print(negative_countries["Bulgaria"])
+print(positive_countries["Bulgaria"])
