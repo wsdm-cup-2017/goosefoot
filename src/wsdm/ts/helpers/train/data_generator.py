@@ -1,6 +1,7 @@
 import os
 import random
 from definitions import NOMENCLATURES_DIR
+from definitions import TRAINING_DIR
 import definitions
 import src.wsdm.ts.helpers.persons.persons as p_lib
 import src.wsdm.ts.helpers.countries.countries as c_lib
@@ -14,6 +15,24 @@ def init_persons():
     with open(os.path.join(NOMENCLATURES_DIR, "persons.txt"), encoding='utf8') as persons_f:
         for line in persons_f:
             persons.append(line.split('	', 1)[0])
+
+def get_train_lines(dict, is_positive):
+    score = "7" if is_positive else "0"
+    result = []
+    for key, val in dict.items():
+        if len(val) > 0:
+            for item in val:
+                result.append("{0}	{1}	{2}".format(item, key, score))
+    return result
+
+def save_train_data(positive_dict, negative_dict, train_file):
+    positive_lines = get_train_lines(positive_dict, True)
+    negative_lines = get_train_lines(negative_dict, False)
+
+    with open(train_file, encoding='utf8', mode='w') as fw:
+        for (pl, nl) in zip(positive_lines, negative_lines):
+            fw.write(pl + "\n")
+            fw.write(nl + "\n")
 
 
 def init_countries_empty_dict():
@@ -50,6 +69,7 @@ def init_negative_countries():
 
                     if not country in content:
                         result[country].append(person)
+                        # print(country, person)
 
     return result
 
@@ -59,7 +79,7 @@ def init_positive_countries():
     result = init_countries_empty_dict()
 
     total_count = 0
-    while total_count < 1000:
+    while total_count < len(result) * NEGATIVE_EXAMPLES_COUNT:
         person = random.choice(persons)
         person_file = os.path.join(definitions.PERSONS_DIR, p_lib.remove_spaces(person) + ".txt")
         if os.path.isfile(person_file):
@@ -72,7 +92,7 @@ def init_positive_countries():
                 if len(mentioned_countries) == 1 and person not in result[mentioned_countries[0]]:
                     result[mentioned_countries[0]].append(person)
                     total_count += 1
-                    print(total_count, mentioned_countries[0], person)
+                    # print(total_count, mentioned_countries[0], person)
 
 
 
@@ -81,7 +101,7 @@ def init_positive_countries():
 
 init_persons()
 
-negative_countries = init_negative_countries()
 positive_countries = init_positive_countries()
+negative_countries = init_negative_countries()
 
-print(positive_countries["Bulgaria"])
+save_train_data(positive_countries, negative_countries, os.path.join(definitions.TRAINING_DIR, "custom_nationality.train"))
