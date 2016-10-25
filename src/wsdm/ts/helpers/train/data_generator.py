@@ -103,9 +103,6 @@ def init_positive_countries():
                     result[mentioned_countries[0]].append(person)
                     total_count += 1
                     # print(total_count, mentioned_countries[0], person)
-
-
-
     return result
 
 def init_negative_professions():
@@ -130,6 +127,26 @@ def init_positive_professions():
     global persons
 
     result = init_professions_empty_dict()
+
+    total_count = 0
+    while total_count < len(result) * NEGATIVE_EXAMPLES_COUNT:
+        person = random.choice(persons)
+        person_file = os.path.join(definitions.PERSONS_DIR, p_lib.remove_spaces(person) + ".txt")
+        if os.path.isfile(person_file):
+            with open(person_file, 'r', encoding='utf8') as fr:
+                first_line = fr.readline()
+                mentioned_professions = []
+
+                for profession in result:
+                    similarity_words = prof_lib.get_similarity_words(profession)
+                    if all(x in first_line for x in similarity_words):
+                        mentioned_professions.append(profession)
+
+
+                if len(mentioned_professions) == 1 and person not in result[mentioned_professions[0]]:
+                    result[mentioned_professions[0]].append(person)
+                    total_count += 1
+                    print(total_count, mentioned_professions[0], person)
     return result
 
 

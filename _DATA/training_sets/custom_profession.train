@@ -1,515 +1,4000 @@
-Barack Obama	Politician	7
-Barack Obama	Lawyer	0
-Barack Obama	Law professor	1
-Barack Obama	Author	0
-William Shakespeare	Poet	7
-William Shakespeare	Playwright	7
-William Shakespeare	Lyricist	3
-William Shakespeare	Author	3
-George W. Bush	Public speaker	1
-George W. Bush	Politician	7
-George W. Bush	Pilot	1
-George W. Bush	Businessperson	3
-George W. Bush	Author	1
-Napoleon	Politician	7
-Napoleon	Military Officer	7
-Carl Linnaeus	Physician	6
-Carl Linnaeus	Botanist	7
-Carl Linnaeus	Biologist	5
-Bill Clinton	Teacher	0
-Bill Clinton	Statesman	6
-Bill Clinton	Lawyer	1
-Bill Clinton	Author	0
-Wolfgang Amadeus Mozart	Violist	2
-Wolfgang Amadeus Mozart	Violinist	2
-Wolfgang Amadeus Mozart	Pianist	5
-Wolfgang Amadeus Mozart	Composer	7
-Johann Sebastian Bach	Violist	1
-Johann Sebastian Bach	Violinist	1
-Johann Sebastian Bach	Teacher	1
-Johann Sebastian Bach	Organist	1
-Johann Sebastian Bach	Harpsichordist	1
-Johann Sebastian Bach	Composer	7
-Johann Sebastian Bach	Cantor	0
-Bob Dylan	Singer-songwriter	7
-Bob Dylan	Record producer	2
-Bob Dylan	Poet	2
-Bob Dylan	Peace activist	0
-Bob Dylan	Lyricist	5
-Bob Dylan	Guitarist	5
-Bob Dylan	Film Score Composer	1
-Bob Dylan	Disc jockey	0
-Bob Dylan	Author	0
-Bob Dylan	Actor	0
-John F. Kennedy	Politician	7
-John F. Kennedy	Military Officer	2
-John F. Kennedy	Author	0
-Pope John Paul II	Writer	1
-Pope John Paul II	Priest	7
-Pope John Paul II	Philosopher	2
-Aristotle	Writer	4
-Aristotle	Tutor	1
-Aristotle	Teacher	1
-Aristotle	Scientist	6
-Aristotle	Polymath	1
-Aristotle	Philosopher	7
-Paul McCartney	Songwriter	7
-Paul McCartney	Social activist	2
-Paul McCartney	Singer-songwriter	6
-Paul McCartney	Record producer	4
-Paul McCartney	Poet	1
-Paul McCartney	Pianist	2
-Paul McCartney	Peace activist	1
-Paul McCartney	Multi-instrumentalist	5
-Paul McCartney	Keyboard player	2
-Paul McCartney	Guitarist	4
-Paul McCartney	Film Score Composer	2
-Paul McCartney	Film Producer	1
-Paul McCartney	Entrepreneur	0
-Paul McCartney	Drummer	1
-Paul McCartney	Businessperson	2
-Paul McCartney	Bassist	5
-Julius Caesar	Politician	7
-Julius Caesar	Author	1
-Theodore Roosevelt	Statesman	5
-Theodore Roosevelt	Polymath	0
-Theodore Roosevelt	Police officer	0
-Theodore Roosevelt	Historian	2
-Theodore Roosevelt	Conservationist	2
-Theodore Roosevelt	Author	4
-Walt Disney	Voice Actor	3
-Walt Disney	Television Producer	4
-Walt Disney	Screenwriter	6
-Walt Disney	Film Producer	7
-Walt Disney	Film Editor	2
-Walt Disney	Film Director	4
-Walt Disney	Entrepreneur	5
-Walt Disney	Entertainer	2
-Walt Disney	Businessperson	5
-Walt Disney	Animator	6
-Walt Disney	Actor	1
-Jimmy Carter	Statesman	4
-Jimmy Carter	Novelist	0
-Jimmy Carter	Military Officer	1
-Jimmy Carter	Farmer	1
-Jimmy Carter	Author	1
-Lady Gaga	Social activist	1
-Lady Gaga	Singer-songwriter	7
-Lady Gaga	Record producer	3
-Lady Gaga	Fashion Designer	3
-Lady Gaga	Businessperson	1
-Lady Gaga	Actor	3
-Albert Einstein	Theoretical Physicist	7
-Albert Einstein	Teacher	2
-Albert Einstein	Philosopher	4
-Albert Einstein	Mathematician	4
-Albert Einstein	Author	2
-Stevie Wonder	Singer-songwriter	6
-Stevie Wonder	Record producer	5
-Stevie Wonder	Pianist	4
-Stevie Wonder	Organist	2
-Stevie Wonder	Multi-instrumentalist	5
-Stevie Wonder	Lyricist	4
-Stevie Wonder	Keyboard player	5
-Stevie Wonder	Film Score Composer	0
-Stevie Wonder	Film Producer	1
-Stevie Wonder	Drummer	0
-Stevie Wonder	Actor	1
-Frank Zappa	Songwriter	7
-Frank Zappa	Record producer	3
-Frank Zappa	Conductor	1
-Frank Zappa	Composer	5
-Neil Young	Songwriter	7
-Neil Young	Screenwriter	2
-Neil Young	Record producer	3
-Neil Young	Film Score Composer	1
-Neil Young	Film Producer	2
-Neil Young	Film Director	2
-Neil Young	Actor	1
-Neil Young	Activist	2
-Alfred Hitchcock	Television Producer	4
-Alfred Hitchcock	Television director	4
-Alfred Hitchcock	Screenwriter	4
-Alfred Hitchcock	Film Producer	7
-Alfred Hitchcock	Film Director	7
-Alfred Hitchcock	Film Art Director	4
-Alfred Hitchcock	Actor	0
-Marvin Gaye	Singer-songwriter	7
-Marvin Gaye	Record producer	3
-Marvin Gaye	Keyboard player	2
-Marvin Gaye	Film Score Composer	0
-Luke the Evangelist	Writer	7
-Luke the Evangelist	Physician	0
-Justin Timberlake	Television Producer	0
-Justin Timberlake	Singer-songwriter	7
-Justin Timberlake	Record producer	4
-Justin Timberlake	Film Producer	0
-Justin Timberlake	Dancer	4
-Justin Timberlake	Businessperson	2
-Justin Timberlake	Actor	5
-Bertolt Brecht	Theatre Director	7
-Bertolt Brecht	Screenwriter	1
-Bertolt Brecht	Poet	6
-Bertolt Brecht	Playwright	7
-Bertolt Brecht	Lyricist	1
-Bertolt Brecht	Librettist	1
-James Cook	Sailor	5
-James Cook	Explorer	7
-Tupac Shakur	Songwriter	6
-Tupac Shakur	Social activist	1
-Tupac Shakur	Record producer	3
-Tupac Shakur	Rapper	7
-Tupac Shakur	Poet	2
-Tupac Shakur	Dancer	2
-Tupac Shakur	Actor	3
-Missy Elliott	Singer-songwriter	7
-Missy Elliott	Record producer	3
-Missy Elliott	Rapper	6
-Missy Elliott	Dancer	2
-Missy Elliott	Actor	1
-Samuel Taylor Coleridge	Poet	7
-Samuel Taylor Coleridge	Philosopher	6
-Samuel Taylor Coleridge	Critic	5
-Billy Joel	Singer-songwriter	7
-Billy Joel	Pianist	6
-Billy Joel	Orchestrator	1
-Billy Joel	Lyricist	5
-Billy Joel	Composer	5
-Billy Joel	Businessperson	0
-Miley Cyrus	Singer-songwriter	5
-Miley Cyrus	Model	0
-Miley Cyrus	Dancer	1
-Miley Cyrus	Actor	6
-Geoffrey Chaucer	Poet	7
-Geoffrey Chaucer	Philosopher	5
-Geoffrey Chaucer	Diplomat	1
-Geoffrey Chaucer	Bureaucrat	1
-Geoffrey Chaucer	Author	7
-Geoffrey Chaucer	Astrologer	1
-Bryan Adams	Social activist	3
-Bryan Adams	Singer-songwriter	7
-Bryan Adams	Record producer	4
-Bryan Adams	Photographer	3
-Bryan Adams	Film Score Composer	1
-Bryan Adams	Actor	2
-Tacitus	Writer	4
-Tacitus	Historian	7
-Ben Jonson	Poet	6
-Ben Jonson	Playwright	6
-Ben Jonson	Actor	2
-Paul Newman	Voice Actor	3
-Paul Newman	Racing driver	2
-Paul Newman	Philanthropist	2
-Paul Newman	Film Producer	4
-Paul Newman	Film Director	7
-Paul Newman	Entrepreneur	4
-Paul Newman	Businessperson	3
-Paul Newman	Actor	7
-Paul Newman	Activist	2
-Howard Hughes	Pilot	3
-Howard Hughes	Philanthropist	2
-Howard Hughes	Investor	5
-Howard Hughes	Film Producer	1
-Howard Hughes	Film Director	0
-Howard Hughes	Engineer	6
-Peter Sellers	Singer	5
-Peter Sellers	Screenwriter	1
-Peter Sellers	Film Director	1
-Peter Sellers	Comedian	6
-Peter Sellers	Actor	7
-Zhou Enlai	Revolutionary	6
-Zhou Enlai	Politician	6
-Zhou Enlai	Diplomat	6
-Carlos Santana	Songwriter	5
-Carlos Santana	Guitarist	6
-Carlos Santana	Bandleader	5
-Lorenz Hart	Songwriter	6
-Lorenz Hart	Playwright	3
-Lorenz Hart	Lyricist	5
-Lorenz Hart	Composer	6
-Gabriel Fauré	Pianist	6
-Gabriel Fauré	Organist	7
-Gabriel Fauré	Conductor	1
-Gabriel Fauré	Composer	7
-John Henry Newman	Theologian	4
-John Henry Newman	Priest	7
-John Henry Newman	Novelist	0
-Nikolai Rimsky-Korsakov	Conductor	2
-Nikolai Rimsky-Korsakov	Composer	7
-Thomas Carlyle	Writer	6
-Thomas Carlyle	Philosopher	7
-Thomas Carlyle	Mathematician	2
-Billy Graham	Screenwriter	0
-Billy Graham	Preacher	7
-Billy Graham	Pastor	6
-Billy Graham	Film Producer	0
-Billy Graham	Evangelist	7
-Billy Graham	Actor	0
-Ewan McGregor	Voice Actor	3
-Ewan McGregor	Television Producer	0
-Ewan McGregor	Singer	1
-Ewan McGregor	Screenwriter	0
-Ewan McGregor	Actor	7
-J. D. Salinger	Soldier	0
-J. D. Salinger	Novelist	7
-Fats Waller	Singer	6
-Fats Waller	Organist	6
-Fats Waller	Jazz Pianist	7
-Fats Waller	Composer	4
-Fats Waller	Comedian	1
-Edward R. Murrow	TV Editor	2
-Edward R. Murrow	Television Producer	3
-Edward R. Murrow	Screenwriter	0
-Edward R. Murrow	Journalist	7
-Edward R. Murrow	Film Producer	1
-Edward R. Murrow	Film Editor	1
-Edward R. Murrow	Broadcaster	7
-Ryuichi Sakamoto	Writer	3
-Ryuichi Sakamoto	Record producer	3
-Ryuichi Sakamoto	Pianist	6
-Ryuichi Sakamoto	Film Score Composer	4
-Ryuichi Sakamoto	Actor	3
-Brian McKnight	Television Producer	0
-Brian McKnight	Singer-songwriter	7
-Brian McKnight	Record producer	3
-Brian McKnight	Music Arranger	5
-Brian McKnight	Composer	3
-Brian McKnight	Actor	0
-Julio Iglesias	Songwriter	5
-Julio Iglesias	Singer-songwriter	6
-Steven Van Zandt	Songwriter	5
-Steven Van Zandt	Singer-songwriter	4
-Steven Van Zandt	Record producer	4
-Steven Van Zandt	Music Arranger	4
-Steven Van Zandt	Guitarist	3
-Steven Van Zandt	Disc jockey	3
-Steven Van Zandt	Actor	5
-Malcolm Young	Songwriter	7
-Malcolm Young	Singer	6
-Malcolm Young	Record producer	2
-Malcolm Young	Guitarist	6
-Malcolm Young	Film Score Composer	0
-Malcolm Young	Actor	1
-Dave Navarro	Television Producer	0
-Dave Navarro	Singer	6
-Dave Navarro	Guitarist	7
-Dave Navarro	Film Score Composer	0
-Dave Navarro	Actor	0
-Guru Dutt	Screenwriter	2
-Guru Dutt	Film Producer	7
-Guru Dutt	Film Director	7
-Guru Dutt	Choreography	2
-Guru Dutt	Actor	6
-Jayalalithaa	Politician	6
-Jayalalithaa	Playback Singer	0
-Jayalalithaa	Actor	5
-Stacy Keach	Voice Actor	6
-Stacy Keach	Television Producer	1
-Stacy Keach	Actor	7
-David Essex	Singer-songwriter	7
-David Essex	Film Score Composer	1
-David Essex	Actor	5
-Hilary Putnam	Physician	0
-Hilary Putnam	Philosopher	7
-Hilary Putnam	Mathematician	6
-Ellen Page	Voice Actor	2
-Ellen Page	Actor	7
-Michelle Yeoh	Film Producer	0
-Michelle Yeoh	Dancer	2
-Michelle Yeoh	Choreographer	1
-Michelle Yeoh	Actor	7
-Alexander Downer	Politician	6
-Alexander Downer	Economist	1
-John Renbourn	Songwriter	7
-John Renbourn	Guitarist	6
-Dennis Johnson	Coach	4
-Dennis Johnson	Basketball player	7
-Adoor Gopalakrishnan	Screenwriter	7
-Adoor Gopalakrishnan	Film Producer	7
-Adoor Gopalakrishnan	Film Director	7
-Steve Jordan (musician)	Songwriter	5
-Steve Jordan (musician)	Record producer	4
-Steve Jordan (musician)	Music Director	5
-Steve Jordan (musician)	Multi-instrumentalist	6
-Steve Jordan (musician)	Film Score Composer	2
-Steve Jordan (musician)	Educator	2
-Steve Jordan (musician)	Drummer	6
-Steve Jordan (musician)	Actor	0
-Aleksander Kwaśniewski	Politician	7
-Aleksander Kwaśniewski	Journalist	2
-William Jackson (secretary)	Military Officer	7
-William Jackson (secretary)	Merchant	2
-William Jackson (secretary)	Lawyer	2
-Nichelle Nichols	Voice Actor	5
-Nichelle Nichols	Singer	6
-Nichelle Nichols	Film Producer	0
-Nichelle Nichols	Actor	7
-Slim Pickens	Rodeo performer	2
-Slim Pickens	Rodeo clown	1
-Slim Pickens	Actor	7
-John Elefante	Singer-songwriter	7
-John Elefante	Record producer	4
-Isaac Isaacs	Politician	5
-Isaac Isaacs	Judge	6
-Isaac Isaacs	Barrister	1
-Lillian Russell	Singer	7
-Lillian Russell	Actor	7
-Giambattista della Porta	Meteorologist	3
-Giambattista della Porta	Mathematician	6
-Giambattista della Porta	Alchemist	4
-Lotti Golden	Songwriter	6
-Lotti Golden	Singer-songwriter	7
-Alexandra Stan	Singer-songwriter	5
-Alexandra Stan	Model	4
-Mervyn Warren	Songwriter	6
-Mervyn Warren	Singer	4
-Mervyn Warren	Record producer	6
-Mervyn Warren	Pianist	7
-Mervyn Warren	Music Arranger	3
-Mervyn Warren	Lyricist	5
-Mervyn Warren	Film Score Composer	5
-Mervyn Warren	Conductor	5
-Mervyn Warren	Actor	2
-Mark Turner (musician)	Songwriter	2
-Mark Turner (musician)	Record producer	0
-Sam Lee (actor)	Singer	1
-Sam Lee (actor)	Rapper	0
-Sam Lee (actor)	Model	2
-Sam Lee (actor)	Disc jockey	0
-Sam Lee (actor)	Actor	7
-Mike Dean (record producer)	Record producer	6
-Mike Dean (record producer)	Musician	6
-Mike Dean (record producer)	Audio Engineer	3
-Fernandel	Singer	5
-Fernandel	Film Producer	0
-Fernandel	Actor	7
-Luiz Gonzaga	Songwriter	7
-Luiz Gonzaga	Singer	7
-Luiz Gonzaga	Poet	6
-Luiz Gonzaga	Film Score Composer	0
-Luiz Gonzaga	Actor	0
-Tony Walton	Scenic Designer	5
-Tony Walton	Production designer	4
-Tony Walton	Costume Designer	7
-Tony Walton	Art Director	6
-Nicole C. Mullen	Songwriter	7
-Nicole C. Mullen	Choreography	2
-Morley Callaghan	Playwright	5
-Morley Callaghan	Novelist	7
-Morley Callaghan	Lawyer	0
-Morley Callaghan	Journalist	2
-Hugues Duboscq	Swimmer	7
-Hugues Duboscq	Police officer	0
-Eric Dover	Songwriter	6
-Eric Dover	Singer	5
-Nellie Tayloe Ross	Teacher	1
-Nellie Tayloe Ross	Politician	7
-Kaye Adams	Presenter	7
-Kaye Adams	Journalist	3
-Émerson Leão	Football player	5
-Émerson Leão	Coach	5
-Valentin Lebedev	Engineer	2
-Valentin Lebedev	Astronaut	6
-Jerry Kleczka	Politician	7
-Jerry Kleczka	Accountant	0
-Rudy Wurlitzer	Screenwriter	6
-Rudy Wurlitzer	Novelist	7
-Rudy Wurlitzer	Actor	2
-Steven Johnson (author)	Science writer	6
-Steven Johnson (author)	Journalist	3
-Steven Johnson (author)	Author	7
-Tim Herlihy	Television Producer	3
-Tim Herlihy	Screenwriter	7
-Tim Herlihy	Lawyer	0
-Tim Herlihy	Film Score Composer	0
-Tim Herlihy	Film Producer	5
-Tim Herlihy	Actor	6
-Kerry Kennedy	Social activist	6
-Kerry Kennedy	Lawyer	1
-Kerry Kennedy	Author	5
-Riker Lynch	Singer-songwriter	6
-Riker Lynch	Guitarist	4
-Riker Lynch	Dancer	2
-Riker Lynch	Bassist	2
-Riker Lynch	Actor	5
-Jacques Bergier	Writer	5
-Jacques Bergier	Engineer	4
-Johnnetta B. Cole	Professor	4
-Johnnetta B. Cole	Anthropologist	7
-Roy Rowland (film director)	Television director	2
-Roy Rowland (film director)	Film Producer	4
-Roy Rowland (film director)	Film Director	7
-Arthur Rooke	Screenwriter	0
-Arthur Rooke	Film Director	7
-Arthur Rooke	Actor	6
-Harold MacGrath	Screenwriter	6
-Harold MacGrath	Novelist	7
-Paul Hersey	Manager	1
-Paul Hersey	Consultant	5
-Paul Hersey	Author	6
-Jared Kushner	Media proprietor	4
-Jared Kushner	Businessperson	7
-Steve Lambke	Singer-songwriter	7
-Steve Lambke	Guitarist	4
-Suzanne Sena	Television Show Host	7
-Suzanne Sena	Journalist	3
-Suzanne Sena	Actor	4
-Michael Jackson (anthropologist)	Educator	6
-Michael Jackson (anthropologist)	Anthropologist	7
-Peter Sumner	Writer	6
-Peter Sumner	Television director	5
-Peter Sumner	Actor	7
-Monique Gabrielle	Pin-up girl	3
-Monique Gabrielle	Film Producer	2
-Monique Gabrielle	Actor	4
-Carol Chumney	Politician	6
-Carol Chumney	Lawyer	4
-Alex Munro (comedian)	Comedian	7
-Alex Munro (comedian)	Actor	5
-Tabitha Stevens	Pornographic actor	7
-Tabitha Stevens	Film Producer	0
-Matt Brandstein	Writer	6
-Matt Brandstein	Cartoonist	2
-Matt Brandstein	Actor	2
-Mark Ciardi	Film Producer	5
-Mark Ciardi	Baseball player	6
-Mark Ciardi	Actor	0
-Levine Andrade	Conductor	6
-Levine Andrade	Composer	5
-Ba U	Politician	6
-Ba U	Lawyer	4
-Jonathan Aaron	Professor	2
-Jonathan Aaron	Poet	7
-Thembo Nyombi	Politician	7
-Thembo Nyombi	Economist	6
-Steve White (producer)	Film Producer	7
-Steve White (producer)	Actor	1
-Mindy Aloff	Journalist	6
-Mindy Aloff	Editor	6
-Vilen Künnapu	Professor	1
-Vilen Künnapu	Architect	7
-Janet Fox (author)	Publisher	3
-Janet Fox (author)	Book editor	3
-Janet Fox (author)	Author	7
-Gary Cohn (journalist)	Professor	3
-Gary Cohn (journalist)	Journalist	7
-Stan Edmonds	Screenwriter	1
-Stan Edmonds	Actor	2
-JoAnn D. Osmond	Politician	7
-JoAnn D. Osmond	Insurance Broker	0
-Guillermo de Cun	Television Producer	4
-Guillermo de Cun	Television director	3
-Guillermo de Cun	Screenwriter	1
-Guillermo de Cun	Radio producer	4
-Guillermo de Cun	Music Director	0
-Guillermo de Cun	Actor	7
-Tericka Dye	Teacher	3
-Tericka Dye	Pornographic actor	6
-David K Williams	Philanthropist	1
-David K Williams	Entrepreneur	5
-David K Williams	Businessperson	7
-David K Williams	Author	2
-Jon Penington	Screenwriter	7
-Jon Penington	Film Producer	6
-Costas Kadis	Politician	3
-Costas Kadis	Physician	5
+Okwui Enwezor	Art critic	7
+Frederick A. Tallmadge	Art critic	0
+Elizabeth Olsen	Art critic	7
+Kane Richmond	Art critic	0
+Joseph Drapell	Art critic	7
+Michael Arnzen	Art critic	0
+Arthur Fiedler	Art critic	7
+Chris Impellitteri	Art critic	0
+Arthur Krigsman	Art critic	7
+Pierre Werner	Art critic	0
+Owen Barfield	Art critic	7
+Radney Foster	Art critic	0
+Samir El-Youssef	Art critic	7
+James Lisle Gillis	Art critic	0
+Brian Sewell	Art critic	7
+Shakti Arora	Art critic	0
+Michael Francis Gibson	Art critic	7
+Bahareh Rahnama	Art critic	0
+David Vestal	Art critic	7
+Robert Clark Jones	Art critic	0
+Danuta Stenka	Art critic	7
+J. Robert Wright	Barrister	0
+Pierre Dubreuil	Art critic	7
+Abul Ahsan	Barrister	0
+Oliver J. Burke	Barrister	7
+Adrian Quaife-Hobbs	Barrister	0
+Syed Masood Kausar	Barrister	7
+Justin Fontaine	Barrister	0
+Jeffery Paine	Publisher	7
+Philip Bird	Barrister	0
+Eric Elfman	Publisher	7
+Masaya Kikawada	Barrister	0
+Jane Friedman	Publisher	7
+Konstantin Valkov	Barrister	0
+Lothar Bisky	Publisher	7
+James Mitchell Chase	Barrister	0
+Charles Gidley Wheeler	Publisher	7
+Juliana Pegues	Barrister	0
+Roger Boylan	Publisher	7
+Margarita López	Barrister	0
+Aaron Rose	Publisher	7
+Britta Holmberg	Publisher	0
+Ralph Cosham	Publisher	7
+Emad Burnat	Publisher	0
+Igor Yefimov	Publisher	7
+Eric Krüger	Publisher	0
+Royston Maldoom	Dancer	7
+Robert Bree	Publisher	0
+David Devine (director)	Dancer	7
+Christoffer Boe	Publisher	0
+Christopher Gordon (composer)	Dancer	7
+Yanka Dyagileva	Publisher	0
+Aleena (actress)	Dancer	7
+Oscar Clayton	Publisher	0
+Faith Bacon	Dancer	7
+Mathías Abero	Publisher	0
+Paula Fox	Dancer	7
+Om Puri	Publisher	0
+Melissa Tantaquidgeon Zobel	Historian	7
+Kazuyo Katsuma	Publisher	0
+Louis F. Burns	Historian	7
+Ken Wheat	Dancer	0
+Ove Karlsson (sports journalist)	Historian	7
+Lily Brayton	Dancer	0
+Herman Wouk	Historian	7
+Francisco Ávila Camberos	Dancer	0
+Fritz Fischer	Historian	7
+Rusty Greer	Dancer	0
+Akira Iriye	Historian	7
+F. E. Smith, 1st Earl of Birkenhead	Dancer	0
+Steven E. Snow	Historian	7
+Julianne Phillips	Dancer	0
+Amara Mohamed Konneh	Manager	7
+Pavel Kharchik	Dancer	0
+Eric Bischoff	Manager	7
+Nina Åström	Dancer	0
+Heather Koldewey	Manager	7
+Robert Cornthwaite (actor)	Dancer	0
+Mona Fong	Manager	7
+Oscar Espinosa Chepe	Dancer	0
+Danny McManus	Manager	7
+Josías Manzanillo	Theoretical Physicist	0
+D. J. Waldie	Manager	7
+Athanasios Orphanides	Theoretical Physicist	0
+Janine di Giovanni	Manager	7
+Carlotta Grisi	Theoretical Physicist	0
+Ken Kandodo	Manager	7
+Robert Spencer (author)	Theoretical Physicist	0
+Randy Bush	Manager	7
+David Chernushenko	Theoretical Physicist	0
+Eddie Patterson	Manager	7
+Joe Pasternak	Theoretical Physicist	0
+Fuka Kakimoto	Manager	7
+Nick LaRocca	Theoretical Physicist	0
+Susan Leal	Manager	7
+Craig Jarrett	Theoretical Physicist	0
+Nic Harcourt	Music Director	7
+Miyuki Nakagawa	Theoretical Physicist	0
+Martin Jean	Music Director	7
+Ryan St. Onge	Theoretical Physicist	0
+Saluri Koteswara Rao	Music Director	7
+Barbara d'Urso	Historian	0
+Glenn Price	Music Director	7
+Matt Hubbard	Historian	0
+Alexander Platt	Music Director	7
+Ivan Vladislavic	Historian	0
+Dan Knight	Music Director	7
+Malcolm Thomas (basketball, born 1988)	Historian	0
+David Stahl (conductor)	Music Director	7
+Mark Leggett	Historian	0
+Fabio Luisi	Music Director	7
+Owen Saunders	Historian	0
+Peter Bay	Music Director	7
+Hjalmar Olai Storeide	Historian	0
+Dick Fletcher	Meteorologist	7
+Jeremy Flint	Historian	0
+Pope John XXIII	Priest	7
+Hilda Fenemore	Historian	0
+Edgar Fahs Smith	Priest	7
+Manju Bhargavi	Historian	0
+Henry Priestman	Priest	7
+Adrián Bone	Librettist	0
+George F. Regas	Priest	7
+Veeresh Malik	Librettist	0
+Annas	Priest	7
+John Grosvenor	Librettist	0
+Joseph Priestley	Priest	7
+Peter Young (judge)	Librettist	0
+John Hyrcanus	Priest	7
+G. F. Green	Librettist	0
+Noel Coleman	Priest	7
+Kinya Aikawa	Librettist	0
+Victor Salva	Warrior	7
+James L. Graham	Librettist	0
+James Eddie	Warrior	7
+Boogie Woogie Red	Librettist	0
+Claire Stansfield	Warrior	7
+Barry Brill	Librettist	0
+Robert Hunter (journalist)	Warrior	7
+Garet Garrett	Librettist	0
+Joe Lacob	Warrior	7
+Sarmite Bulte	Manager	0
+Elissa Sursara	Warrior	7
+Ann Bishop (journalist)	Manager	0
+Lou Roe	Warrior	7
+Mirjam Müntefering	Manager	0
+Fraser Brown (rugby union)	Warrior	7
+Benny Rousselle	Manager	0
+Adrienne Wilkinson	Warrior	7
+Mohammad Ghazi	Manager	0
+Pato Hoffmann	Warrior	7
+Tom McCabe	Manager	0
+Robert Trebor	Warrior	7
+Jaime Aristotle Alip	Manager	0
+Kyousuke Hamao	Warrior	7
+Fazlur Rahman Babu	Manager	0
+Paul Cormier	Warrior	7
+Jordi Carbonell i de Ballester	Manager	0
+Tirumalasetti Suman	Warrior	7
+G. E. M. Anscombe	Manager	0
+Willa O'Neill	Warrior	7
+Useni Eugene Perkins	Music Director	0
+Anupriya Kapoor	Warrior	7
+John Henry Russell	Music Director	0
+Colin Ingram	Warrior	7
+Johnny Bassler	Music Director	0
+Paul Gittins	Warrior	7
+Sonalee Kulkarni	Music Director	0
+Ronnie Brewer	Warrior	7
+Michael Ruffin	Music Director	0
+Jamie Ainscough	Warrior	7
+Aiga Grabuste	Music Director	0
+Carrick Felix	Warrior	7
+Rodney Sneijder	Music Director	0
+Ellen Thomas (actress)	Teacher	7
+David Erb	Music Director	0
+Eliot Wigginton	Teacher	7
+Penny Cook	Music Director	0
+Liz White (actress)	Teacher	7
+Orestes Destrade	Music Director	0
+Mathew Horne	Teacher	7
+Ali Müfit Gürtuna	Meteorologist	0
+Nithiwat Tharathorn	Teacher	7
+Jill Lepore	Meteorologist	0
+Buddy McDonald	Teacher	7
+Dmitry Koldun	Meteorologist	0
+Butler By'not'e	Teacher	7
+Fred Ladd	Meteorologist	0
+Chen Tao (True Way Cult)	Teacher	7
+Davitt Moroney	Meteorologist	0
+Dana Goldstein	Teacher	7
+Léon Delagrange	Meteorologist	0
+Rollie Stiles	Teacher	7
+Pete Hamilton	Meteorologist	0
+Roger L. Eddy	Teacher	7
+Andy Jick	Meteorologist	0
+Kotoko (singer)	Teacher	7
+Mike Barson	Meteorologist	0
+Joseph W. Underwood	Teacher	7
+Bharath	Meteorologist	0
+Félix Leclerc	Songwriter	7
+Giuseppina Bozzacchi	Priest	0
+Rida Johnson Young	Songwriter	7
+Fritz Hellwig	Priest	0
+Bobby Braddock	Songwriter	7
+Brian Kennedy (Iowa politician)	Priest	0
+Alan Bergman	Songwriter	7
+Arnold Gehlen	Priest	0
+John Bettis	Songwriter	7
+William Antrobus Griesbach	Priest	0
+Debbie Gibson	Songwriter	7
+Dewon Brazelton	Priest	0
+Karen Mal	Songwriter	7
+Krzysztof Janik	Priest	0
+Steve Wade (singer)	Songwriter	7
+Will Steffen	Priest	0
+Dan Reynolds (musician)	Songwriter	7
+José Luis Appleyard	Priest	0
+Eddie Cantor	Cantor	7
+Francisco Cervelli	Priest	0
+Hugh Ross (politician)	Cantor	7
+Roderick MacKinnon	Warrior	0
+Andrés Cantor	Cantor	7
+Patrick Byrne (architect)	Warrior	0
+Moritz Cantor	Cantor	7
+McLean Stevenson	Warrior	0
+T. R. Ramachandran	Cantor	7
+Jennifer Rae Daykin	Warrior	0
+Deborah Nadoolman Landis	Costume Designer	7
+Ferdinand Georg Frobenius	Warrior	0
+Lizzy Gardiner	Costume Designer	7
+Hugo Tocalli	Warrior	0
+Gary W. Keller	Investor	7
+Andō Nobumasa	Warrior	0
+Jeff Young	Musician	7
+Nathalie Roussel	Warrior	0
+Ilse Plume	Musician	7
+Richard Glazebrook	Warrior	0
+Billy Childish	Musician	7
+Bhanbhagta Gurung	Warrior	0
+Bob Cranshaw	Musician	7
+Anne Strieber	Teacher	0
+Charly García	Musician	7
+Rosa Peña Rocamontes	Teacher	0
+Angelo Castro, Jr.	Broadcaster	7
+Vince Barnett	Teacher	0
+William H. Gass	Critic	7
+Anna Fischer	Teacher	0
+Cicely Tyson	Critic	7
+Michael Doughty (footballer, born 1992)	Teacher	0
+Maggie Renzi	Critic	7
+Kate Miner (musician)	Teacher	0
+Debra Winger	Critic	7
+Matthew Tucker	Teacher	0
+Robin Givhan	Critic	7
+Eddie Matteson	Teacher	0
+Rob Nilsson	Critic	7
+Cédric Roussel	Teacher	0
+Eden Sher	Critic	7
+Leonhard Frank	Teacher	0
+W. C. Tuttle	Critic	7
+Tom Saintfiet	Conservationist	0
+Julie Delpy	Critic	7
+El Cordobés	Conservationist	0
+Lauren Slater	Critic	7
+Eliezer ben Nathan	Conservationist	0
+John O'Keefe (playwright)	Critic	7
+Frank Mitchell Dazey	Conservationist	0
+Donald Corren	Critic	7
+Zhu Cong (footballer)	Conservationist	0
+Jack Hofsiss	Critic	7
+Juan Hernández López	Conservationist	0
+Melissa van der Schyff	Critic	7
+Carl Stalling	Conservationist	0
+Dag Solstad	Critic	7
+Marc-Gilbert Sauvajon	Conservationist	0
+Joe Morgenstern	Critic	7
+Zhang Junxiang	Conservationist	0
+Ian Casocot	Critic	7
+Débora Nascimento	Conservationist	0
+William Taubman	Critic	7
+Colin Salmon	Songwriter	0
+György Márkus	Critic	7
+Thomas James	Songwriter	0
+Alejandro G. Abadilla	Critic	7
+Einar Holstad	Songwriter	0
+Jerzy Pilch	Critic	7
+Sonja Tallis	Songwriter	0
+Laura Benanti	Critic	7
+Yuya Miyashita	Songwriter	0
+Maribeth Solomon	Critic	7
+Camilla Sparv	Songwriter	0
+Gary Lunn	Critic	7
+Yuta Muto	Songwriter	0
+Gerard Alessandrini	Critic	7
+Arthur F. Foran	Songwriter	0
+Nicholas Forrest	Critic	7
+Scotty Fox	Songwriter	0
+Ron Arnold	Critic	7
+Virendra Saxena	Songwriter	0
+Alice Hausman	Farmer	7
+Ben Conroy	Cantor	0
+Jim Carlson (Minnesota politician)	Farmer	7
+Jamie Clayton	Cantor	0
+Will Morgan	Farmer	7
+Jason Christiansen	Cantor	0
+Ron Blake	Farmer	7
+Félix Trinidad	Cantor	0
+Laurie Halverson	Farmer	7
+Akhilesh Das	Cantor	0
+Tony Lourey	Farmer	7
+Ronald Humarang	Cantor	0
+Debra Hilstrom	Farmer	7
+Arne Tjersland	Cantor	0
+Frances Farmer	Farmer	7
+Rupchand Murmu	Cantor	0
+Tracy Kidder	Farmer	7
+Antoine Devaux	Cantor	0
+Rod Skoe	Farmer	7
+Stephen Wrigley	Cantor	0
+Charles Beattie	Farmer	7
+Deanne Cheuk	Pianist	0
+Steve Simon	Farmer	7
+Kerli	Pianist	0
+Norm Coleman	Farmer	7
+Rudy Ruettiger	Pianist	0
+Harry Endicott	Farmer	7
+Luigi Cagnola	Pianist	0
+Hendrik Koekoek	Farmer	7
+John Coleman (British author and psychologist)	Pianist	0
+Farmer Steelman	Farmer	7
+Carl Schurz	Pianist	0
+Yuri Lane	Farmer	7
+Henry Gale (astrophysicist)	Pianist	0
+Mary Sawatzky	Farmer	7
+Chen Zhen (Three Kingdoms)	Pianist	0
+Barb Yarusso	Farmer	7
+Zarqa Nawaz	Pianist	0
+Charlie Kulp	Farmer	7
+Reinhold Messner	Pianist	0
+Floyd B. Olson	Farmer	7
+Christian Gentner	Educator	0
+Win Scott Eckert	Farmer	7
+Zak Starkey	Educator	0
+Beverley Farmer	Farmer	7
+Erik Naggum	Educator	0
+Desiree Durán	Presenter	7
+Emma O'Driscoll	Educator	0
+Grainne Duffy	Presenter	7
+Ron Franklin	Educator	0
+Kleerup	Composer	7
+Erik Nielsen	Educator	0
+Ralph Lee Bowerman	Composer	7
+Robin Li	Educator	0
+Steven Miller (actor)	Composer	7
+Crista Flanagan	Educator	0
+Harry Freedman	Composer	7
+C. J. Spiller	Educator	0
+Oli Silk	Composer	7
+Regina Linnanheimo	Educator	0
+William S. Pollitzer	Anthropologist	7
+Frank Wilkes	Rodeo clown	0
+Ajit Gupta	Engineer	7
+Isaac Mekler	Rodeo clown	0
+Mark Nemenman	Engineer	7
+Anthony Miller (wide receiver)	Rodeo clown	0
+Mandar Chandwadkar	Engineer	7
+Robbie Myers	Rodeo clown	0
+Khyal Mohammad Mohammad Khan	Engineer	7
+Sharon Tandy	Rodeo clown	0
+Sandy Campbell (GC)	Engineer	7
+Farouk El-Baz	Rodeo clown	0
+Mark N. Wegman	Engineer	7
+M. K. Muthu	Rodeo clown	0
+James Brunlees	Engineer	7
+Mary Morris	Rodeo clown	0
+Morten P. Meldal	Engineer	7
+Francisco Dall'Anese	Rodeo clown	0
+Andrew Gemant	Engineer	7
+Tito Scaiano	Rodeo clown	0
+Laszlo B. Kish	Engineer	7
+Constance Ford	Playback Singer	0
+Henry George Lyons	Engineer	7
+Alex White (politician)	Playback Singer	0
+Robert W. Lucky	Engineer	7
+Elmer H. Wene	Playback Singer	0
+Zachary Lemnios	Engineer	7
+Randy Thomas (American football)	Playback Singer	0
+Liu Gaolian	Engineer	7
+Marc-Vivien Foé	Playback Singer	0
+P.S.Krishnaprasad	Engineer	7
+Igor Petrenko	Playback Singer	0
+Abdullah Atalar	Engineer	7
+Leah Shore	Playback Singer	0
+Matt Curtin	Engineer	7
+Diane Fahey	Playback Singer	0
+Paul Benner	Engineer	7
+Frankie Thorn	Playback Singer	0
+Anthony Durnford	Engineer	7
+Rick D. Wasserman	Playback Singer	0
+G. V. Loganathan	Engineer	7
+Leonard Treash	Costume Designer	0
+Stuart Palmer (physicist)	Engineer	7
+Robert E. Vardeman	Costume Designer	0
+Dimitri Bertsekas	Engineer	7
+Dewaldt Duvenage	Costume Designer	0
+William Craig Reynolds	Engineer	7
+Richard Gans	Costume Designer	0
+Stephen H. Crandall	Engineer	7
+Neil Fingleton	Costume Designer	0
+William A. Thompson	Engineer	7
+John Horsley (actor)	Costume Designer	0
+Nick McKeown	Engineer	7
+Franklin Pierce Stoy	Costume Designer	0
+Thorleif Enger	Engineer	7
+Matt Taibbi	Costume Designer	0
+Mark Papermaster	Engineer	7
+Gerald Wilson	Costume Designer	0
+Robert Sinclair (locomotive engineer)	Engineer	7
+Tarzan Tyler	Costume Designer	0
+Kathleen Carley	Engineer	7
+Montgomery Pittman	TV Editor	0
+David Awschalom	Engineer	7
+Zoltán Makláry	TV Editor	0
+John Whitton	Engineer	7
+Jennifer Pepperman	TV Editor	0
+Ebrahim Victory	Engineer	7
+Friedrich von Flotow	TV Editor	0
+Sébastien Ugeux	Engineer	7
+David LaFleur	TV Editor	0
+Steve Ward (businessman)	Engineer	7
+Panagiotis Vlachodimos	TV Editor	0
+Edward D. Lazowska	Engineer	7
+Mauricio González de la Garza	TV Editor	0
+Harry Ricardo	Engineer	7
+Willem van de Sande Bakhuyzen	TV Editor	0
+Michalis Rakintzis	Engineer	7
+Danielle Licari	TV Editor	0
+Tony Posawatz	Engineer	7
+Edward Payson Roe	TV Editor	0
+Marc Birkigt	Engineer	7
+Melissa Kite	Fighter pilot	0
+Kader Khan	Engineer	7
+Joe McKnight	Fighter pilot	0
+Roy Pomeroy	Engineer	7
+Ottorino Respighi	Fighter pilot	0
+John G. Barnard	Engineer	7
+Ashley MacIsaac	Fighter pilot	0
+Mike Pinkerton	Engineer	7
+Carole André	Fighter pilot	0
+Luis Tascón	Engineer	7
+Jack Aker	Fighter pilot	0
+Daniel Kane (mathematician)	Engineer	7
+Rob Adams (architect)	Fighter pilot	0
+Bohdan Kulakowski	Engineer	7
+Jerry Byers	Fighter pilot	0
+Robert T. A. Innes	Engineer	7
+Kan Shimozawa	Fighter pilot	0
+Titus Naikuni	Engineer	7
+Mario Williams	Fighter pilot	0
+Muhammad Arif Sarwari	Engineer	7
+Roberta Wohlstetter	Investor	0
+Henry Wray	Engineer	7
+Angus Clark	Investor	0
+Walker Lee Cisler	Engineer	7
+Adam Tuominen	Investor	0
+Selim Erdoğan	Engineer	7
+Sasha Barrese	Investor	0
+James Anderson (computer scientist)	Engineer	7
+Chick Vennera	Investor	0
+Udaya Nanayakkara	Engineer	7
+Mathai Manjooran	Investor	0
+George E. Davis	Engineer	7
+Michael Fordham	Investor	0
+Yoseph Bar-Cohen	Engineer	7
+Pablo Antonio Cuadra	Investor	0
+Ladislas Goldstein	Engineer	7
+Jerzy Trela	Investor	0
+Allan Joseph Champneys Cunningham	Engineer	7
+Jonathan Dursi	Investor	0
+Alexander Stronach	Missionary	7
+Lui Ming-wah	Lyricist	0
+Keith W. Wilcox	Missionary	7
+Juan Santisteban	Lyricist	0
+William Milne (missionary)	Missionary	7
+Victor Brecheret	Lyricist	0
+John Oswald Sanders	Missionary	7
+Noah Centineo	Lyricist	0
+Edward Silas Tobey	Missionary	7
+Luis Gabriel Rey	Lyricist	0
+Alexander Williamson (missionary)	Missionary	7
+Jeff Juday	Lyricist	0
+Paul Washer	Missionary	7
+Susan Marshall (musician)	Lyricist	0
+Eddie Long	Missionary	7
+Stuart Franklin	Lyricist	0
+Bre Scullark	Model	7
+Benoît Petitjean	Lyricist	0
+J. Peter Kincaid	Model	7
+Kenneth Svendsen	Lyricist	0
+Monique Olsen	Model	7
+Alexandra Danilova	Insurance Broker	0
+McKey Sullivan	Model	7
+Kenneth McClintock	Insurance Broker	0
+Analeigh Tipton	Model	7
+Diane Watson	Insurance Broker	0
+Sadia Imam	Model	7
+Muhammad Mehdi ibn Ali Naqi	Insurance Broker	0
+Melrose Bickerstaff	Model	7
+Harry Haenigsen	Insurance Broker	0
+Garikapati Narahari Sastry	Model	7
+Mossis Madu	Insurance Broker	0
+Mónica Castillo	Model	7
+Jim Romano	Insurance Broker	0
+Natasha Domínguez	Model	7
+Kirk Joseph	Insurance Broker	0
+Katie Sagona	Model	7
+Daron Acemoğlu	Insurance Broker	0
+Scott Ambler	Model	7
+Antonis Benakis	Insurance Broker	0
+Marie Meyer	Model	7
+Thomas Joannes Stieltjes	Violinist	0
+Kiera Chaplin	Model	7
+James Manos, Jr.	Violinist	0
+Alex Wilkie	Model	7
+Ambrose Price	Violinist	0
+Anand Jon	Model	7
+Bartolomé Jiménez Patón	Violinist	0
+Andy Granelli	Model	7
+Rebecca Soni	Violinist	0
+Savas Dimopoulos	Model	7
+Carlene Carter	Violinist	0
+Elisandra Tomacheski	Model	7
+Thaís Pacholek	Violinist	0
+Danielle Byrnes	Model	7
+Jean Halain	Violinist	0
+Will Chalker	Model	7
+Bomber Moran	Violinist	0
+Rita La Roy	Model	7
+Colleen McMahon	Violinist	0
+John Harry Dunning	Model	7
+Gu Shunzhang	Political Activist	0
+C. R. Hagen	Model	7
+Pamela Gilbert	Political Activist	0
+Noémie Lenoir	Model	7
+Brandon Jay McLaren	Political Activist	0
+Dankwart Rustow	Model	7
+Luis Antonio Tagle	Political Activist	0
+Martin Bergmann	Model	7
+Üllar Saaremäe	Political Activist	0
+Robert Forster	Actor	7
+Dean Hamer	Political Activist	0
+Dith Pran	Actor	7
+Yusaku Maezawa	Political Activist	0
+Gillian Anderson	Actor	7
+Wilbur Cooper	Political Activist	0
+Liao Fan	Actor	7
+Bill Dean	Political Activist	0
+Marty Feldman	Actor	7
+Henry Peirson Harland	Political Activist	0
+Michael Chiklis	Actor	7
+Ian Lavender	Musician	0
+Esme Melville	Actor	7
+Catherine of Siena	Musician	0
+Clive Owen	Actor	7
+Terry Barr	Musician	0
+John Mills	Actor	7
+Konstantin Aksakov	Musician	0
+Fran Meric	Actor	7
+Piero Taruffi	Musician	0
+Hailee Steinfeld	Actor	7
+Yuri Baskakov	Musician	0
+Paul Kandel	Actor	7
+Ric Parnell	Musician	0
+Scott Adsit	Actor	7
+Sam Dunell	Musician	0
+Adnan Siddiqui	Actor	7
+Ray Mathews	Musician	0
+Scott Wilson (actor)	Actor	7
+Manu Payet	Musician	0
+Paul McLaughlin (actor)	Actor	7
+Christopher Norton	Broadcaster	0
+Bradley Cooper	Actor	7
+Chris Jenkins (film producer)	Broadcaster	0
+Arthur Storch	Actor	7
+Dekker Dreyer	Broadcaster	0
+Gary McCormack	Actor	7
+John Hemphill (comedian)	Broadcaster	0
+Charles Noland	Actor	7
+Adam Piatt	Broadcaster	0
+Sam Waterston	Actor	7
+Robert Vaughan (author)	Broadcaster	0
+Robert Lewis (director)	Actor	7
+Krishna Palem	Broadcaster	0
+Álvaro Rudolphy	Actor	7
+Sydne Rome	Broadcaster	0
+Leonor Llausás	Actor	7
+Ignatius Jones	Broadcaster	0
+Liu Peiqi	Actor	7
+Magda Cazanga	Broadcaster	0
+Wu Jian-He	Actor	7
+Duff Cooper	Critic	0
+Jackie Cooper	Actor	7
+J. J. Barrie	Critic	0
+Toivo Pawlo	Actor	7
+Peter Crockaert	Critic	0
+Rohini (actress)	Actor	7
+Marinus Willett	Critic	0
+Elliott Gould	Actor	7
+Eric Bellman	Critic	0
+Adriana Louvier	Actor	7
+Herbert Stass	Critic	0
+Michael Gwisdek	Actor	7
+Yoshio Urushibara	Critic	0
+Brad Dourif	Actor	7
+Madeline Hurlock	Critic	0
+David Strathairn	Actor	7
+Francisco González (banker)	Critic	0
+Sunny Suwanmethanon	Actor	7
+Tole’afoa Solomona To’ailoa	Critic	0
+Vincent Gale	Actor	7
+Donald McGill	Farmer	0
+György Cserhalmi	Actor	7
+Montserrat Oliver	Farmer	0
+Don Collier	Actor	7
+Adam Hyzdu	Farmer	0
+Martin Short	Actor	7
+Henry Donnel Foster	Farmer	0
+Erik Mørk	Actor	7
+Thomas Slade	Farmer	0
+Evangeline Lilly	Actor	7
+Zhu Shijie	Farmer	0
+Matt Lee	Actor	7
+Dan White	Farmer	0
+Darshan Jariwala	Actor	7
+LaTavia Roberson	Farmer	0
+Albert Brooks	Actor	7
+Fred Gardiner	Farmer	0
+Alex Finlayson	Actor	7
+Thomas Kleine	Farmer	0
+Yasufumi Terawaki	Actor	7
+Colston Warne	Speechwriter	0
+Carlos Álvarez-Nóvoa	Actor	7
+Zoran Planinić	Speechwriter	0
+Thomas Lloyd (actor)	Actor	7
+House Peters, Sr.	Speechwriter	0
+Manfred Möck	Actor	7
+Vicky Huang	Speechwriter	0
+Richard Jenkins	Actor	7
+Mel Shaw	Speechwriter	0
+Ayush Mahesh Khedekar	Actor	7
+Tara Lipinski	Speechwriter	0
+Mark Ruffalo	Actor	7
+Panayiotis Simopoulos	Speechwriter	0
+Nandamuri Kalyan Ram	Actor	7
+Mike Zandofsky	Speechwriter	0
+Hiroyuki Miyasako	Actor	7
+Wang Zhenyi	Speechwriter	0
+Hamza Ali Abbasi	Actor	7
+John E. L. Peck	Speechwriter	0
+Ann-Margret	Actor	7
+Antonio Diaz	Presenter	0
+Thomas Peacocke	Actor	7
+Emmanuel Arceneaux	Presenter	0
+Richard Derr	Actor	7
+Barry Leiba	Presenter	0
+Carl Hewitt	Actor	7
+Zal Cleminson	Presenter	0
+Richard Crawford (director)	Actor	7
+Tim Jordan (racing driver)	Presenter	0
+Willem Dafoe	Actor	7
+Charles Sydney Gibbes	Presenter	0
+Jon Jory	Actor	7
+Forbes Cowan	Presenter	0
+Kelle Kerr	Actor	7
+Obi Metzger	Presenter	0
+Jack Betts	Actor	7
+Samir Khader	Presenter	0
+Lee Kinsolving	Actor	7
+Anton Furst	Presenter	0
+Patrick Kennedy (actor)	Actor	7
+Sergei Eisenstein	Composer	0
+Dayahang Rai	Actor	7
+Sivaranjani (actress)	Composer	0
+Chinggoy Alonzo	Actor	7
+Marion Coakes	Composer	0
+Maya Karin	Film critic	7
+Roy Sherid	Composer	0
+Karl Hardman	Film critic	7
+Tom Pickard	Composer	0
+Arshad Warsi	Film critic	7
+Marcus Perpenna Vento	Composer	0
+Erick Zonca	Film critic	7
+Rodney Hide	Composer	0
+Apichatpong Weerasethakul	Film critic	7
+Helen Codere	Composer	0
+Stanley Donen	Film critic	7
+David Plunkert	Composer	0
+Patrick Stettner	Film critic	7
+Radhabinod Pal	Composer	0
+Richard Wolstencroft	Film critic	7
+Paul Rübig	Anthropologist	0
+Aadi (Telugu actor)	Film critic	7
+Ciarán Mackel	Anthropologist	0
+Matthew Graham	Film critic	7
+John Davis (British businessman)	Anthropologist	0
+Asghar Farhadi	Film critic	7
+Mamat Khalid	Anthropologist	0
+Harriet Williams Russell Strong	Inventor	7
+Todd Shell	Anthropologist	0
+Chuck Hull	Inventor	7
+Shimon Ullman	Anthropologist	0
+Aaron T. Beck	Inventor	7
+Waldemar Hansteen	Anthropologist	0
+Jethro Marks	Violist	7
+J. Michel Fournier	Anthropologist	0
+Joanna Wajs	Evangelist	7
+Sinan Akçıl	Anthropologist	0
+Carla Bozulich	Evangelist	7
+Yves Duteil	Anthropologist	0
+Allen Evangelista	Evangelist	7
+Omar al-Bashir	Engineer	0
+Oliver Muoto	Merchant	7
+Brian Bass	Engineer	0
+Christopher Packe (politician)	Merchant	7
+Tuy Sereivathana	Engineer	0
+Kishwar Merchant	Merchant	7
+Marcus Evans	Engineer	0
+Max Pemberton	Merchant	7
+Rudy Buttignol	Engineer	0
+Illarion Ivanov-Schitz	Merchant	7
+Parisa Bakhtavar	Engineer	0
+Arthur Mercante, Sr.	Merchant	7
+Mr. Food	Engineer	0
+Nick St. Nicholas	Merchant	7
+Nicholas Northcote	Engineer	0
+John Gould Stephenson	Librarian	7
+Jonáš Záborský	Engineer	0
+Anastasius Bibliothecarius	Librarian	7
+Jacek Rotmil	Engineer	0
+Siegfried Lipiner	Librarian	7
+Joan Gerber	Rodeo performer	0
+Worthington C. Ford	Librarian	7
+Harold Evensky	Rodeo performer	0
+Steve Roud	Librarian	7
+Sergei Savochkin	Rodeo performer	0
+Valentin Thurn	Journalist	7
+Bilal Mohammed	Rodeo performer	0
+Dirk Deppey	Journalist	7
+Paul Goodwin	Rodeo performer	0
+Mashallah Shamsolvaezin	Journalist	7
+Ingrid Jensen	Rodeo performer	0
+Louise Michel	Journalist	7
+Patrick McGrath (novelist)	Rodeo performer	0
+Ferzat Jarban	Journalist	7
+Francis R. Lassiter	Rodeo performer	0
+Lee Ann Kim	Journalist	7
+Ayman El Aatar	Rodeo performer	0
+Heinrich Roller	Journalist	7
+Bruno Wille	Rodeo performer	0
+Barbara Probst Solomon	Journalist	7
+Katia Grubisic	Missionary	0
+K. W. Lee	Journalist	7
+Trevor Bailey	Missionary	0
+Wali Khan Babar	Journalist	7
+Bilge Umar	Missionary	0
+Jonathan Witchell	Journalist	7
+Jonathan Brüün	Missionary	0
+Hilary Alexander	Journalist	7
+MC Lyte	Missionary	0
+Nedim Şener	Journalist	7
+Martín Seefeld	Missionary	0
+Giovanni Fusco	Journalist	7
+Brandon Miller (racing driver)	Missionary	0
+Valdemiro Santiago	Theologian	7
+P. J. Carlesimo	Missionary	0
+Gunnel Lindblom	Television director	7
+Earl F. Hilliard	Missionary	0
+Tarik Saleh	Television director	7
+Michael Graczyk	Missionary	0
+Amal Neerad	Television director	7
+Wilhelm Hoegner	Model	0
+Philip Elsmore	Television director	7
+Irhan Jubica	Model	0
+Chris Adshead	Television director	7
+S. Pancharatnam	Model	0
+Isaac Florentine	Television director	7
+Zeev Zalevsky	Model	0
+Christopher McQuarrie	Singer	7
+Jordan Lyles	Model	0
+Simphiwe Dana	Singer	7
+Guy de Faye	Model	0
+Isidore Singer	Singer	7
+Ton Scherpenzeel	Model	0
+Edgar A. Singer, Jr.	Singer	7
+Eric C. Anderson	Model	0
+Taisia Povaliy	Singer	7
+Solomon Andrews (inventor)	Model	0
+Cathi Unsworth	Singer	7
+Lally Weymouth	Model	0
+Steve White (producer)	Singer	7
+Jack Dalrymple (musician)	Actor	0
+Bérénice Bejo	Artist	7
+Phil Power	Actor	0
+Alison Balsom	Artist	7
+Martin Fronc	Actor	0
+Luis Ramiro	Artist	7
+Yochai Benkler	Actor	0
+Galina Belyayeva	Artist	7
+Chris Ashworth (artist)	Actor	0
+Yevgeny Vesnik	Artist	7
+Ken Auletta	Actor	0
+Valentina Serova	Artist	7
+Pierre David	Actor	0
+Jon Stock	Artist	7
+Nenji Kobayashi	Actor	0
+Philippe Rizzo	Artist	7
+Emil Assentato	Actor	0
+Don Martin (cartoonist)	Artist	7
+Garry Jestadt	Actor	0
+Alexander Malinin	Artist	7
+R. E. A. Palmer	Film critic	0
+James Bentley (actor)	Artist	7
+Matthew Taylor, Baron Taylor of Goss Moor	Film critic	0
+Joseph Marco	Artist	7
+Rubinald Pronk	Film critic	0
+Maud Howe Elliott	Artist	7
+Franz Xaver von Zach	Film critic	0
+Abbas Mirza Sharifzadeh	Artist	7
+Timothy R. Fox	Film critic	0
+David Gallagher	Artist	7
+Bill Hunnefield	Film critic	0
+Arthur Zanetti	Artist	7
+Milan Mandarić	Film critic	0
+Bill Dow	Artist	7
+Ben Braun	Film critic	0
+David Spero	Artist	7
+Brandon Pettigrew	Film critic	0
+Nathan Gamble	Artist	7
+Kōji Seto	Film critic	0
+Robert Beverly Hale	Artist	7
+Kathy Johnson	Inventor	0
+Valerie Tryon	Artist	7
+David Sumberg	Inventor	0
+Lyudmila Maksakova	Artist	7
+David Shrigley	Inventor	0
+Edward Burgess Butler	Artist	7
+Ilkka Laitinen	Inventor	0
+Jennica Garcia	Artist	7
+Ti Lung	Inventor	0
+Lawrence Vavra	Artist	7
+Karl Ove Knausgård	Inventor	0
+Rhonda Faehn	Artist	7
+Ludi Boeken	Inventor	0
+Nikolay Baskov	Artist	7
+Olgierd Łukaszewicz	Inventor	0
+Forbes Masson	Artist	7
+Ramsey Nasr	Inventor	0
+Kevin McClory	Artist	7
+Richard Dore	Inventor	0
+Masiela Lusha	Artist	7
+William Gibbs (businessman)	Fashion Model	0
+Yanick Paquette	Artist	7
+Al Pittman	Fashion Model	0
+Bongani Ndodana-Breen	Artist	7
+Kathleen Kennedy (film producer)	Fashion Model	0
+Jean-Paul Mousseau	Artist	7
+Pat Knight	Fashion Model	0
+Zhanna Bolotova	Artist	7
+Kazuyoshi Shirahama	Fashion Model	0
+Ashley MacIsaac	Artist	7
+Ángel Aníbal Guevara	Fashion Model	0
+Arturo R. Luz	Artist	7
+Robert Prosky	Fashion Model	0
+Volodymyr Yurchyshyn	Artist	7
+Pauline Kwalea	Fashion Model	0
+The Jacka	Artist	7
+Huang Shengyi	Fashion Model	0
+Roy "Royalty" Hamilton	Artist	7
+Hussein El Gebaly	Fashion Model	0
+Fyodor Dobronravov	Artist	7
+Terry Barr	Bureaucrat	0
+E. Irving Couse	Artist	7
+Benjamin Blyth II	Bureaucrat	0
+Alexander Arutiunian	Artist	7
+Adolf W. Edelsvärd	Bureaucrat	0
+Roberto Blades	Artist	7
+Roger Murrah	Bureaucrat	0
+Yas	Artist	7
+David C. Rowe	Bureaucrat	0
+Sergey Zhigunov	Artist	7
+Saul Friedman	Bureaucrat	0
+Yevgeny Mironov (actor)	Artist	7
+Natalie Wexler	Bureaucrat	0
+Puneeth Rajkumar	Artist	7
+Carole Pateman	Bureaucrat	0
+Victoria Paige Meyerink	Artist	7
+Ron Roker	Bureaucrat	0
+Vico Magistretti	Artist	7
+Davaasükhiin Otgontsetseg	Bureaucrat	0
+Chen Yibing	Artist	7
+David Ball (musician)	Violist	0
+Georgy Vitsin	Artist	7
+Chantal Groot	Violist	0
+Bert Geer Phillips	Artist	7
+Robert P. Hill	Violist	0
+Miko Marks	Artist	7
+Patrick Chan	Violist	0
+Cody Arens	Artist	7
+David Cassidy	Violist	0
+Brian Camelio	Artist	7
+Oscar Peter	Violist	0
+Richie Cannata	Artist	7
+I. S. O. Playfair	Violist	0
+Alison Arngrim	Artist	7
+Mikis Theodorakis	Violist	0
+Hetty Sarlene	Artist	7
+Thomas Harlan (fantasy writer)	Violist	0
+Robert Gould (art director)	Artist	7
+Martyn Amos	Violist	0
+Valery Gavrilin	Artist	7
+Stephen Kalinich	Evangelist	0
+George Gittoes	Artist	7
+Molly Bee	Evangelist	0
+Mikhail Boyarsky	Artist	7
+Charles Steggall	Evangelist	0
+Doug McGrath	Artist	7
+Brian Carbee	Evangelist	0
+Lee Hyun-woo (actor)	Artist	7
+Liliana Castro	Evangelist	0
+Johan Van Mullem	Artist	7
+Gregg Avedon	Evangelist	0
+Leonid Utyosov	Artist	7
+Tahesia Harrigan	Evangelist	0
+Robert Post (musician)	Artist	7
+Patrick Mannelly	Evangelist	0
+Robin Crutchfield	Artist	7
+Solveig Nordlund	Evangelist	0
+Glen Benton	Artist	7
+Terri Crawford Hansen	Evangelist	0
+Gerardo Ortíz	Artist	7
+Armelle	Merchant	0
+Cainan Wiebe	Artist	7
+Joel Thompson (rugby league)	Merchant	0
+Pyotr Velyaminov	Artist	7
+Bal Govind Dwivedi	Merchant	0
+Alvin Pang	Artist	7
+Michael Campbell	Merchant	0
+Gary Yershon	Artist	7
+Manny Montejo	Merchant	0
+Ellen Taaffe Zwilich	Artist	7
+Reinhardt J. Keppler	Merchant	0
+Kadri Roshi	Artist	7
+Stevie Ann	Merchant	0
+Rachelle Ann Go	Artist	7
+John Frederick Nims	Merchant	0
+Mikhail Natarevich	Artist	7
+Jalal Barzanji	Merchant	0
+Jamshid Zokirov	Artist	7
+Tanya Luhrmann	Merchant	0
+Al Downing (musician)	Artist	7
+Zénaïde Fleuriot	Librarian	0
+Jordan Scott Gilbert	Music Producer	7
+Richard Murphy (accountant)	Librarian	0
+Rebecca Lush	Peace activist	7
+Annette Daniels	Librarian	0
+Tom Fox (Quaker)	Peace activist	7
+Greg Briley	Librarian	0
+Mark Blicavs	Football player	7
+Junzo Sakakura	Librarian	0
+Latario Rachal	Football player	7
+John Haldeman	Librarian	0
+Clinton Jones (footballer)	Football player	7
+Raúl Ruidíaz	Librarian	0
+Ed Khayat	Football player	7
+Tina Nordström	Librarian	0
+Taylor Walker (footballer)	Football player	7
+Margarita Xirgu	Librarian	0
+Josh Tynan	Football player	7
+Martin Graf	Librarian	0
+George McCabe	Football player	7
+Jake Richardson	Orchestrator	0
+Jack Hutchins (footballer)	Football player	7
+Egor Filipenko	Orchestrator	0
+Doc Gorman	Football player	7
+Armond Hill	Orchestrator	0
+Nathan Fyfe	Football player	7
+Sabyasachi Mishra	Orchestrator	0
+Tom Lynch (Australian footballer born 1990)	Football player	7
+Jennifer Hoppe-House	Orchestrator	0
+Ari Fleischer	Football player	7
+Sam Harshany	Orchestrator	0
+Dean Laidley	Football player	7
+Vai Taua	Orchestrator	0
+Travis Cloke	Football player	7
+Guto Harri	Orchestrator	0
+Fritz Pollard	Football player	7
+Jack Denton	Orchestrator	0
+Jake Neade	Football player	7
+François Cabarrus, 1st Count of Cabarrús	Orchestrator	0
+Des English	Football player	7
+Barney McAll	Journalist	0
+Reggie McKenzie (linebacker)	Football player	7
+Michał Klepfisz	Journalist	0
+Deshea Townsend	Football player	7
+Kenneth Morris (politician)	Journalist	0
+Sam Jacobs (Australian footballer)	Football player	7
+John M. Woolsey	Journalist	0
+Josh Bruce	Football player	7
+Page Moseley	Journalist	0
+Andy Otten	Football player	7
+Kailash Chandra Joshi	Journalist	0
+Spider Jones	Commentator	7
+Gunther Gerzso	Journalist	0
+B. J. Sams (television)	Entertainer	7
+Louis Antoine Debrauz de Saldapenna	Journalist	0
+Bernie Mac	Entertainer	7
+Noémi Szécsi	Journalist	0
+Fay Presto	Entertainer	7
+Jody Hull	Journalist	0
+Antonio De Viti De Marco	Economist	7
+William Eustis	Activist	0
+Jan Tinbergen	Economist	7
+Hugh King (television producer)	Activist	0
+Hafeez A. Pasha	Economist	7
+Gerard Alessandrini	Activist	0
+Gary Shilling	Economist	7
+Frédéric Lepage	Activist	0
+François Bourguignon	Economist	7
+Badi Uzzaman	Activist	0
+Fred Zinn	Military aviator	7
+Joe Oscar Eaton	Activist	0
+Mark Versfeld	Athlete	7
+Max Valier	Activist	0
+Trey Hardee	Athlete	7
+Jury Veselov	Activist	0
+Courtney Rush	Athlete	7
+William Holmes Crosby Jr.	Activist	0
+Ryan Van Bergen	Athlete	7
+Chris Toshok	Activist	0
+Rabah Aboud	Athlete	7
+Maria Marinela Mazilu	Theologian	0
+Marianne Ahrne	Film Director	7
+Fatima-Zahra Mansouri	Theologian	0
+Francisco José Lombardi	Film Director	7
+William A. Fletcher	Theologian	0
+Anthony Chen	Film Director	7
+Eduardo Zambrano	Theologian	0
+Michael Cacoyannis	Film Director	7
+Jake Kuresa	Theologian	0
+Ion Popescu-Gopo	Film Director	7
+Bob Payne	Theologian	0
+Danny Boyle	Film Director	7
+Lillian McMurry	Theologian	0
+Victor Fleming	Film Director	7
+Jason Maxwell	Theologian	0
+Marc-Henri Wajnberg	Film Director	7
+Alfred Steele	Theologian	0
+Om Prakash (cinematographer)	Film Director	7
+Terry Ruskowski	Theologian	0
+Tetsuya Nakashima	Film Director	7
+Brajesh Mishra	Television director	0
+Craig Goodwill	Film Director	7
+James Thomson (mathematician)	Television director	0
+Frank Quitely	Author	7
+Louis Ganne	Television director	0
+Jibanananda Das	Author	7
+Raymond J. McGrath	Television director	0
+Eric G. Hall	Author	7
+E. M. V. Naganathan	Television director	0
+Isabel Cuchí Coll	Author	7
+Karl Plintzner	Television director	0
+Alphonse Crespo	Author	7
+Tim Fountain	Television director	0
+Michael J. Sullivan (author)	Author	7
+Amir Banoo Karimi	Television director	0
+Stephen T. Owens	Author	7
+Claire Adams	Television director	0
+Norman Francis	Author	7
+Benjamin Godard	Television director	0
+John Cogliano	Author	7
+Collins Pennie	Biologist	0
+Ziauddin (Afghan militia leader)	Author	7
+Maral Feizbakhsh	Biologist	0
+Andry Rajoelina	Author	7
+Peter IV Rareș	Biologist	0
+Glen Neath	Author	7
+Adolfo Marsillach	Biologist	0
+Qadura Fares	Author	7
+Tomasi Vuetilovoni	Biologist	0
+Alberto Arvelo Torrealba	Author	7
+John Witherspoon (actor)	Biologist	0
+Ali Jarbawi	Author	7
+Nicolò Minato	Biologist	0
+Bart Davis	Author	7
+Richard Burgin (writer)	Biologist	0
+Yasser Arafat	Author	7
+John Venn	Biologist	0
+Rheji Burrell	Author	7
+Andor Jaross	Biologist	0
+Doran William Cannon	Author	7
+William Evans Burton	Singer	0
+Betty King	Author	7
+Albert Von Tilzer	Singer	0
+J. J. Barrie	Author	7
+Joshua Titima	Singer	0
+Ian Clarke (physician)	Author	7
+Charles Calello	Singer	0
+Placido Mapa, Jr.	Author	7
+Hirsch Bär Fassel	Singer	0
+Richard Ravitch	Author	7
+Yefim Bronfman	Singer	0
+George Birimisa	Author	7
+Roger Connor	Singer	0
+Sjoerd Wiemer Sjoerdsma	Author	7
+Juan de Vega	Singer	0
+Damian Hockney	Author	7
+Ammu Swaminathan	Singer	0
+Ted Mondale	Author	7
+Anthony Newlands	Singer	0
+Daniel Dăianu	Author	7
+Keegan Bradley	Artist	0
+Alexander Oey	Author	7
+Marie Nyswander	Artist	0
+Robert Shaw (conductor)	Conductor	7
+Armando Di Filippo	Artist	0
+Kaisa Roose	Conductor	7
+Vivienne Segal	Artist	0
+Wen Yi-jen	Conductor	7
+Rhona Cameron	Artist	0
+Orator F. Cook	Orator	7
+Eddie Rommel	Artist	0
+Amory Lovins	Scientist	7
+Wijnand Duyvendak	Artist	0
+Kenneth C. Catania	Scientist	7
+Mike Lee (U.S. politician)	Artist	0
+Anton Zeilinger	Scientist	7
+Arturo Dell'Acqua Bellavitis	Artist	0
+Narendra Nath Sen Gupta	Scientist	7
+Jean Howard	Artist	0
+Marc Draisen	Urban planner	7
+Ken Henry (public servant)	Music Producer	0
+Ethan Canin	Writer	7
+Frank Stronach	Music Producer	0
+James Hynes	Writer	7
+Rasyid Bakri	Music Producer	0
+Ralph Block	Writer	7
+Ellie Haddington	Music Producer	0
+Ray Connolly	Writer	7
+Kay Hawtrey	Music Producer	0
+Simon Hawke	Writer	7
+Theodor Brugsch	Music Producer	0
+Seleman Kidunda	Writer	7
+Etta Zuber Falconer	Music Producer	0
+Dennis Etchison	Writer	7
+Percy Brown (art historian)	Music Producer	0
+Jim McCann (writer)	Writer	7
+Nick Caserio	Music Producer	0
+Patrick Hicks	Writer	7
+Joel Douglas	Music Producer	0
+Patrick Dempsey	Writer	7
+Andrea Zinsli	Lifeguard	0
+Kyotaro Nishimura	Writer	7
+Minoru Nojima	Lifeguard	0
+Sam Catlin	Writer	7
+Samm Levine	Lifeguard	0
+Jeff Vintar	Writer	7
+Francisco Tudela	Lifeguard	0
+Matt Holliday	Writer	7
+Susan Yeagley	Lifeguard	0
+Rocky Wood	Writer	7
+Jacob Slichter	Lifeguard	0
+Earl Pomerantz	Writer	7
+Nic Clemons	Lifeguard	0
+Jonathan Croall	Writer	7
+Ove Hoegh-Guldberg (biologist)	Lifeguard	0
+Anila Baig	Writer	7
+Gerry Huth	Lifeguard	0
+Stephen Winer	Writer	7
+Kim Matula	Lifeguard	0
+Ben Loory	Writer	7
+James Strong (Australian businessman)	Peace activist	0
+Maggie Siggins	Writer	7
+Chase Lambin	Peace activist	0
+Muneeza Shamsie	Writer	7
+Marc Rochester Sørensen	Peace activist	0
+Douglas Todd	Writer	7
+Tal Friedman	Peace activist	0
+Mark Tauscher	Writer	7
+Mikael Håfström	Peace activist	0
+Samira Fazal	Writer	7
+Esther Koplowitz, Marquise of Cubas	Peace activist	0
+K. Sello Duiker	Writer	7
+Barbara Jordan	Peace activist	0
+Stuart Carolan	Writer	7
+Zenón de Somodevilla, 1st Marqués de la Ensenada	Peace activist	0
+Karen Marie Moning	Writer	7
+Oktay Mahmuti	Peace activist	0
+George Singleton	Writer	7
+T. Raymond Warren	Peace activist	0
+Yevgeny Zamyatin	Writer	7
+Cevat Yerli	Football player	0
+Farzaneh Aghaeipour	Writer	7
+Augurio Abeto	Football player	0
+Laeta Kalogridis	Writer	7
+Lillian Heath	Football player	0
+Peter McBain	Writer	7
+Jeremy Gray	Football player	0
+Purushottama Lal	Writer	7
+Sylvia Vrethammar	Football player	0
+Jane Borghesi	Writer	7
+Jon Wiener	Football player	0
+Gillian Allnutt	Writer	7
+Matthew Moy	Football player	0
+Mohammed Achaari	Writer	7
+Dermot Mulroney	Football player	0
+Philippe Vasset	Writer	7
+Steve Raines	Football player	0
+Dawn Lambertsen Kelly	Writer	7
+Alicia Rhett	Football player	0
+Corinne Brinkerhoff	Writer	7
+Filiberto Rivera	Film Editor	0
+Richard Hatem	Writer	7
+George Gaulrapp	Film Editor	0
+Barry Forshaw	Writer	7
+Ángel de Saavedra, 3rd Duke of Rivas	Film Editor	0
+Max Burnett	Writer	7
+Keith Rothfus	Film Editor	0
+Jeffrey Jordan	Basketball player	7
+Johnny Grabowski	Film Editor	0
+Kendrick Perkins	Basketball player	7
+Alfredo Catalani	Film Editor	0
+Lucas Nogueira	Basketball player	7
+Charles Wade	Film Editor	0
+Henry Sims	Basketball player	7
+Issa Pointer	Film Editor	0
+Rod Higgins	Basketball player	7
+Rocky McKenzie	Film Editor	0
+Alex Oriakhi	Basketball player	7
+Dave Skaggs	Film Editor	0
+Amir Johnson	Basketball player	7
+Pat Crowley	Commentator	0
+Bill Curley	Basketball player	7
+Justin Westhoff	Commentator	0
+Chris Paul	Basketball player	7
+Matthias Evans Manly	Commentator	0
+Quentin Richardson	Basketball player	7
+Kathy Brier	Commentator	0
+Glen Davis (basketball)	Basketball player	7
+Motoi Sakuraba	Commentator	0
+Darnell Valentine	Basketball player	7
+Andrew Roseberry	Commentator	0
+Jrue Holiday	Basketball player	7
+Florentino Collantes	Commentator	0
+Shane Battier	Basketball player	7
+Abel Boyer	Commentator	0
+Solomon Jones (basketball)	Basketball player	7
+Gus Russo	Commentator	0
+Lon Babby	Basketball player	7
+Hal Kleine	Commentator	0
+Eric Menk	Basketball player	7
+Muhsin Ertuğral	Entertainer	0
+Gerald Wallace	Basketball player	7
+Todd Golub	Entertainer	0
+Greg White (basketball coach)	Basketball player	7
+Leonid Zamyatin	Entertainer	0
+Archie Clark (basketball)	Basketball player	7
+Brainard Cheney	Entertainer	0
+Chris Tiu	Basketball player	7
+Thomas A. Watson	Entertainer	0
+Peyton Siva	Basketball player	7
+Will Venable	Entertainer	0
+Dennis Rodman	Basketball player	7
+Roberta Gemma	Entertainer	0
+Derrick Rose	Basketball player	7
+Bill Husted	Entertainer	0
+Victor Oladipo	Basketball player	7
+David B. Fogel	Entertainer	0
+Jerryd Bayless	Basketball player	7
+Shigeaki Ushijima	Entertainer	0
+Mo Udall	Basketball player	7
+Frederick Lloyd	Economist	0
+Gerald Henderson	Basketball player	7
+Qin Hao	Economist	0
+John Lucas III	Basketball player	7
+Jenni Asserholt	Economist	0
+Hank DeZonie	Basketball player	7
+Meredith Eaton	Economist	0
+Antonija Mišura	Basketball player	7
+Remiyan	Economist	0
+Arinze Onuaku	Basketball player	7
+Vladi Vargas	Economist	0
+Dick Shrider	Basketball player	7
+Semyon Kosberg	Economist	0
+Cemal Nalga	Basketball player	7
+Clay M. Greene	Economist	0
+Jerry Smith (basketball)	Basketball player	7
+Mikel Odriozola	Economist	0
+Nate McMillan	Basketball player	7
+Paul Hogan	Economist	0
+DeAntoine Beasley	Basketball player	7
+Jonathan Ayité	Military aviator	0
+Connie Hawkins	Basketball player	7
+Andrew Van Slee	Military aviator	0
+Justin Dentmon	Basketball player	7
+Ajit Kumar Singh	Military aviator	0
+Rajon Rondo	Basketball player	7
+Donald McPherson (photographer)	Military aviator	0
+Darrell Arthur	Basketball player	7
+Tom Whelan	Military aviator	0
+Ben Tankard	Basketball player	7
+Sandara Park	Military aviator	0
+Jamaal Franklin	Basketball player	7
+Berit Bertling	Military aviator	0
+Ejike Ugboaja	Basketball player	7
+Simon Arnauld, Marquis de Pomponne	Military aviator	0
+Austin Carr	Basketball player	7
+Enrique Carreras	Military aviator	0
+Peter Scantlebury	Basketball player	7
+Robert Wussler	Military aviator	0
+Juwan Howard	Basketball player	7
+Mickey Carroll	Athlete	0
+Spud Webb	Basketball player	7
+Alfred J. Lotka	Athlete	0
+Jamont Gordon	Basketball player	7
+Mikael Cederbratt	Athlete	0
+Danny Seigle	Basketball player	7
+Lars Norén	Athlete	0
+Butch Beard	Basketball player	7
+Jon English	Athlete	0
+Leo Rautins	Basketball player	7
+David S. Miller	Athlete	0
+Wes Miller	Basketball player	7
+Dino Grandi	Athlete	0
+Slava Medvedenko	Basketball player	7
+Michael Cranford	Athlete	0
+Jarrett Jack	Basketball player	7
+Frances White	Athlete	0
+Pat Burke	Basketball player	7
+John Sibi-Okumu	Athlete	0
+Steve Francis	Basketball player	7
+Vasant K. Prabhu	Film Director	0
+J. J. Anderson	Basketball player	7
+Milt Franklyn	Film Director	0
+Kent Bazemore	Basketball player	7
+Miri Eisin	Film Director	0
+Randolph Morris	Basketball player	7
+Michael Hoey (golfer)	Film Director	0
+Oğuz Savaş	Basketball player	7
+Bernard of Cluny	Film Director	0
+Andrei Kirilenko	Basketball player	7
+Moshe Novomeysky	Film Director	0
+Larry Nance	Basketball player	7
+Nastasia Noens	Film Director	0
+Jo Jo English	Basketball player	7
+Randolph Peters	Film Director	0
+Robert Gordy	Rapper	7
+Joseph Heath	Film Director	0
+Tinny (musician)	Rapper	7
+Manolom Phomsouvanh	Film Director	0
+Big Pooh	Rapper	7
+Roxanne (model)	Author	0
+Educated Rapper	Rapper	7
+Angel Delgadillo	Author	0
+Mary Charlotte Wilcox	Lawyer	7
+Bentley Warren	Author	0
+Jeff Mooring	Lawyer	7
+Chad Brown (American football official)	Author	0
+Martin Gang	Lawyer	7
+Tracy Wolfson	Author	0
+Max Marcin	Lawyer	7
+Maurice Sixto	Author	0
+Jeffrey Dean Morgan	Comedian	7
+Deon Estus	Author	0
+Jim Goad	Comedian	7
+Lance Loud	Author	0
+Kurt Seifert	Comedian	7
+Ikram Antaki	Author	0
+Frank Conrad	Electrical engineer	7
+Lydia Thompson	Author	0
+Kathy Reichs	Science writer	7
+Konstantina Lukes	Film Art Director	0
+Alexandre de Laborde	Science writer	7
+Maria Isakova	Film Art Director	0
+Ruth Nestvold	Science writer	7
+Reed Timmer	Film Art Director	0
+Oday Rasheed	Science writer	7
+Raoul Loé	Film Art Director	0
+Alina Mungiu-Pippidi	Science writer	7
+Abdullah bin Khalifa Al Thani	Film Art Director	0
+Jan Lauwereyns	Science writer	7
+Bobby Douglass	Film Art Director	0
+Rick Green	Science writer	7
+Dick La Reno	Film Art Director	0
+Teodoro Benigno	Science writer	7
+Safura Alizadeh	Film Art Director	0
+Han Bi-ya	Science writer	7
+Stephen Weiss	Film Art Director	0
+Mary Jo Pehl	Science writer	7
+Darius Cox	Film Art Director	0
+Sean Faircloth	Science writer	7
+Anneliese Seubert	Military Officer	0
+Anthony Michael Hall	Science writer	7
+Jim Risch	Military Officer	0
+Jody Lynn Nye	Science writer	7
+Dorianne Laux	Military Officer	0
+Thuravoor Viswambharan	Science writer	7
+Tabaré Vázquez	Military Officer	0
+Trace Beaulieu	Science writer	7
+Thomas O'Malley (congressman)	Military Officer	0
+Tom Martin (writer)	Science writer	7
+Frank Buck (animal collector)	Military Officer	0
+Steve Soboroff	Science writer	7
+Stiff Leadbetter	Military Officer	0
+Manuela Maleeva	Tennis player	7
+H.P. Mendoza	Military Officer	0
+Rafael Osuna	Tennis player	7
+Garth Tander	Military Officer	0
+Sania Mirza	Tennis player	7
+Manohar Joshi	Military Officer	0
+Eva Dyrberg	Tennis player	7
+Levonne Rowan	Music Arranger	0
+Muriel Robb	Tennis player	7
+Pavel Srníček	Music Arranger	0
+Brydan Klein	Tennis player	7
+José Juan Vázquez	Music Arranger	0
+Zhuang Zedong	Tennis player	7
+Fernando Londoño y Londoño	Music Arranger	0
+Jan Koželuh	Tennis player	7
+Charlie Hunnam	Music Arranger	0
+William Henzell	Tennis player	7
+Scott McMorrow	Music Arranger	0
+Steve Krulevitz	Tennis player	7
+Delvin N'Dinga	Music Arranger	0
+Kirstin Freye	Tennis player	7
+Zvi Hecker	Music Arranger	0
+Andrej Gaćina	Tennis player	7
+T. C. Murray	Music Arranger	0
+Juliette Welfling	Prophet	7
+Aleksandra Pileva	Music Arranger	0
+Samuel of Speyer	Prophet	7
+Alex Garland	Conductor	0
+Michael DiCandilo	Accountant	7
+Patricia Edgar	Conductor	0
+Michael P. Clayton	Accountant	7
+John Coffino	Conductor	0
+David J. Porter	Accountant	7
+Johan Sigurd Karlsen	Conductor	0
+Richard L. Van Enger	Editor	7
+Aaron Gwin	Conductor	0
+Jason Beckford-Ball	Editor	7
+Vilhelm Wohlert	Conductor	0
+Faisal Islam	Editor	7
+Joseph Hazelwood	Conductor	0
+Libby Copeland	Editor	7
+Marcus Minucius Felix	Conductor	0
+Selim Peabody	Editor	7
+L. Q. Jones	Conductor	0
+John Hughes (editor)	Editor	7
+Fabien Gilot	Conductor	0
+Amir Mir	Editor	7
+Abiel Foster	Orator	0
+Rafail Ostrovsky	Editor	7
+Henry Higgs	Orator	0
+Choudhry Inayatullah	Editor	7
+Scott Merritt	Orator	0
+Mart Kadastik	Editor	7
+Ben Daley	Orator	0
+Gary Stix	Editor	7
+Lee Towers	Orator	0
+Josep Carles Laínez	Editor	7
+Thomas Richard Miles	Orator	0
+Christopher Scarabosio	Editor	7
+Timothy Hyman	Orator	0
+Thomas Plate	Editor	7
+Jeremy Reed	Orator	0
+Matt Frei	Editor	7
+Abu Abraham	Orator	0
+Michael J. D. Powell	Editor	7
+Christopher Lowell	Orator	0
+Turner Catledge	Editor	7
+John Clyn	Jazz Composer	0
+Roger Ford	Editor	7
+Davon Raubenheimer	Jazz Composer	0
+Julee Cruise	Editor	7
+Joost Taverne	Jazz Composer	0
+Sam Sifton	Editor	7
+Karol Mikuli	Jazz Composer	0
+Bob Cesca	Editor	7
+George Haley	Jazz Composer	0
+Sina Motalebi	Editor	7
+Alexander Bury	Jazz Composer	0
+Manoj Joshi	Editor	7
+Ferenc Keresztes-Fischer	Jazz Composer	0
+Rohit Loomba	Editor	7
+Stephen Parry (swimmer)	Jazz Composer	0
+Jen Consalvo	Editor	7
+Travis Curtis	Jazz Composer	0
+Uttam Kamble	Editor	7
+Wajid Khan (artist)	Jazz Composer	0
+Pietra Rivoli	Editor	7
+Richard Rashke	Bassist	0
+N. Ram	Editor	7
+Chris Gethard	Bassist	0
+Holly Peterson	Editor	7
+Lance Banning	Bassist	0
+Jack Hunter (radio host)	Editor	7
+Wilco Melissant	Bassist	0
+Barry Hunau	Editor	7
+Roderick Strong	Bassist	0
+Howell Raines	Editor	7
+Jean-Marc Gaillard	Bassist	0
+Bruce Shanks	Editor	7
+Aureliano Maestre de San Juan	Bassist	0
+J. R. Miller	Editor	7
+Arthur Zborzil	Bassist	0
+George Poveromo	Editor	7
+Stéphanie Dubois	Bassist	0
+Paul Mason (journalist)	Editor	7
+Lady Andrade	Bassist	0
+Chris Ryall	Editor	7
+Elease Evans	Scientist	0
+Bernard J. Liska	Editor	7
+Jerome Charyn	Scientist	0
+Kay Fanning	Editor	7
+Philip Gibbs	Scientist	0
+John D. Maurice	Editor	7
+John Vivyan	Scientist	0
+Michael Lew	Editor	7
+Lukáš Dlouhý	Scientist	0
+Alkan Chaglar	Editor	7
+Tommy Tabermann	Scientist	0
+Daniel Henninger	Editor	7
+Chuck Ciprich	Scientist	0
+Matthew Hansen	Editor	7
+August Kundt	Scientist	0
+Enrique González Pedrero	Revolutionary	7
+Anvari	Scientist	0
+Frederick Frelinghuysen (general)	Revolutionary	7
+Steve Price (rugby league)	Scientist	0
+Cheuang Sombounkhanh	Revolutionary	7
+Mike Moroski	Urban planner	0
+Thomas Wharton Jr.	Revolutionary	7
+Vitaly Sevastyanov	Urban planner	0
+John Johns Trigg	Revolutionary	7
+Mason Brayman	Urban planner	0
+Pan Hannian	Revolutionary	7
+Jesper Seier	Urban planner	0
+Miguel Borge Martín	Revolutionary	7
+Jessica Cutler	Urban planner	0
+Alfred Nikita Mangena	Revolutionary	7
+Charles Henderson (Nevada politician)	Urban planner	0
+Singkham Phommalath	Revolutionary	7
+Edward Loder	Urban planner	0
+Joseph Reed (politician)	Revolutionary	7
+Rashid Yunusmetov	Urban planner	0
+John Marshall Jones	Revolutionary	7
+Hiroshi Ito (voice actor)	Urban planner	0
+Dogsomyn Bodoo	Revolutionary	7
+Douglas Wood (engineer)	Urban planner	0
+Yu Lan	Revolutionary	7
+Joey Fatone	Writer	0
+Luis Giampietri	Revolutionary	7
+Kim Coates	Writer	0
+Latsamy Mingboupha	Revolutionary	7
+Lucy Gutteridge	Writer	0
+Saysmone Khomthavong	Revolutionary	7
+Sebastián de Belalcázar	Writer	0
+Jan Smallenbroek	Revolutionary	7
+Steve Heiden	Writer	0
+Francis Austen	Revolutionary	7
+Lena Himmelstein	Writer	0
+Cuauhtémoc Cárdenas	Revolutionary	7
+Rolla Wells	Writer	0
+Bai Chongxi	Revolutionary	7
+Anthony Grafton	Writer	0
+Joel Thompson	Revolutionary	7
+Hosokawa Akiuji	Writer	0
+Nathaniel Freeman (physician)	Revolutionary	7
+Anders Jonas Ångström	Writer	0
+John Trumbull	Revolutionary	7
+Ismail Hossain Siraji	Basketball player	0
+Isaac Shelby	Revolutionary	7
+Landon Liboiron	Basketball player	0
+Patricio Martínez García	Revolutionary	7
+L. M. Boyd	Basketball player	0
+Benjamin Taliaferro	Revolutionary	7
+Marlin Edgar Olmsted	Basketball player	0
+Zoe Kazan	Revolutionary	7
+Tamar Fish Nachshon	Basketball player	0
+Miguel Alonso Reyes	Revolutionary	7
+Jon Perlman	Basketball player	0
+Phaeng Lylavong	Revolutionary	7
+Alexis Serna	Basketball player	0
+Christian Dotremont	Revolutionary	7
+Ferruccio Tagliavini	Basketball player	0
+Gloria Amon Nikoi	Revolutionary	7
+Tom Malloy	Basketball player	0
+Thongleuan Inpanya	Revolutionary	7
+Gavin McLean	Basketball player	0
+Miguel Enríquez (politician)	Revolutionary	7
+Omar Olivares	Rapper	0
+Jabez Bowen	Revolutionary	7
+Bobby Hatfield	Rapper	0
+Benjamin Mkapa	Revolutionary	7
+Adam Smith	Rapper	0
+Fidel Herrera Beltrán	Revolutionary	7
+Peter Macdonald (Australian politician)	Rapper	0
+Andrew Adams (congressman)	Revolutionary	7
+Gunter Sachs	Rapper	0
+Sir Richard Fletcher, 1st Baronet	Revolutionary	7
+Claude Julien (ice hockey)	Rapper	0
+Moussa Arafat	Revolutionary	7
+Ray Hanson	Rapper	0
+Víctor Hugo Cárdenas	Revolutionary	7
+Samuel G. Andrews	Rapper	0
+Blair McClenachan	Revolutionary	7
+Tony Potts	Rapper	0
+Ricardo Dájer Nahum	Revolutionary	7
+Asashio Tarō IV	Rapper	0
+Jayne Loader	Public speaker	7
+Daniele Formica	Lawyer	0
+Roberta Kalechofsky	Public speaker	7
+Andy Aitkenhead	Lawyer	0
+Noxolo Kiviet	Public speaker	7
+Joe Berinson	Lawyer	0
+Quentin Sickels	American football player	7
+Jennifer Lim (theatre actress)	Lawyer	0
+Todd Stroud	American football player	7
+Koji Kondo	Lawyer	0
+Gene Murphy	American football player	7
+Amitai Regev	Lawyer	0
+Norm Chow	American football player	7
+Frank Summers	Lawyer	0
+Fitz Hill	American football player	7
+Marcin Robak	Lawyer	0
+Joe Susan	American football player	7
+Mark Cocker (wrestler)	Lawyer	0
+Hank Bullough	American football player	7
+Barbara Dennerlein	Lawyer	0
+Jim Knowles (American football)	American football player	7
+Marshall Boze	Comedian	0
+Doug Dickey	American football player	7
+Natalie Darwitz	Comedian	0
+Bill Goldberg	American football player	7
+Thomas Willson	Comedian	0
+Don Treadwell	American football player	7
+John Nye (scientist)	Comedian	0
+Billy Henderson (coach)	American football player	7
+Rob Cavallo	Comedian	0
+Clint Castleberry	American football player	7
+José Napoleón Duarte	Comedian	0
+Marquez Pope	American football player	7
+Wojciech Giertych	Comedian	0
+Sammie Smith	American football player	7
+Huntley Wright	Comedian	0
+James Trapp	American football player	7
+Thomas Beller	Comedian	0
+Tim Beck (American football, born 1966)	American football player	7
+Joseph Görres	Comedian	0
+Dean Kreps	American football player	7
+Sir Thomas Myddelton, 1st Baronet	Preacher	0
+Gary Nord	American football player	7
+Amy Winfrey	Preacher	0
+Jim Morrissey	American football player	7
+Ernst Christian Julius Schering	Preacher	0
+Chris Dieterich	American football player	7
+Alejandro Sabella	Preacher	0
+Rod Rutherford	American football player	7
+Jaro Deppe	Preacher	0
+Bruce Scholtz	American football player	7
+Olive Logan	Preacher	0
+Adam Podlesh	American football player	7
+Ron Link (singer)	Preacher	0
+Beeson Carroll	American football player	7
+Buddhapālita	Preacher	0
+Mick Luckhurst	American football player	7
+Irina Osipova	Preacher	0
+Calvin Lowry	American football player	7
+Jun Senoue	Preacher	0
+Jim Criner	American football player	7
+Lorraine Bowen	Electrical engineer	0
+Ed Lamb	American football player	7
+Walt Woods	Electrical engineer	0
+Dave Kragthorpe	American football player	7
+Vicente Reyes	Electrical engineer	0
+Rick Clausen	American football player	7
+Timothée Kolodziejczak	Electrical engineer	0
+Rufus Porter	American football player	7
+Santosh Srinivas	Electrical engineer	0
+David McWilliams (American football)	American football player	7
+Bill Hutchinson (politician)	Electrical engineer	0
+Carl Monroe	American football player	7
+Edgar May	Electrical engineer	0
+Big Van Vader	American football player	7
+Normie Roy	Electrical engineer	0
+Marcus Cassel	American football player	7
+Diana Franco	Electrical engineer	0
+Coy Wire	American football player	7
+John Furse (director)	Electrical engineer	0
+Roman Reigns	American football player	7
+Morris Schwartz	Science writer	0
+Ed Marinaro	American football player	7
+Irv Smith	Science writer	0
+Danny Hope	American football player	7
+Enrico Barone	Science writer	0
+Ellis Johnson (American football coach)	American football player	7
+Taxiarchis Fountas	Science writer	0
+Jimmy Hitchcock	American football player	7
+Seelenluft	Science writer	0
+George Cecil Woodruff	American football player	7
+Mika Boorem	Science writer	0
+Jon Gruden	American football player	7
+Javed Ahmed Khan	Science writer	0
+Charlie Powell	American football player	7
+Prashant Shah	Science writer	0
+Julius Franks	American football player	7
+Eddie Foster	Science writer	0
+Jim Sypult	American football player	7
+Henri Karjalainen	Science writer	0
+Frank Thomas (American football)	American football player	7
+Ernst Heinrich Weber	Tennis player	0
+Bob Stull	American football player	7
+Clara Bow	Tennis player	0
+Mark Ribaudo	American football player	7
+Dan W. Quinn	Tennis player	0
+Mike Campbell (American football)	American football player	7
+Paul Melchers	Tennis player	0
+Billy Ryan	American football player	7
+Michel Klein	Tennis player	0
+Jim Collins (American football coach)	American football player	7
+Matías Villavicencio	Tennis player	0
+Craig Stump	American football player	7
+Edward Bayda	Tennis player	0
+Freddie James	American football player	7
+Becca Fitzpatrick	Tennis player	0
+Les Horvath	American football player	7
+Jimmie Davis	Tennis player	0
+Walt Downing	American football player	7
+Jack Everly	Tennis player	0
+Mike Jenkins (strongman)	American football player	7
+Tino Pattiera	Showgirl	0
+Kenneth Hall (American football)	American football player	7
+Betsy Faith Heimann	Showgirl	0
+Fred Thurston	American football player	7
+Lynton Y. Ballentine	Showgirl	0
+Micah Pellerin	American football player	7
+Kōzō Murashita	Showgirl	0
+Bob Hargrave	American football player	7
+Andy Hollingworth	Showgirl	0
+Neal Brown	American football player	7
+Mark Cavendish	Showgirl	0
+Walt Sumner	American football player	7
+Artur Rojek	Showgirl	0
+Stan David	American football player	7
+Yoshihiko Amano	Showgirl	0
+Steve Addazio	American football player	7
+Jordy	Showgirl	0
+Bowden Wyatt	American football player	7
+Mihael Frankovitsch	Showgirl	0
+Joe Novak	American football player	7
+Raymond Vouel	Psychoanalyst	0
+Harold Green (American football)	American football player	7
+Bob Moose	Psychoanalyst	0
+Mark Kelso	American football player	7
+Ardele Lister	Psychoanalyst	0
+Larry Kinnebrew	American football player	7
+Alexey Shved	Psychoanalyst	0
+Glen Ray Hines	American football player	7
+Anita Blaze	Psychoanalyst	0
+Fred Akers	American football player	7
+Fritz Schiesser	Psychoanalyst	0
+Jerry Vines	Pastor	7
+Joseph L. Scanlan	Psychoanalyst	0
+Jon Ford (Australian politician)	Pastor	7
+Juliana Berners	Psychoanalyst	0
+Danny Barker	Pastor	7
+Frank Gabrielson	Psychoanalyst	0
+Flora Purim	Pastor	7
+Michael Medwin	Psychoanalyst	0
+Pastor Maldonado	Pastor	7
+Harry Sunderland	Prophet	0
+Ernesto Pastor	Pastor	7
+Krzysztof Opaliński	Prophet	0
+Bill Peet	Pastor	7
+Wen Bo	Prophet	0
+Steven Furtick	Pastor	7
+Olivier Giacomotto	Prophet	0
+Claudia Pastorino	Pastor	7
+Alan Lasee	Prophet	0
+Mary Cain (editor)	Social activist	7
+Jockel Finck	Prophet	0
+Moshé Machover	Social activist	7
+Jerry Hertaus	Prophet	0
+Tariq Aziz	Social activist	7
+Paul Tenczer	Prophet	0
+Yakov Zevin	Social activist	7
+Goh Kun	Prophet	0
+Symon Hill	Social activist	7
+Sam Sheldon	Prophet	0
+Philip Van Patten	Social activist	7
+Jonathan Kite	Psychiatrist	0
+Clara Jusidman	Social activist	7
+Fred Toones	Psychiatrist	0
+Lee Cronbach	Psychologist	7
+James M. Cole	Psychiatrist	0
+Rainy Davis	Record producer	7
+Richard Wyands	Psychiatrist	0
+Anna Turner (producer)	Record producer	7
+Peter Kilabuk	Psychiatrist	0
+Peter Sprague	Record producer	7
+Fernando Castro Santos	Psychiatrist	0
+Z-Star	Record producer	7
+Lynn Coady	Psychiatrist	0
+Andrew Canton	Record producer	7
+Tim Cahill (producer)	Psychiatrist	0
+Towa Tei	Record producer	7
+Alexander de Savornin Lohman	Psychiatrist	0
+Alex Smoke	Record producer	7
+Eliot Schrefer	Psychiatrist	0
+Kramies	Record producer	7
+Francis Newton Souza	Accountant	0
+Maher Zain	Record producer	7
+Roger Coggio	Accountant	0
+Iarla Ó Lionáird	Record producer	7
+Symon Budny	Accountant	0
+Redfoo	Record producer	7
+Julian of Norwich	Accountant	0
+Voyle Gilmore	Record producer	7
+Harry Huskey	Accountant	0
+Matt Grabe	Record producer	7
+Sarbel	Accountant	0
+Tim Armstrong	Record producer	7
+David Brown (musicologist)	Accountant	0
+John Loder (sound engineer)	Record producer	7
+Pepe Rubianes	Accountant	0
+Daz Dillinger	Record producer	7
+Red Barbary	Accountant	0
+Alec Empire	Record producer	7
+Edmund Hlawka	Accountant	0
+David Hasselhoff	Record producer	7
+Eric Eidsness (American football)	TV Personality	0
+Don DeVito	Record producer	7
+Andrew Hodges	TV Personality	0
+Roy Thomas Baker	Record producer	7
+Micah Barnes	TV Personality	0
+Da'unda'dogg	Record producer	7
+John A. Dillon	TV Personality	0
+Mike Varney	Record producer	7
+Charles Cowles (art dealer)	TV Personality	0
+Factor (producer)	Record producer	7
+Sir Frederick Treves, 1st Baronet	TV Personality	0
+Ron Kass	Record producer	7
+Sven Neuhaus	TV Personality	0
+Art Rupe	Record producer	7
+Jacqueline Jules	TV Personality	0
+Jua Cali	Record producer	7
+Joseph C. Lincoln	TV Personality	0
+Sylvia Moy	Record producer	7
+Nancy Fichman	TV Personality	0
+Michael Tierney (bishop)	Bishop	7
+Valeria Straneo	Editor	0
+Cyprian (Bishop of Wrocław)	Bishop	7
+Vladimer Gegeshidze	Editor	0
+Gordon Strutt	Bishop	7
+Titu Andreescu	Editor	0
+Anne Bishop	Bishop	7
+Thomas Mifflin	Editor	0
+Aldhelm	Bishop	7
+Franz Weitlaner	Editor	0
+Nathan Bangs	Bishop	7
+Rocky Nyikeine	Editor	0
+Greg Bishop	Bishop	7
+David Abeel	Editor	0
+George Day (bishop)	Bishop	7
+Chris Gerolmo	Editor	0
+Thomas Smith (bishop of Carlisle)	Bishop	7
+Daniel Rodimer	Editor	0
+William Patrick O'Connor	Bishop	7
+Evelyn Fox Keller	Editor	0
+Juan Cayetano Gómez de Portugal y Solís	Bishop	7
+Aaron Walker (American football)	Revolutionary	0
+Dionysius the Areopagite	Bishop	7
+Wu Po-hsiung	Revolutionary	0
+John William Hamilton	Bishop	7
+Roger Morris (bishop)	Revolutionary	0
+Abel Muzorewa	Bishop	7
+Li Nanxing	Revolutionary	0
+Henry de Sully (abbot)	Bishop	7
+Azzeddine Laraki	Revolutionary	0
+Archibald Cullen	Bishop	7
+Ciara Michel	Revolutionary	0
+Joaquín Abarca	Bishop	7
+Friedensreich Hundertwasser	Revolutionary	0
+Moses Anderson	Bishop	7
+Azadeh Moaveni	Revolutionary	0
+Sander Hicks	Bishop	7
+Mohamed Fadel Ismail Ould Es-Sweyih	Revolutionary	0
+Bishop Perkins	Bishop	7
+Giovanni Alberto Ristori	Revolutionary	0
+Eric Cordingly	Bishop	7
+Joseph Price (basketball)	Public speaker	0
+Michael Bertiaux	Bishop	7
+Florent Balmont	Public speaker	0
+Venantius Fortunatus	Bishop	7
+Edie Falco	Public speaker	0
+John Joseph Mitty	Bishop	7
+Nicolas Gessner	Public speaker	0
+William Peere Williams (1664–1736)	Bishop	7
+Wilhelm Fridolin Volkmann	Public speaker	0
+Sanford Bishop	Bishop	7
+Mykola Hrabar	Public speaker	0
+Laura Patch	Bishop	7
+Dave Sims (rugby player)	Public speaker	0
+Fernando Herrera	Bishop	7
+Tonia Sotiropoulou	Public speaker	0
+John Christian Keener	Bishop	7
+Kris Stadsgaard	Public speaker	0
+Kate Bishop (actress)	Bishop	7
+Paul Boghossian	Public speaker	0
+Ace Mumford	Bishop	7
+Friedrich Karl Florian	American football player	0
+Daniel Francis Desmond	Bishop	7
+Jan H. van Schuppen	American football player	0
+Victor Pike	Bishop	7
+Luz Pavon	American football player	0
+Edward Raymond Ames	Bishop	7
+Stephan Berg	American football player	0
+J.J. Blair	Bishop	7
+Miguel A. Reina	American football player	0
+Raymond Aloysius Lane	Bishop	7
+Arthur Howes	American football player	0
+Helen Goodman	Bishop	7
+Zafarul Islam Islahi	American football player	0
+Eric Pike	Bishop	7
+Mireille Best	American football player	0
+Loran Ellis Baker (politician)	Bishop	7
+Ruperto Alaura	American football player	0
+Ann Bishop (journalist)	Bishop	7
+Don Henderson	American football player	0
+Francis Cocks	Bishop	7
+Doron Galezer	Pastor	0
+Matthew Cullen	Bishop	7
+Sante Vandi	Pastor	0
+Hugh Hordern	Bishop	7
+Santiago Ladino	Pastor	0
+Ignatius C. Wang	Bishop	7
+Luis Vicente de Velasco e Isla	Pastor	0
+Thomas Joseph Connolly	Bishop	7
+Claes Eriksson	Pastor	0
+Octavius Hadfield	Bishop	7
+John Le Mesurier	Pastor	0
+Francis Gregory (bishop)	Bishop	7
+Joel Zifkin	Pastor	0
+Henry Jones (bishop)	Bishop	7
+Qiu Miaojin	Pastor	0
+Frank Barrie	Bishop	7
+Jim Hoey	Pastor	0
+Johnny Reid	Bishop	7
+Hermes Carleial	Pastor	0
+William Montgomery Brown	Bishop	7
+Dieter Weichert	Social activist	0
+Pope Paul VI	Bishop	7
+Amby Bodkin	Social activist	0
+Linden MacIntyre	Bishop	7
+Zdeňka Podkapová	Social activist	0
+Bradley Schlozman	Attorneys in the United States	7
+Juli Crockett	Social activist	0
+Arthur Henry Douthwaite	Physician	7
+Bruce Kessler	Social activist	0
+Charles Blackburn	Physician	7
+Terry Christian	Social activist	0
+Albert Warren Ferris	Physician	7
+Ed van der Elsken	Social activist	0
+Frederick T. van Beuren, Jr.	Physician	7
+Jack Daniel	Social activist	0
+Edward Harrison (physician)	Physician	7
+Martin Frič	Social activist	0
+Alexander Henderson (physician)	Physician	7
+Rey Malonzo	Social activist	0
+Michel Fernex	Physician	7
+Charlotte Pritt	Sound Sculptor	0
+Julio Montaner	Physician	7
+John Monk Saunders	Sound Sculptor	0
+Willard Parker (surgeon)	Physician	7
+Lucie Talmanová	Sound Sculptor	0
+Cluny MacPherson	Physician	7
+Mary Tighe	Sound Sculptor	0
+Jules Blankfein	Physician	7
+Burnie Burns	Sound Sculptor	0
+Thomas Hamilton (architect)	Physician	7
+Carl Davis	Sound Sculptor	0
+Anthony Relhan	Physician	7
+Clint Frazier	Sound Sculptor	0
+Wendy Carlos	Electronic musician	7
+Antônio Calmon	Sound Sculptor	0
+Yoshiaki Hoshi	Electronic musician	7
+Tod Robbins	Sound Sculptor	0
+Bernd Friedmann	Electronic musician	7
+Josh Romanski	Sound Sculptor	0
+Draner	Illustrator	7
+Samuel Hopkins (inventor)	Psychologist	0
+Laurence S. Cutler	Illustrator	7
+Wojciech Bogusławski	Psychologist	0
+Dries van Noten	Fashion Designer	7
+Butler Derrick	Psychologist	0
+Melinda Looi	Fashion Designer	7
+Robert Carnwath, Lord Carnwath of Notting Hill	Psychologist	0
+Kanoa Leahey	Announcer	7
+Harry Smith Parkes	Psychologist	0
+Melanie Phillips	Statesman	7
+Keri-Anne Payne	Psychologist	0
+Lajos Kossuth	Statesman	7
+Gregg Bishop	Psychologist	0
+John Nettleton (actor)	Statesman	7
+Bertrand Blier	Psychologist	0
+Carolyn Washburn	Statesman	7
+Matt Sanchez	Psychologist	0
+G. W. Stonier	Statesman	7
+Jacinto Zamora	Psychologist	0
+Francis Beckett	Statesman	7
+Frances Harriet Whipple Green McDougall	Harpsichordist	0
+Alta (poet)	Book editor	7
+Killian K. Van Rensselaer	Harpsichordist	0
+Dave Thomas (programmer)	Book editor	7
+Henry Swift (photographer)	Harpsichordist	0
+Charles R. Kesler	Book editor	7
+Gëzim Erebara	Harpsichordist	0
+Andrea Davis Pinkney	Book editor	7
+Giuseppe Catalani	Harpsichordist	0
+John Nichols (printer)	Book editor	7
+O. L. Duke	Harpsichordist	0
+John Skipp	Book editor	7
+Anthony Atala	Harpsichordist	0
+K. Tempest Bradford	Book editor	7
+Kaushal Silva	Harpsichordist	0
+James Atlas	Book editor	7
+Don Hastings	Harpsichordist	0
+Julia Eccleshare	Book editor	7
+Ani Kavafian	Harpsichordist	0
+Oneya	Cinematographer	7
+Sudhir Sharma	Impresario	0
+Derek Vanlint	Cinematographer	7
+Gerard Cafesjian	Impresario	0
+B. Kannan	Cinematographer	7
+Jannie du Plessis	Impresario	0
+Dariusz Wolski	Cinematographer	7
+Nancy Makokha Baraza	Impresario	0
+Jack Thompson (actor)	Cinematographer	7
+Özgür Uyanık	Impresario	0
+Piotr Lenar	Cinematographer	7
+Billy Tan	Impresario	0
+Mikhail Krichman	Cinematographer	7
+Nacha Guevara	Impresario	0
+László Kovács (cinematographer)	Cinematographer	7
+Emmanuel Kwasi Kotoka	Impresario	0
+Charles G. Clarke	Cinematographer	7
+Michal Handzuš	Impresario	0
+Lawrence of Brindisi	Friar	7
+Dionysia-Theodora Avgerinopoulou	Impresario	0
+Joey Adams	Friar	7
+Alexis Smith	Record producer	0
+Richard Pitino	Friar	7
+Brett White	Record producer	0
+Davis Tarwater	Swimmer	7
+Jetro Willems	Record producer	0
+Amore Bekker	Radio personality	7
+Shōfukutei Tsurube II	Record producer	0
+Twanna Hines	Radio personality	7
+Sean O'Pry	Record producer	0
+Erica Hayden	Radio personality	7
+Stojan Protić	Record producer	0
+Kim Isak	Radio personality	7
+Thiago Soares Alves	Record producer	0
+Ray Taliaferro	Talk show host	7
+Janet McTeer	Record producer	0
+Charles A. Williams III	Talk show host	7
+Alva M. Lumpkin	Record producer	0
+Ty Treadway	Talk show host	7
+Tom Mason (American football)	Record producer	0
+Randy Karraker	Talk show host	7
+William Bradford Huie	Bishop	0
+Skyzoo	Music artist	7
+Elinor Fair	Bishop	0
+Diane Warren	Music artist	7
+David Whitton (Wisconsin)	Bishop	0
+Li Feihui	Music artist	7
+John W. Sedwick	Bishop	0
+Kwasi Jones Martin	Music artist	7
+Joseph-Antoine Froelicher	Bishop	0
+Amy Miles	Music artist	7
+Hermann Poppelbaum	Bishop	0
+Billy Drease Williams	Music artist	7
+Elizabeth Harrison Walker	Bishop	0
+Marc Jordan	Music artist	7
+Jeremy Spencer	Bishop	0
+Kojo Antwi	Music artist	7
+Sandra Lemos	Bishop	0
+Aisha Syed Castro	Music artist	7
+Bruno Bauch	Bishop	0
+Mike Rashkow	Music artist	7
+LaRon Landry	Theatrical producer	0
+Anton Nanut	Music artist	7
+Francis Allotey	Theatrical producer	0
+Meaghan Smith	Music artist	7
+Hiroshi Tamaki	Theatrical producer	0
+Daniel "2Dark" Richards	Music artist	7
+René-François de Sluse	Theatrical producer	0
+David Jost	Music artist	7
+Richard Leese	Theatrical producer	0
+Elliot Easton	Music artist	7
+Apurva Asrani	Theatrical producer	0
+Lars Halvor Jensen	Music artist	7
+William Obanhein	Theatrical producer	0
+Alec Irvin	Music artist	7
+Steve Engel	Theatrical producer	0
+San E	Music artist	7
+John Karst	Theatrical producer	0
+Johnny Polygon	Music artist	7
+Robert Desgabets	Theatrical producer	0
+Rebekah Higgs	Music artist	7
+Jenner (actor)	Attorneys in the United States	0
+Basshunter	Music artist	7
+Henryk Machalica	Attorneys in the United States	0
+Jeff Pevar	Music artist	7
+Achille Campanile	Attorneys in the United States	0
+Toni Blackman	Music artist	7
+Jules Devigne	Attorneys in the United States	0
+Peter Hammill	Music artist	7
+Felipe Arrese Beitia	Attorneys in the United States	0
+Luiz Gonzaga	Music artist	7
+Yūji Saiga	Attorneys in the United States	0
+Fresh I.E.	Music artist	7
+Felix Vanderstraeten	Attorneys in the United States	0
+Bertie Higgins	Music artist	7
+Shizu Shiraki	Attorneys in the United States	0
+Kathryn Williams	Music artist	7
+Yaritza Abel	Attorneys in the United States	0
+Manuel Seal	Music artist	7
+Muga Takewaki	Attorneys in the United States	0
+Anthony M. Jones	Music artist	7
+Jan Sardi	Performance Artist	0
+Kostas (songwriter)	Music artist	7
+Domonic Brown	Performance Artist	0
+Don Katz	Entrepreneur	7
+Tony Flaim	Performance Artist	0
+Suhas Patil	Entrepreneur	7
+Serge Lang (skiing)	Performance Artist	0
+Jim Clifton	Entrepreneur	7
+Max Ryan	Performance Artist	0
+Maria Borelius	Entrepreneur	7
+Lana Jalosjos	Performance Artist	0
+Steve Hillard	Entrepreneur	7
+Benedict Calvert, 4th Baron Baltimore	Performance Artist	0
+Dan Gillmor	Entrepreneur	7
+Sangharakshita	Performance Artist	0
+Michael Hill (entrepreneur)	Entrepreneur	7
+Don Wright (cartoonist)	Performance Artist	0
+Travis Willingham	Alchemist	7
+Tom Brahaney	Performance Artist	0
+Kevin M. Connolly	Alchemist	7
+Jane Roberts (author)	Physician	0
+Scott McNeil	Alchemist	7
+Mircea Baniciu	Physician	0
+Hiroki Kanno	Alchemist	7
+Richard L. Hasen	Physician	0
+Jerry Jewell	Alchemist	7
+Kirk Haston	Physician	0
+Chris Patton	Alchemist	7
+William Ruthven, 1st Earl of Gowrie	Physician	0
+Maxey Whitehead	Alchemist	7
+Gilda Buttà	Physician	0
+Edmund Skellings	Poet	7
+Alessandro Bertolotti	Physician	0
+Robert Southey	Poet	7
+Paul Ritter (actor)	Physician	0
+T. P. Rajeevan	Poet	7
+Noah Emmerich	Physician	0
+Aaron Bushkowsky	Poet	7
+Varvara Popova	Physician	0
+Miguel Algarín	Poet	7
+Joe Witte	Disc jockey	0
+Jennifer Maiden	Poet	7
+William Gargan	Disc jockey	0
+Joshua Clover	Poet	7
+Jacob Christian Schäffer	Disc jockey	0
+Konstantin Balmont	Poet	7
+Vitaliy Shafar	Disc jockey	0
+Adele Givens	Poet	7
+Hideyuki Hori	Disc jockey	0
+Ōtomo no Yakamochi	Poet	7
+Khadim N'Diaye	Disc jockey	0
+Felix Mnthali	Poet	7
+Salvador Zubirán	Disc jockey	0
+Wyatt Townley	Poet	7
+Alfredo Bracchi	Disc jockey	0
+David Zieroth	Poet	7
+Darnell Hinson	Disc jockey	0
+Lee Gurga	Poet	7
+Peter Sykes (director)	Disc jockey	0
+Daryl Hine	Poet	7
+Humphrey Pearson	Electronic musician	0
+Tony Thomas (producer)	Poet	7
+Vittorio Metz	Electronic musician	0
+Desmond Sim	Poet	7
+David Kranzler	Electronic musician	0
+John Biguenet	Poet	7
+Amos Tutuola	Electronic musician	0
+Alessandro Piccolomini	Poet	7
+Achille Tramarin	Electronic musician	0
+Vinicius de Moraes	Poet	7
+Daniel Garza	Electronic musician	0
+Dionne Brand	Poet	7
+Shruti Marathe	Electronic musician	0
+Sabra Loomis	Poet	7
+Mervyn Warren	Electronic musician	0
+Lorna Goodison	Poet	7
+Nathan Hall (football coach)	Electronic musician	0
+Saghar Nizami	Poet	7
+Alfredo Lim	Electronic musician	0
+Fady Joudah	Poet	7
+Ishmael	Illustrator	0
+Gulab Khandelwal	Poet	7
+Frank McKenna	Illustrator	0
+Delia Falconer	Soldier	7
+Roosevelt Sykes	Illustrator	0
+Jennifer Tse	Soldier	7
+M. H. de Young	Illustrator	0
+Revaz Chkheidze	Soldier	7
+Beppo Römer	Illustrator	0
+Toomas Vitsut	Soldier	7
+Louis Agassiz	Illustrator	0
+Gregory Smith (actor)	Soldier	7
+Frank Rommel	Illustrator	0
+John Hyams	Soldier	7
+Arthur B. Reeve	Illustrator	0
+Corbin Allred	Soldier	7
+Charles S. Whitehouse	Illustrator	0
+Stepan Maximovich Petrichenko	Soldier	7
+Rob Carpenter (wide receiver)	Illustrator	0
+Holly Aird	Soldier	7
+Sam Myers	Humorist	0
+Geoffrey Burgon	Soldier	7
+James C. Russell	Humorist	0
+Aaron Taylor-Johnson	Soldier	7
+Jon Krakauer	Humorist	0
+Bernard Ashley (author)	Soldier	7
+Émile Meyerson	Humorist	0
+Roy Holder	Soldier	7
+Heinrich Unverricht	Humorist	0
+Sam DeWitt	Legislator	7
+Simon Tedeschi	Humorist	0
+James G. Carter	Legislator	7
+Jackie Torres	Humorist	0
+Paul Sepuya	Curator	7
+Margaret Pargeter	Humorist	0
+Virginia Mecklenburg	Curator	7
+John Muir (judge)	Humorist	0
+Charles S. Spencer	Curator	7
+Ereka Vetrini	Humorist	0
+Janet L. Kavandi	Astronaut	7
+Mátyás Tímár	Fashion Designer	0
+Li Wei (scientist)	Astronaut	7
+Martha B. Sosman	Fashion Designer	0
+Peggy Whitson	Astronaut	7
+Barbara A. Perry	Fashion Designer	0
+Jack D. Fischer	Astronaut	7
+Ethel Cochrane	Fashion Designer	0
+Philip K. Chapman	Astronaut	7
+Janet Taylor	Fashion Designer	0
+Karl Gordon Henize	Astronaut	7
+Stephen Harper	Fashion Designer	0
+Menachem Froman	Rabbi	7
+Brecken Palmer	Fashion Designer	0
+Shlomo Cunin	Rabbi	7
+Owen Cleary	Fashion Designer	0
+Solomon David Sassoon	Rabbi	7
+Lucas Pittinari	Fashion Designer	0
+Luke Keary	Rabbi	7
+Gloria Naylor	Fashion Designer	0
+Hershel Schachter	Rabbi	7
+Brigitte Gouin	Game Show Host	0
+Vibeke Hastrup	Rabbi	7
+Christophe Delord	Game Show Host	0
+Anthony Hayes (actor)	Rabbi	7
+Carl Sadler	Game Show Host	0
+Rabbit Kekai	Rabbi	7
+Julie Hecht	Game Show Host	0
+Eliyahu Bakshi-Doron	Rabbi	7
+Jamie Howarth	Game Show Host	0
+Brian Horwitz	Rabbi	7
+Barry Wright	Game Show Host	0
+Sholom Klass	Rabbi	7
+K. Suresh Kurup	Game Show Host	0
+Wayne Bartholomew	Rabbi	7
+Dutch Mele	Game Show Host	0
+Glenn Hall (rugby league)	Rabbi	7
+Shakila Zafar	Game Show Host	0
+Baba Sali	Rabbi	7
+Joseph Dickson	Game Show Host	0
+Jacob ben Asher	Rabbi	7
+Vincenz Czerny	Announcer	0
+Smoky Babe	Rabbi	7
+Will Todd	Announcer	0
+Scott Geddes	Rabbi	7
+Richard S. Ayer	Announcer	0
+John Sutton (rugby league)	Rabbi	7
+Henri Gillain	Announcer	0
+Pat Rabbitte	Rabbi	7
+Manuel Antonio Sanclemente	Announcer	0
+Alex Anderson (cartoonist)	Rabbi	7
+Julius Patzak	Announcer	0
+Jacob Meir	Rabbi	7
+Britt Janyk	Announcer	0
+Duncan Arsenault	Rabbi	7
+Kris Russell	Announcer	0
+Aaron Teitelbaum	Rabbi	7
+Guntis Galviņš	Announcer	0
+Dan Ehrenkrantz	Rabbi	7
+Pia Sundstedt	Announcer	0
+Shlomo Wolbe	Rabbi	7
+Sidi El Houari	Statesman	0
+Kevin Jubinville	Rabbi	7
+Paul F. Tompkins	Statesman	0
+J. Ezra Merkin	Rabbi	7
+Thaddeus J. Dulski	Statesman	0
+Arie Zeev Raskin	Rabbi	7
+Nana Afua Antwi	Statesman	0
+Shmuel Eliyahu	Rabbi	7
+Reyner Banham	Statesman	0
+Joseph Potasnik	Rabbi	7
+Sanne van Kerkhof	Statesman	0
+Yitzhak Yosef	Rabbi	7
+Richard X. Heyman	Statesman	0
+Houston (actress)	Rabbi	7
+Gareth Roberts (physicist)	Statesman	0
+Aryeh Kaplan	Rabbi	7
+Marie Brassard	Statesman	0
+Denise Eger	Rabbi	7
+Esdras Minville	Statesman	0
+Phil Nibbelink	Rabbi	7
+Seth Curry	Book editor	0
+Gorden Tallis	Rabbi	7
+Jaime Hernandez	Book editor	0
+Arnold Jacob Wolf	Rabbi	7
+George Phillips Manners	Book editor	0
+T. R. Bryden	Baseball player	7
+Mark de Solla Price	Book editor	0
+Brian Tollberg	Baseball player	7
+Plankton Man	Book editor	0
+Hal Manders	Baseball player	7
+Henry Valen	Book editor	0
+Jaime Navarro	Baseball player	7
+Michael Ferns	Book editor	0
+Lee Ballanfant	Baseball player	7
+Lois Weaver	Book editor	0
+Todd Frohwirth	Baseball player	7
+Michael Kunze	Book editor	0
+Mike Ivie	Baseball player	7
+Matt Hyde	Book editor	0
+Charlie Fitzberger	Baseball player	7
+Andrew Joudrey	Cinematographer	0
+Jerry Fry	Baseball player	7
+Winnie Leuszler	Cinematographer	0
+Creepy Crespi	Baseball player	7
+Larry Tidwell	Cinematographer	0
+Larry Gonzales	Baseball player	7
+Kurt Heegner	Cinematographer	0
+Tony Suck	Baseball player	7
+Hank McDonald	Cinematographer	0
+John Noriega	Baseball player	7
+Ragib Ali	Cinematographer	0
+Charlie Osgood	Baseball player	7
+Sana Nawaz	Cinematographer	0
+Sidney Ponson	Baseball player	7
+John Lavachielli	Cinematographer	0
+Eddie Bockman	Baseball player	7
+Brian Jones (golfer)	Cinematographer	0
+Tony DeFate	Baseball player	7
+P. C. Hodgell	Cinematographer	0
+Vic Aldridge	Baseball player	7
+Steve Smith (politician)	Friar	0
+Ted Breitenstein	Baseball player	7
+Yakov Kreizberg	Friar	0
+Chuck Goggin	Baseball player	7
+Sumi Shimamoto	Friar	0
+Tim McGinley	Baseball player	7
+Andrei Abrikosov	Friar	0
+Hack Eibel	Baseball player	7
+John Bettesworth-Trevanion	Friar	0
+George Theodore	Baseball player	7
+Miralem Pjanić	Friar	0
+Bill McCauley	Baseball player	7
+Jason Webster	Friar	0
+Al Piechota	Baseball player	7
+Sue Jenkins	Friar	0
+Moses Fleetwood Walker	Baseball player	7
+Khalil Greene	Friar	0
+Bill Schenck	Baseball player	7
+Shane Stefanutto	Friar	0
+Ron Slocum	Baseball player	7
+Étienne-Louis Malus	Swimmer	0
+Jack Glasscock	Baseball player	7
+Dee C. Lee	Swimmer	0
+Harry Spies	Baseball player	7
+Martin Bernheimer	Swimmer	0
+Mike Sarbaugh	Baseball player	7
+A. K. Gopalan	Swimmer	0
+Lou Marone	Baseball player	7
+John Engstead	Swimmer	0
+Gail Henley	Baseball player	7
+Walter Holke	Swimmer	0
+Barry Larkin	Baseball player	7
+Lucius Aemilius Paullus (consul 1)	Swimmer	0
+Shea Hillenbrand	Baseball player	7
+Leonard Burman	Swimmer	0
+Hank Foiles	Baseball player	7
+Roscoe Troxler	Swimmer	0
+Matt Lawton	Baseball player	7
+Pierre Paradis	Swimmer	0
+Steve Ziem	Baseball player	7
+Amanda Hale	Fisherman	0
+Charlie Vinson	Baseball player	7
+Jake Rodkin	Fisherman	0
+Oyster Burns	Baseball player	7
+Stephen McNally	Fisherman	0
+Derrel Thomas	Baseball player	7
+Vixaykone Vannachomchanh	Fisherman	0
+Jim Fridley	Baseball player	7
+Andre Blay	Fisherman	0
+Ed Daily	Baseball player	7
+Richard E. Hughes	Fisherman	0
+Randy Knorr	Baseball player	7
+Deriba Merga	Fisherman	0
+Jack Doscher	Baseball player	7
+Charles Herman-Wurmfeld	Fisherman	0
+Weldy Walker	Baseball player	7
+Rohan Davey	Fisherman	0
+Butch Wynegar	Baseball player	7
+Anthony Seibold	Fisherman	0
+Chester Emerson	Baseball player	7
+Alexander Parsonage (theatre director)	Radio personality	0
+Cal Ripken, Jr.	Baseball player	7
+Ken Waller	Radio personality	0
+Boyd Bartley	Baseball player	7
+Robert Holding	Radio personality	0
+Tom Bannon	Baseball player	7
+Kelly Curtis	Radio personality	0
+Shigeyuki Furuki	Baseball player	7
+Murray Weidenbaum	Radio personality	0
+David Freese	Baseball player	7
+Stuart Briscoe	Radio personality	0
+Keith Luuloa	Baseball player	7
+Greg Walker (baseball)	Radio personality	0
+Joe Beimel	Baseball player	7
+Michael Hollick	Radio personality	0
+Desi Wilson	Baseball player	7
+Amy Yamada	Radio personality	0
+Ed Wilkinson	Baseball player	7
+Ted Walker	Radio personality	0
+Takeshi Yamasaki	Baseball player	7
+Mubarak al Fadil al Mahdi	Pin-up girl	0
+Joey Dawley	Baseball player	7
+Jochen Borchert	Pin-up girl	0
+Bob Kahle	Baseball player	7
+Jonathan Åstrand	Pin-up girl	0
+Garland Lawing	Baseball player	7
+Aditya Tare	Pin-up girl	0
+Emil Gross	Baseball player	7
+Tom Quinn (nurse)	Pin-up girl	0
+Brad Gulden	Baseball player	7
+Brad Bass	Pin-up girl	0
+Jeff Kobernus	Baseball player	7
+Washington Singer	Pin-up girl	0
+Darren Bush	Baseball player	7
+Jerry Newton	Pin-up girl	0
+Max Patkin	Baseball player	7
+Rajesh S. Jala	Pin-up girl	0
+Dick Green	Baseball player	7
+Caleb Miller	Pin-up girl	0
+Chuck Harmon	Baseball player	7
+Neil Sinclair	Talk show host	0
+Charlie Manlove	Baseball player	7
+Catharina Ahlgren	Talk show host	0
+Luis Gonzalez (outfielder)	Baseball player	7
+Vicente Fernandez (golfer)	Talk show host	0
+Marlon Anderson	Baseball player	7
+Fedora Barbieri	Talk show host	0
+Jesse Orosco	Baseball player	7
+Halit Akçatepe	Talk show host	0
+Don Pepper	Baseball player	7
+Brian Kowitz	Talk show host	0
+Steve Christmas	Baseball player	7
+Rodney Matthews	Talk show host	0
+Stump Wiedman	Baseball player	7
+Jill McGown	Talk show host	0
+Jay Dahl	Baseball player	7
+Nathaniel Dance-Holland	Talk show host	0
+Roxy Snipes	Baseball player	7
+Iakoba Italeli	Talk show host	0
+Chet Clemens	Baseball player	7
+Ryan Crotty	Spokesperson	0
+Tony Peña	Baseball player	7
+Raimo Vistbacka	Spokesperson	0
+Casey Wise	Baseball player	7
+Giovanni Torlonia, 1st Prince di Civitella-Cesi	Spokesperson	0
+Brian Asselstine	Baseball player	7
+Gabrielle Aplin	Spokesperson	0
+Olmedo Sáenz	Baseball player	7
+Jeff Woolnough	Spokesperson	0
+Roe Skidmore	Baseball player	7
+Giannis Diamantidis	Spokesperson	0
+Billy Jo Robidoux	Baseball player	7
+Baoan Coleman	Spokesperson	0
+Dave Dravecky	Baseball player	7
+Richard Teitelbaum	Spokesperson	0
+Lou Gehrig	Baseball player	7
+Roberto Cossa	Spokesperson	0
+Jeff Zaske	Baseball player	7
+Clelia Matania	Spokesperson	0
+Stan Wentzel	Baseball player	7
+Robert E. Burke	Choreographer	0
+Rimp Lanier	Baseball player	7
+Dhalia	Choreographer	0
+Joe Hovlik	Baseball player	7
+Ahmed Mater	Choreographer	0
+John Castino	Baseball player	7
+Benjamin H. Kline	Choreographer	0
+Paddy Mayes	Baseball player	7
+Darius Grigalionis	Choreographer	0
+Milt Reed	Baseball player	7
+Stephen Quadros	Choreographer	0
+Rivington Bisland	Baseball player	7
+Dominique Sirop	Choreographer	0
+Garland Kiser	Baseball player	7
+Slade Norris	Choreographer	0
+Dave Stapleton (infielder)	Baseball player	7
+Carlos Triunfel	Choreographer	0
+Kermit Wahl	Baseball player	7
+John Offenbach	Choreographer	0
+Aurelio López	Baseball player	7
+Holley Fain	Music artist	0
+Scotty Alcock	Baseball player	7
+Carla Gravina	Music artist	0
+Bob Roselli	Baseball player	7
+Win Remmerswaal	Music artist	0
+Tom Timmermann	Baseball player	7
+Lawrence Raphael	Music artist	0
+Doug Baird	Baseball player	7
+Earl Kunz	Music artist	0
+Gene Woodling	Baseball player	7
+Brian Sikorski	Music artist	0
+Chris Coghlan	Baseball player	7
+José Valverde	Music artist	0
+Bob Marquis	Baseball player	7
+Reidar Horghagen	Music artist	0
+Neal Watlington	Baseball player	7
+Marc Siegel	Music artist	0
+Ramón López (baseball)	Baseball player	7
+Irving Feldman	Music artist	0
+Ri Jones	Baseball player	7
+Frederick Abberline	Entrepreneur	0
+Brad Rigby	Baseball player	7
+Betty Heukels	Entrepreneur	0
+Henry Yaik	Baseball player	7
+Jules Bara	Entrepreneur	0
+Joe Charboneau	Baseball player	7
+John Olumba	Entrepreneur	0
+Alex Carrasquel	Baseball player	7
+Andrew Pyper	Entrepreneur	0
+Cy Williams	Baseball player	7
+Babette Deutsch	Entrepreneur	0
+Yoshiyuki Ishihara	Baseball player	7
+Maarten Haverkamp	Entrepreneur	0
+Andy Mota	Baseball player	7
+Ian Bleasdale	Entrepreneur	0
+Lu Blue	Baseball player	7
+T. E. Lawrence	Entrepreneur	0
+Tony Curry	Baseball player	7
+Alfredo Fiorito	Entrepreneur	0
+Tom Glavine	Baseball player	7
+Errol Brown (engineer)	Alchemist	0
+Travis Harper	Baseball player	7
+Collin Wilcox (actress)	Alchemist	0
+Jesse Altenburg	Baseball player	7
+Allen Denton	Alchemist	0
+Duff Cooley	Baseball player	7
+Candice Earley	Alchemist	0
+Francisco Cordero	Baseball player	7
+Philippe Jouvion	Alchemist	0
+Jimmy Welsh	Baseball player	7
+Unshō Ishizuka	Alchemist	0
+Lou Merloni	Baseball player	7
+Alasdair Duncan	Alchemist	0
+John Reccius	Baseball player	7
+Édouard Martin	Alchemist	0
+Bernie Graham	Baseball player	7
+Dave Foutz	Alchemist	0
+Ben Conroy	Baseball player	7
+Minna Canth	Alchemist	0
+Duff Brumley	Baseball player	7
+Danny Copeland	Poet	0
+Andy Pafko	Baseball player	7
+Jason Salkey	Poet	0
+Denny Hocking	Baseball player	7
+Eric Rohmann	Poet	0
+Ben Petrick	Baseball player	7
+Luigi de Magistris (politician)	Poet	0
+Yank Robinson	Baseball player	7
+Michael Maybrick	Poet	0
+Dick LeMay	Baseball player	7
+Barbara Tausia	Poet	0
+Phil Gagliano	Baseball player	7
+Bruno Tesch	Poet	0
+Donnie Sadler	Baseball player	7
+Victor Sjöström	Poet	0
+Bill Lachemann	Baseball player	7
+Kader Amadou	Poet	0
+Kid Willson	Baseball player	7
+Stan Cohen (politician)	Poet	0
+Joe Lonnett	Baseball player	7
+Alexander Bogomazov	Soldier	0
+Manuel Cueto	Baseball player	7
+Sean Campion	Soldier	0
+Johnny Rucker	Baseball player	7
+Subhadra Kumari Chauhan	Soldier	0
+Takayuki Terauchi	Baseball player	7
+Alexander Plisetski	Soldier	0
+Dino Restelli	Baseball player	7
+Para Draine	Soldier	0
+Dwayne Murphy	Baseball player	7
+Dick Donato	Soldier	0
+Adrián Beltré	Baseball player	7
+Jacques Lebrun	Soldier	0
+Eric Ludwick	Baseball player	7
+Jim Donald (CEO)	Soldier	0
+Ed Biecher	Baseball player	7
+Carice van Houten	Soldier	0
+Orlando McFarlane	Baseball player	7
+Klaus Bednarz	Soldier	0
+Tito Francona	Baseball player	7
+Bill Priddle	Legislator	0
+Rick Cerone	Baseball player	7
+Aurela Gaçe	Legislator	0
+Jim Finigan	Baseball player	7
+Joseph Larocque (attorney)	Legislator	0
+Jim Keesey	Baseball player	7
+Markel Bergara	Legislator	0
+Walt Hriniak	Baseball player	7
+Claude Demetrius	Legislator	0
+Hosea Siner	Baseball player	7
+Torben Ulrich	Legislator	0
+Bill Friel	Baseball player	7
+Peter Dante	Legislator	0
+Raul Casanova	Baseball player	7
+Nasser al-Shaer	Legislator	0
+Everett Mills	Baseball player	7
+Ian Darling	Legislator	0
+Lenny Randle	Baseball player	7
+Paddi Edwards	Legislator	0
+Doc Kerr	Baseball player	7
+John L. Walters	Curator	0
+Harvey Blauvelt	Baseball player	7
+Aaron Gibson	Curator	0
+Arden Eddie	Baseball player	7
+George Wada	Curator	0
+Jeff Ransom	Baseball player	7
+Dan Keplinger	Curator	0
+Dutch Sterrett	Baseball player	7
+Ulrica Schenström	Curator	0
+Chet Boak	Baseball player	7
+Charlie Austin	Curator	0
+Ed Delahanty	Baseball player	7
+Ander Monson	Curator	0
+Mike Blowers	Baseball player	7
+James Chester	Curator	0
+Dottie Hunter	Baseball player	7
+Karim Hisami	Curator	0
+Myril Hoag	Baseball player	7
+Nicolas Kiefer	Curator	0
+Art Thomason	Baseball player	7
+Roelf Vos	Astronaut	0
+Bob Detherage	Baseball player	7
+Herb Washington	Astronaut	0
+Frankie Gustine	Baseball player	7
+Isobella Jade	Astronaut	0
+Butts Wagner	Baseball player	7
+George M. Cohan	Astronaut	0
+Dennis Littlejohn	Baseball player	7
+Louie Spence	Astronaut	0
+Mike Heath	Baseball player	7
+Marshall Brickman	Astronaut	0
+Fritz Peterson	Baseball player	7
+Javiera Muñoz	Astronaut	0
+Chan Perry	Baseball player	7
+Lady Luck (rapper)	Astronaut	0
+Izzy Alcántara	Baseball player	7
+Helen Schneider	Astronaut	0
+Rich McKinney	Baseball player	7
+Marco da Gagliano	Astronaut	0
+Homer Smoot	Baseball player	7
+Tamika Domrow	Media proprietor	0
+Sean DePaula	Baseball player	7
+Dan Donovan (keyboardist)	Media proprietor	0
+Tom Mastny	Baseball player	7
+Joan Slonczewski	Media proprietor	0
+Ernie McAnally	Baseball player	7
+Lorin Dreyfuss	Media proprietor	0
+Don Hoak	Baseball player	7
+Bryn Morris	Media proprietor	0
+Félix Heredia	Baseball player	7
+Steve Weeks	Media proprietor	0
+Dick Gernert	Baseball player	7
+John N. Dalton	Media proprietor	0
+Herb Washington	Baseball player	7
+Kiran Bedi	Media proprietor	0
+Jerry Zimmerman	Baseball player	7
+Horace Harrison	Media proprietor	0
+Frank Withrow	Baseball player	7
+Alfred Henningsen	Media proprietor	0
+Joe Lefebvre	Baseball player	7
+Yasir Nawaz	Rabbi	0
+Carl Pavano	Baseball player	7
+Lovisa Åhrberg	Rabbi	0
+Benito Santiago	Baseball player	7
+John M. Jackson	Rabbi	0
+Wid Conroy	Baseball player	7
+Georges Bizet	Rabbi	0
+Bill Cooney	Baseball player	7
+Joseph Weigl	Rabbi	0
+Jae Weong Seo	Baseball player	7
+Gary Brabham	Rabbi	0
+Harvey Russell	Baseball player	7
+Tsuyoshi Yamanaka	Rabbi	0
+Joe Medwick	Baseball player	7
+Ebenezer Bassett	Rabbi	0
+Paul Schaal	Baseball player	7
+Chuck Kress	Rabbi	0
+Tommy Sandt	Baseball player	7
+Hannah Pritchard	Rabbi	0
+Frank Leja	Baseball player	7
+Mel Tolkin	Baseball player	0
+Lastings Milledge	Baseball player	7
+Takeshi Aono	Baseball player	0
+Dave Elder (baseball)	Baseball player	7
+Sally Struthers	Baseball player	0
+Vern Handrahan	Baseball player	7
+Ruth Benedict	Baseball player	0
+Ray Rippelmeyer	Baseball player	7
+Steve Armstrong	Baseball player	0
+George Yankowski	Baseball player	7
+James W. Smith	Baseball player	0
+Vance Wilson	Baseball player	7
+Marion Dönhoff	Baseball player	0
+Red Bluhm	Baseball player	7
+John Karefa-Smart	Baseball player	0
+Jimmy Lavender	Baseball player	7
+Marie Killilea	Baseball player	0
+Harry Vahrenhorst	Baseball player	7
+Kurt Grelling	Baseball player	0
+Steve Bowling	Baseball player	7
+Sami Yli-Sirniö	Mathematician	0
+Freddie Toliver	Baseball player	7
+Andy McKee	Mathematician	0
+Cobe Jones	Baseball player	7
+Ram Charan (consultant)	Mathematician	0
+Harry Daubert	Baseball player	7
+Zaz (singer)	Mathematician	0
+Jerry Harrington	Baseball player	7
+Eric Norwood	Mathematician	0
+Russ Derry	Baseball player	7
+Natalie Achonwa	Mathematician	0
+Alfred Goldie	Mathematician	7
+Charles Clarke	Mathematician	0
+Peter Abrahams (American author)	Tutor	7
+William Hurwitz	Mathematician	0
+Danny Walton	Pilot	7
+Lewin Bentham Bowring	Mathematician	0
+Bill Edgerton	Pilot	7
+Kenneth Bainbridge	Mathematician	0
+Kiki Lesendrić	Pilot	7
+André Bertrand (alpine skier)	Multi-instrumentalist	0
+Kiran Maheshwari	Pilot	7
+Charles Z. Wick	Multi-instrumentalist	0
+Daniel Romer	Pilot	7
+William Maginn	Multi-instrumentalist	0
+Betty Gillies	Pilot	7
+Charles Ali	Multi-instrumentalist	0
+Gene Brabender	Pilot	7
+Yutaka Izubuchi	Multi-instrumentalist	0
+Joseph Henderson (pilot)	Pilot	7
+Samuel E. Pingree	Multi-instrumentalist	0
+Richard Ellis (biologist)	Explorer	7
+Cush Jumbo	Multi-instrumentalist	0
+Boyd Matson	Explorer	7
+Florence S. Jacobsen	Multi-instrumentalist	0
+Lolee Aries	Explorer	7
+Carlos Mendieta	Multi-instrumentalist	0
+Geoff Jenkins	Explorer	7
+Jonathan Gruber (economist)	Multi-instrumentalist	0
+Erin Ryder	Explorer	7
+Gareth Sciberras	Tutor	0
+Thomas Tryon (architect)	Architect	7
+Melbourne MacDowell	Tutor	0
+Georg Andreas Böckler	Architect	7
+Björn Svensson	Tutor	0
+John Semple (architect)	Architect	7
+Markus Paul	Tutor	0
+James Garrison	Architect	7
+José Lima	Tutor	0
+Emil Sodersten	Architect	7
+Desire Montgomery Butler	Tutor	0
+Keith Schengili-Roberts	Architect	7
+Dylan Fergus	Tutor	0
+Nikita Wu	Architect	7
+Ogata Kōan	Tutor	0
+Lee Je-hoon	Architect	7
+Kevin Burke (musician)	Tutor	0
+Tom Richmond (cinematographer)	Architect	7
+Bernard Berenson	Tutor	0
+Horia Creangă	Architect	7
+Jay Bulger	Pilot	0
+Peter Zumthor	Architect	7
+Jon Ola Norbom	Pilot	0
+Jan Gehl	Architect	7
+Ludwig Abeille	Pilot	0
+Beatriz Colomina	Architect	7
+John Veitch (footballer)	Pilot	0
+Reyner Banham	Architect	7
+Ed Young (pastor)	Pilot	0
+Rogelio Salmona	Architect	7
+Robert Wood Johnson I	Pilot	0
+Nonda Katsalidis	Architect	7
+Pilar Revuelta	Pilot	0
+Cornelia Oberlander	Architect	7
+Sumi Khadka	Pilot	0
+Mimar Kemaleddin Bey	Architect	7
+Ruth Abrams	Pilot	0
+David Coleman (architect)	Architect	7
+Aristocreon	Pilot	0
+Ian Athfield	Architect	7
+Brandon Chillar	Botanist	0
+Peter Kjær (architect)	Architect	7
+David Gulledge	Botanist	0
+Enamul Karim Nirjhar	Architect	7
+Reuben Brainin	Botanist	0
+Prasanna Pandian	Architect	7
+Heinrich Schroth	Botanist	0
+George Phillips Manners	Architect	7
+Seymour Peck	Botanist	0
+Thomas M. Price	Architect	7
+Moammar Rana	Botanist	0
+Alain Provost	Architect	7
+William Henry Gist	Botanist	0
+Bruce McCarty	Architect	7
+Lou Taylor Pucci	Botanist	0
+Alexander Pilis	Architect	7
+Matet de Leon	Botanist	0
+Ben Katchor	Photographer	7
+Ulla Akselson	Botanist	0
+Girish Mistry	Photographer	7
+Christine McIntyre	Choreography	0
+Ranjan Pramod	Photographer	7
+Jean-Jacques Perrey	Choreography	0
+George Claydon	Photographer	7
+Larry Bartels	Choreography	0
+William Klein (photographer)	Photographer	7
+Michelle Stafford	Choreography	0
+David Sanger (organist)	Organist	7
+Allan Lichtman	Choreography	0
+Seneca the Elder	Roman emperor	7
+Alejandro Faurlín	Choreography	0
+Galba	Roman emperor	7
+Dejan Zečević	Choreography	0
+Constans II (usurper)	Roman emperor	7
+Audrey Giacomini	Choreography	0
+Ammianus Marcellinus	Roman emperor	7
+Bernd Noack	Choreography	0
+Marty Roth	Racing driver	7
+Jack McConaghy	Choreography	0
+Michael Waltrip	Racing driver	7
+Dennis Moore (actor)	Financial adviser	0
+Billy Boat	Racing driver	7
+Terrell Ransom, Jr.	Financial adviser	0
+Graham Duxbury	Racing driver	7
+Michael Anhaeuser	Financial adviser	0
+Mark Gibson	Racing driver	7
+Baptiste Buntschu	Financial adviser	0
+Eddie Sachs	Racing driver	7
+Carrie Manolakos	Financial adviser	0
+Rick Ware	Racing driver	7
+Marc Hill	Financial adviser	0
+Jay Sauter	Racing driver	7
+Valerie Gogan	Financial adviser	0
+Scott Atchison (racing driver)	Racing driver	7
+Chloe Bennet	Financial adviser	0
+Matt Crafton	Racing driver	7
+Basil Glass	Financial adviser	0
+Clivio Piccione	Racing driver	7
+Paul Babiloni	Financial adviser	0
+Jean-Pierre Frey	Racing driver	7
+David Finck	Theatre Director	0
+Francis Curzon, 5th Earl Howe	Racing driver	7
+John Langenus	Theatre Director	0
+Lyn St. James	Racing driver	7
+Stephen Cook	Theatre Director	0
+Nicolas Prost	Racing driver	7
+Tarso Genro	Theatre Director	0
+Arnd Meier	Racing driver	7
+Punit Malhotra	Theatre Director	0
+Brian Vickers	Racing driver	7
+Vishvendra Singh	Theatre Director	0
+Stanton Barrett	Racing driver	7
+Zarqa Nawaz	Theatre Director	0
+Bertrand Baguette	Racing driver	7
+Henry Bell Gilkeson	Theatre Director	0
+Rick Treadway	Racing driver	7
+Richard DiMarchi	Theatre Director	0
+Scott Sharp	Racing driver	7
+Håkan Hardenberger	Theatre Director	0
+Mike Skinner (racing driver)	Racing driver	7
+Alphons Orie	Explorer	0
+Colin Turkington	Racing driver	7
+Mike Markuson	Explorer	0
+John Alcorn (racing driver)	Racing driver	7
+Dode Criss	Explorer	0
+Andrew Thompson (racing driver)	Racing driver	7
+Nicolas Lemery	Explorer	0
+Chad Villella	Radio producer	7
+Jerry Della Salla	Explorer	0
+Julie Crysler	Radio producer	7
+Christopher Miles	Explorer	0
+Laura Sayers	Radio producer	7
+Derek Laud	Explorer	0
+Michaeley O'Brien	Radio producer	7
+Larry Phillips (Texas politician)	Explorer	0
+Andy Dick	Radio producer	7
+McGeorge Bundy	Explorer	0
+Doireann Ní Bhriain	Radio producer	7
+Daniel Pemberton	Explorer	0
+Aarne Tarkas	Radio producer	7
+Kent Bazemore	Jazz Pianist	0
+Valerie Dore	Radio producer	7
+Harmon Jones	Jazz Pianist	0
+Simon Lessing	Coach	7
+Simon Inglis	Jazz Pianist	0
+Tom Quinn (actor)	Coach	7
+Yevgeni Nikolayevich Andreyev	Jazz Pianist	0
+Jeff Tedford	Coach	7
+Srinivas Reddy	Jazz Pianist	0
+Ray Reid	Coach	7
+Jennifer James	Jazz Pianist	0
+Johnny Taylor (basketball)	Coach	7
+Tehilla Blad	Jazz Pianist	0
+Gerald McRath	Coach	7
+James Robinson (writer)	Jazz Pianist	0
+Dalilah Sappenfield	Coach	7
+Mike Baraza	Jazz Pianist	0
+Jodi Kest	Coach	7
+Michelle Yeoh	Jazz Pianist	0
+Damon Wayans, Jr.	Coach	7
+Ciril Zlobec	Architect	0
+Charlie Montoyo	Coach	7
+Efraim Sevela	Architect	0
+Mohammed Riaz	Coach	7
+Francis C. Barlow	Architect	0
+Jerome Souers	Coach	7
+Tim McDonald	Architect	0
+Barry Gorman	Coach	7
+Jacintha Abisheganaden	Architect	0
+Eric Snow	Coach	7
+Kieran Lee	Architect	0
+Jack Siedlecki	Coach	7
+Lisa Grunwald	Architect	0
+Danton Cole	Coach	7
+Thomson J. Skinner	Architect	0
+Bubba Diggs	Coach	7
+William F. Vallicella	Architect	0
+Connie Yori	Coach	7
+Neil Ieremia	Architect	0
+Barry Rohrssen	Coach	7
+Jim Harlan	Audio Engineer	0
+Edward Moylan	Coach	7
+John Montgomery Ward	Audio Engineer	0
+Steve Schrenk	Coach	7
+Toni Kolehmainen	Audio Engineer	0
+Geno Auriemma	Coach	7
+Itsuo Tsuda	Audio Engineer	0
+La Coacha	Coach	7
+Li Tong (athlete)	Audio Engineer	0
+Lewis Frankfort	Coach	7
+Jirō Shiizaki	Audio Engineer	0
+Vince Dooley	Coach	7
+Julia Dujmovits	Audio Engineer	0
+Lisa Stockton	Coach	7
+Simon Daniel	Audio Engineer	0
+Billy Montgomery	Coach	7
+Radhu Karmakar	Audio Engineer	0
+Bart Johnson	Coach	7
+Nureddin Pasha	Audio Engineer	0
+Don Friday	Coach	7
+Salluste Duval	Astrologer	0
+E. Stewart Williams	Coach	7
+Larry McKeon	Astrologer	0
+Titu Andreescu	Coach	7
+Rhema McKnight	Astrologer	0
+Gene Mayfield	Coach	7
+Alison Turriff	Astrologer	0
+Bret Campbell	Coach	7
+Richard Stanford (rugby union)	Astrologer	0
+Clayton Fredericks	Coach	7
+Cyril Lloyd Francis	Astrologer	0
+Tom Watt	Coach	7
+Bill Bolender	Astrologer	0
+Tajči	Coach	7
+Ted Irvine	Astrologer	0
+Wendy Larry	Coach	7
+Naja Marie Aidt	Astrologer	0
+Simon Amor	Coach	7
+Lucie Talmanová	Astrologer	0
+Kirk Speraw	Coach	7
+Andy Warren (British musician)	Photographer	0
+Scott Marr	Coach	7
+David McNarry	Photographer	0
+Tony Rossi (baseball)	Coach	7
+Jody Williams (blues musician)	Photographer	0
+Ken Miller (gridiron football)	Coach	7
+Rui Pedro Silva	Photographer	0
+Al Ogletree	Coach	7
+Danilo Medina	Photographer	0
+André-Line Beauparlant	Production designer	7
+Stephen Dau	Photographer	0
+Steve Purcell	Production designer	7
+Adolf Heyduk	Photographer	0
+Joseph del Pesco	Art Director	7
+Haris Zambarloukos	Photographer	0
+Chris Richmond	Art Director	7
+Al Hrabosky	Photographer	0
+Shareif Ziyadat	Art Director	7
+Chiang Yee	Photographer	0
+Isaac Wardell	Art Director	7
+Zhou Dongyu	Organist	0
+Peter Jansen	Art Director	7
+Gerri Willis	Organist	0
+Arturo Elías Ayub	Art Director	7
+Jack Eckerd	Organist	0
+Susan Hutchison	Art Director	7
+Tony Dovolani	Organist	0
+Ed Murawinski	Cartoonist	7
+Pierre-Emmanuel Dalcin	Organist	0
+T. Lewis	Cartoonist	7
+Don Floyd	Organist	0
+Pat Byrnes	Cartoonist	7
+Jack Crawford (tennis)	Organist	0
+Jerry King	Cartoonist	7
+Jorge Valencia	Organist	0
+Jonathan Rosenberg (artist)	Cartoonist	7
+Yūki Masuda	Organist	0
+Al Capp	Cartoonist	7
+Louise Spellerberg	Organist	0
+Ciccio Busacca	Playwright	7
+Elias M. Stein	Television Show Host	0
+Sekhar Das	Playwright	7
+Marcus Coleman	Television Show Host	0
+Dena Atlantic	Playwright	7
+Sofia El Marikh	Television Show Host	0
+Simon Mendes da Costa	Playwright	7
+Emilia Lanier	Television Show Host	0
+Momoko Shibuya	Sailor	7
+Gerald Abrahams	Television Show Host	0
+Ron Rubin (voice actor)	Sailor	7
+Gervasio Antonio de Posadas	Television Show Host	0
+Marina Kuroki	Sailor	7
+Jubril Aminu	Television Show Host	0
+Arvid Noe	Sailor	7
+Elliot Scott	Television Show Host	0
+Gary Lucchesi	Film Producer	7
+Gerald Henderson, Jr.	Television Show Host	0
+G.K.M. Tamil Kumaran	Film Producer	7
+Abelardo Castillo	Television Show Host	0
+Noel Maxam	Film Producer	7
+Julian Barratt	Voice Actor	0
+Lanette Phillips	Film Producer	7
+Moses Chavula	Voice Actor	0
+Tucker Tooley	Film Producer	7
+Danny Felice	Voice Actor	0
+Walpola Rahula	Professor	7
+John Converse	Voice Actor	0
+Frank Newhook	Professor	7
+Pingali Lakshmikantam	Voice Actor	0
+Vamsi Mootha	Professor	7
+Bilge Ebiri	Voice Actor	0
+Woo Chia-wei	Professor	7
+Adam Rome	Voice Actor	0
+Robert Kegan	Professor	7
+Randy Cassingham	Voice Actor	0
+Jeffrey A. Harvey	Professor	7
+Edward Bunker	Voice Actor	0
+William S. McFeely	Professor	7
+Charles Waldstein	Voice Actor	0
+Peter Selgin	Professor	7
+Yxta Maya Murray	Roman emperor	0
+Henry Abraham	Professor	7
+Harold Marcuse	Roman emperor	0
+Alan Fairlamb	Professor	7
+Giordano Vitale	Roman emperor	0
+Frithjof Bergmann	Professor	7
+Mika'ela Fisher	Roman emperor	0
+Maria Gaetana Agnesi	Professor	7
+Giriraja Kavi	Roman emperor	0
+Leonidas Resvanis	Professor	7
+Kadeem Atkins	Roman emperor	0
+Donald Geman	Professor	7
+Francis Bay	Roman emperor	0
+Gordon S. Wood	Professor	7
+Stanislas (singer)	Roman emperor	0
+John Kay (economist)	Professor	7
+Cándido Antomattei	Roman emperor	0
+Mario Hamuy	Professor	7
+Rafael de Floranes	Roman emperor	0
+Victoria Curzon-Price	Professor	7
+Andrew Cowan (writer)	Keyboard player	0
+Anand Menon	Professor	7
+Ben Buckley	Keyboard player	0
+Chris Lintott	Professor	7
+Alan R. Katritzky	Keyboard player	0
+Fiona Stanley	Professor	7
+Otto Eppers	Keyboard player	0
+Doug McAdam	Professor	7
+Lionel Jeffries	Keyboard player	0
+Chuck Rosenthal (author)	Professor	7
+Bernard Fresson	Keyboard player	0
+Sydney Shoemaker	Professor	7
+Jefferson Moore	Keyboard player	0
+Robin Murray	Professor	7
+Augustus Akinloye	Keyboard player	0
+George Hampel (attorney)	Professor	7
+Yoshikazu Suo	Keyboard player	0
+Jon Stratton	Professor	7
+Cyd Gray	Keyboard player	0
+Marcia J. Bates	Professor	7
+Sue Prestedge	Singer-songwriter	0
+Graeme Catto	Professor	7
+Roberto Nanni	Singer-songwriter	0
+Renee Hobbs	Professor	7
+Magne Thomassen	Singer-songwriter	0
+James D. Morrow	Professor	7
+Walter Hallstein	Singer-songwriter	0
+Jaroslav Vanek	Professor	7
+Eugene Mullin	Singer-songwriter	0
+Henri Kuprashvili	Professor	7
+Thomas Coram	Singer-songwriter	0
+Herbert Blau	Professor	7
+Marina Tsvetaeva	Singer-songwriter	0
+Iris Marion Young	Professor	7
+Marta (footballer)	Singer-songwriter	0
+Armida Alisjahbana	Professor	7
+Mirtha Legrand	Singer-songwriter	0
+Kevin Vanhoozer	Professor	7
+José Luis Dalmau	Singer-songwriter	0
+Forrest Hylton	Professor	7
+Fred Evans (comedian)	Philanthropist	0
+Paul Frampton	Professor	7
+Ipe Ivandić	Philanthropist	0
+Nevin S. Scrimshaw	Professor	7
+Mark Cousins (film critic)	Philanthropist	0
+Michael Hochberg	Professor	7
+Alan B. Gold	Philanthropist	0
+Brian Henderson-Sellers	Professor	7
+Andrew Dobson	Philanthropist	0
+Warren Johnson	Professor	7
+Kirk Ugle	Philanthropist	0
+Stewart D. Friedman	Professor	7
+Richard Clitherow (bishop)	Philanthropist	0
+Francesco Giavazzi	Professor	7
+Chuo Rung-tai	Philanthropist	0
+Sir George Stokes, 1st Baronet	Professor	7
+Leon Root	Philanthropist	0
+Paul Glendinning	Professor	7
+Michael Aheam	Philanthropist	0
+Shlomo Sand	Professor	7
+Abdoh Otaif	Civil servant	0
+Brian Skyrms	Professor	7
+Bill Evans (politician)	Civil servant	0
+William P. Alford	Professor	7
+Linda Brava	Civil servant	0
+Anne Coughlin	Professor	7
+John D. MacArthur	Civil servant	0
+David Donoho	Professor	7
+Pál Ilku	Civil servant	0
+William L. Jungers	Professor	7
+Ezgi Asaroğlu	Civil servant	0
+Eric Alterman	Professor	7
+Salleh Said Keruak	Civil servant	0
+Ivan Matveyevich Vinogradov	Professor	7
+Nicolai Seebach	Civil servant	0
+Alexander Volberg	Professor	7
+Carlos C. Ogden	Civil servant	0
+Paul Schmitthenner	Professor	7
+Gilbert Warrenton	Civil servant	0
+Howard Lasnik	Professor	7
+Michael Moriarty	Tentmaker	0
+Kristin Mayes	Professor	7
+Bahram Akasheh	Tentmaker	0
+J. Baird Callicott	Professor	7
+Louis A. Kaiser	Tentmaker	0
+Jiyuan Yu	Professor	7
+Vakill	Tentmaker	0
+Thomas V. Morris	Professor	7
+Max Barrett	Tentmaker	0
+Werner Villinger	Professor	7
+George Dance the Elder	Tentmaker	0
+Jane Gallop	Professor	7
+Vahan Totovents	Tentmaker	0
+Michel Aglietta	Professor	7
+Enrique Dawi	Tentmaker	0
+David Leslie Linton	Professor	7
+Kathryn Finney	Tentmaker	0
+John Harnad	Professor	7
+Arthur Hailey	Tentmaker	0
+Bert Sakmann	Professor	7
+Tomoko Tabata	Racing driver	0
+Fritz Stern	Professor	7
+Ellen Johnson	Racing driver	0
+Victor Velculescu	Professor	7
+Marios Athanasiadis	Racing driver	0
+Alan Sked	Professor	7
+Miguel Cané	Racing driver	0
+Alan Kendall Duncan	Professor	7
+Uwe Boll	Racing driver	0
+Carmen Reinhart	Professor	7
+Edward Brongersma	Racing driver	0
+Doron Nof	Professor	7
+Custódio Castro	Racing driver	0
+Ross Garnaut	Professor	7
+Sammy Petrillo	Racing driver	0
+Duncan Kennedy (legal philosopher)	Professor	7
+Samuel Philip Sadtler	Racing driver	0
+James Merrell	Professor	7
+Matt Welsh	Racing driver	0
+Alexandru Zub	Professor	7
+Rich Cronin	Film Score Composer	0
+Irving Weissman	Professor	7
+Anett Mészáros	Film Score Composer	0
+Douglas Laycock	Professor	7
+Anders G. Högmark	Film Score Composer	0
+Khalil Rashow	Professor	7
+Al Gallagher	Film Score Composer	0
+Robert Seibert	Professor	7
+Gerald Heard	Film Score Composer	0
+Bob Altemeyer	Professor	7
+Ben Smith (footballer, born 1986)	Film Score Composer	0
+Donald John Roberts	Professor	7
+Nick Ut	Film Score Composer	0
+Ron Rash	Professor	7
+Yang Cho-cheng	Film Score Composer	0
+Nora C. Quebral	Professor	7
+Mark Fotheringham (Scottish footballer)	Film Score Composer	0
+Mary Fulbrook	Professor	7
+Terri Blackstock	Film Score Composer	0
+John L. Holland	Professor	7
+Pietro Aretino	Guitarist	0
+Mary Shaw (computer scientist)	Professor	7
+Idris Phillips	Guitarist	0
+George Lipsitz	Professor	7
+Fatima Robinson	Guitarist	0
+Laurence Hurst	Professor	7
+Emiliano Té	Guitarist	0
+Roger Field (New Zealand)	Professor	7
+Terry Martin (politician)	Guitarist	0
+Selman Akbulut	Professor	7
+Norman Mitchell	Guitarist	0
+Martine Piccart	Professor	7
+Larry Beightol	Guitarist	0
+Allan Nadler	Professor	7
+Steve Sweeney	Guitarist	0
+Ernst-Wolfgang Böckenförde	Professor	7
+Terry Gordy	Guitarist	0
+Richard Oram	Professor	7
+Vasily Lazarev	Guitarist	0
+Daniel Hobbins	Professor	7
+Isaias W. Hellman	Scenic Designer	0
+John Hoberman	Professor	7
+Dick Shrider	Scenic Designer	0
+James Tully (philosopher)	Professor	7
+Bernardo Sainz	Scenic Designer	0
+James Sterling Young	Professor	7
+Reginald Purdell	Scenic Designer	0
+Beth A. Simmons	Professor	7
+Josué Ayala	Scenic Designer	0
+Mark G. Thomas	Professor	7
+Mack Lee Hill	Scenic Designer	0
+William Stokes (physician)	Professor	7
+Tracy Nicole Chapman	Scenic Designer	0
+Amit Chaudhuri	Professor	7
+Roel Kuiper	Scenic Designer	0
+Robert Rosenthal (psychologist)	Professor	7
+Chihiro Otsuka	Scenic Designer	0
+T. J. Pempel	Professor	7
+Eleanor Scott	Scenic Designer	0
+Darrell Duffie	Professor	7
+Niara Sudarkasa	Radio producer	0
+Neal Peres Da Costa	Professor	7
+Don Morrow	Radio producer	0
+David Orme Masson	Professor	7
+Richard Campbell (musician)	Radio producer	0
+Dmitri Bondarenko	Professor	7
+Margarita Levieva	Radio producer	0
+Kingsley Charles Dunham	Professor	7
+Gerard Murphy (Irish politician)	Radio producer	0
+Mitchell Miller	Professor	7
+John N. Irwin, II	Radio producer	0
+Professor Lyrical (rapper)	Professor	7
+Matt Clarke (footballer, born 1973)	Radio producer	0
+Mariano-Florentino Cuéllar	Professor	7
+Bob Baker (scriptwriter)	Radio producer	0
+Peter McCullagh	Professor	7
+Rolen Paulino	Radio producer	0
+Adrian Raftery	Professor	7
+Frank Kameny	Radio producer	0
+Chaya Czernowin	Professor	7
+Tong Cheong	Essayist	0
+Murdoch Cameron	Professor	7
+Michio Kurihara	Essayist	0
+Goodwin Liu	Professor	7
+Bryan Hughes	Essayist	0
+Robert Stalnaker	Professor	7
+Gene Hoglan	Essayist	0
+Steven Shapin	Professor	7
+Anna Saraeva	Essayist	0
+Jean Decety	Professor	7
+Tony Palladino	Essayist	0
+William G. Boykin	Professor	7
+Joel Hyatt	Essayist	0
+Joseph Malovany	Professor	7
+José Calvo	Essayist	0
+David E. Bloom	Professor	7
+Jeff Frazee	Essayist	0
+Michael Barr (mathematician)	Professor	7
+Michael D. Smith (computer scientist)	Essayist	0
+Dorothy E. Denning	Professor	7
+Pascal Edmond	Coach	0
+Annette Dobson	Professor	7
+Eduard Kukan	Coach	0
+Harold W. Kuhn	Professor	7
+Emma Holly	Coach	0
+Walter Mischel	Professor	7
+Lindsay Felton	Coach	0
+Peter Littlewood	Professor	7
+Avtandil Makharadze	Coach	0
+Geoffrey K. Pullum	Professor	7
+Rob Finlayson	Coach	0
+Gunapala Piyasena Malalasekera	Professor	7
+Mary Ann Esposito	Coach	0
+Alister McGrath	Professor	7
+Auguste de Montferrand	Coach	0
+Henning Rübsam	Professor	7
+Rajendra Kumar Badi	Coach	0
+Tina Beattie	Professor	7
+Robert von Dassanowsky	Coach	0
+Joseph Monninger	Professor	7
+Kaye Abad	Soccer Player	0
+Keith Moffatt	Professor	7
+Tony Reali	Soccer Player	0
+Orrin Devinsky	Professor	7
+Kyoko Hinami	Soccer Player	0
+Richard Lipsey	Professor	7
+Joey Pang	Soccer Player	0
+Eric Schechter	Professor	7
+Masahiko Nagasawa	Soccer Player	0
+Edward L. Deci	Professor	7
+Shadi Sadr	Soccer Player	0
+Alain Enthoven	Professor	7
+William Q. Dallmeyer	Soccer Player	0
+Douglas Davies	Professor	7
+Abdul Hameed (writer)	Soccer Player	0
+Wilhelm Röpke	Professor	7
+Paul Vermeersch	Soccer Player	0
+David Peleg (computer scientist)	Professor	7
+Nicolai Dunger	Soccer Player	0
+Walter Taylor (mathematician)	Professor	7
+Terry Le Sueur	Baseball Manager	0
+Robert J. Gordon	Professor	7
+Dean Edwards	Baseball Manager	0
+Saul V. Levine	Professor	7
+Alexander Shields	Baseball Manager	0
+Bjarni Jónsson	Professor	7
+Lobsang Wangyal	Baseball Manager	0
+Dai Jinhua	Professor	7
+Moses Sheppard	Baseball Manager	0
+Benjamin A. Elman	Professor	7
+Eugène Godfried	Baseball Manager	0
+J. David Velleman	Professor	7
+Ahmad Salim	Baseball Manager	0
+Philip J. Cook	Professor	7
+U;Nee	Baseball Manager	0
+Geoffrey Elton	Professor	7
+Hermann Friedberg	Baseball Manager	0
+Paul R. Ehrlich	Professor	7
+Beatrice Pons	Baseball Manager	0
+Alexei Filippenko	Professor	7
+Eyal Ran	Production designer	0
+David Sosa	Professor	7
+Bodil Jørgensen	Production designer	0
+Marybeth Gasman	Professor	7
+Sajid Ghafoor	Production designer	0
+T. Gwynn Jones	Professor	7
+Marshall Goldsmith	Production designer	0
+Humphrey Nwosu	Professor	7
+Juan Cole	Production designer	0
+Anita Desai	Professor	7
+Alice Ricciardi-von Platen	Production designer	0
+Blanche Wiesen Cook	Professor	7
+Georgi Iliev	Production designer	0
+Nassif Ghoussoub	Professor	7
+Joe Brolly	Production designer	0
+Leonard Plukenet	Professor	7
+Christine Westermann	Production designer	0
+Stuart A. Aaronson	Professor	7
+John Pickard (British actor)	Production designer	0
+Andrew Kakabadse	Professor	7
+Roberto Freire (psychiatrist)	Art Director	0
+John Colson	Professor	7
+George Kahler	Art Director	0
+William H. Dutton	Professor	7
+James Holshouser	Art Director	0
+André Brink	Professor	7
+Anton Piëch	Art Director	0
+Sid Watkins	Professor	7
+Charlie Bartson	Art Director	0
+Nikolay Nenovsky	Professor	7
+Erwin Chemerinsky	Art Director	0
+Peter Cresswell	Professor	7
+Francis Browning	Art Director	0
+Kerby A. Miller	Professor	7
+Kendrick Adams	Art Director	0
+Maggie Gee (novelist)	Professor	7
+Louise Delamere	Art Director	0
+Boáz Klartag	Professor	7
+Bobby-Sanjay	Art Director	0
+Robert R. Sokal	Professor	7
+Zhang Chenglong	Cartoonist	0
+James H. Fowler	Professor	7
+Andrea Koppel	Cartoonist	0
+Frank N. von Hippel	Professor	7
+Adam Stern	Cartoonist	0
+Carol Fowler	Professor	7
+Abdul Rashid Khan	Cartoonist	0
+Fiorella Kostoris	Professor	7
+Luigi Petrucci	Cartoonist	0
+Maneesh Agrawala	Professor	7
+George A. Frederick	Cartoonist	0
+Farish A. Noor	Professor	7
+DJ Encore	Cartoonist	0
+Pran Nath	Professor	7
+Chiang Fang-liang	Cartoonist	0
+Nicholas Shackleton	Professor	7
+Sarai (rapper)	Cartoonist	0
+Michael Sinelnikoff	Professor	7
+Nick Beverley	Cartoonist	0
+Ghauth Jasmon	Professor	7
+Roberto Linares	Playwright	0
+Allan Wilson	Professor	7
+Morris Jastrow, Jr.	Playwright	0
+Abigail Bakan	Professor	7
+Raimundo Teixeira Mendes	Playwright	0
+Jerry F. Hough	Professor	7
+Wes Durston	Playwright	0
+Lloyd Owen	Professor	7
+Gary Nairn	Playwright	0
+Melvin Dixon	Professor	7
+Mariko Yamada	Playwright	0
+William G. Dever	Professor	7
+Sir Thomas Nussey, 1st Baronet	Playwright	0
+Paul L. Maier	Professor	7
+Anthonij Guépin	Playwright	0
+Miguel Sánchez	Professor	7
+Denis Shvidki	Playwright	0
+Frances Kirwan	Professor	7
+Terence McKenna (film producer)	Playwright	0
+John J. Donovan	Professor	7
+Dinko Zlatarić	Animator	0
+Christopher Bassford	Professor	7
+Thomas McGlashan	Animator	0
+Janaka de Silva	Professor	7
+Bardaisan	Animator	0
+James T. Kloppenberg	Professor	7
+Howard Brown (Halifax Bank)	Animator	0
+James Anaya	Professor	7
+Richie Ramsay	Animator	0
+Luciano Canfora	Professor	7
+Gerald Kersh	Animator	0
+Peter Newman (environmental scientist)	Professor	7
+Jürgen von der Lippe	Animator	0
+Roy Higgins	Professor	7
+Corita Kent	Animator	0
+Jonathan Haidt	Professor	7
+Holger Geschwindner	Animator	0
+Ernie Tuck	Professor	7
+Frankie J. Holden	Animator	0
+Christopher Parkening	Professor	7
+Flora Le Breton	Screenwriter	0
+João Mário Grilo	Professor	7
+Justin Beriault	Screenwriter	0
+Benjamin Cohen (political economist)	Professor	7
+John X. Merriman	Screenwriter	0
+Michael Angold	Professor	7
+Quentin Wilson	Screenwriter	0
+Paul Benacerraf	Professor	7
+Gwen Moore	Screenwriter	0
+John Moffat (physicist)	Professor	7
+Raheem Orr	Screenwriter	0
+Chuan-Chih Hsiung	Professor	7
+Philip Rush	Screenwriter	0
+Stuart Zagnit	Professor	7
+Maria Efrosinina	Screenwriter	0
+Geoffrey Bennington	Professor	7
+Chantelle Paige	Screenwriter	0
+Roger Rosenblatt	Professor	7
+Géla Babluani	Screenwriter	0
+Paul Callaghan	Professor	7
+Daniel McCutchen	Bandleader	0
+Ram Kishan	Professor	7
+Alasdair Gray	Bandleader	0
+Robert A. Brightman	Professor	7
+Thomas B. Russell	Bandleader	0
+Patrick Chovanec	Professor	7
+Adrian Bevington	Bandleader	0
+Robert Kyr	Professor	7
+Frits Goedgedrag	Bandleader	0
+Mary McHenry	Professor	7
+Russya	Bandleader	0
+Robert Black (lawyer)	Professor	7
+Brian Darling	Bandleader	0
+Lionel Tiger	Professor	7
+Edgar Ende	Bandleader	0
+Saul Kassin	Professor	7
+Albert Schatz (scientist)	Bandleader	0
+Hisham Bizri	Professor	7
+Brent Billingsley	Bandleader	0
+Garel Rhys	Professor	7
+Robert J. LeRoy	Pornographic actor	0
+Norman Gowar	Professor	7
+Kwasi Wiredu	Pornographic actor	0
+Henry Lipson	Professor	7
+Radosław Murawski	Pornographic actor	0
+Drew Endy	Professor	7
+Chang Chi-yun	Pornographic actor	0
+Richard S. Tedlow	Professor	7
+Fidencio Oviedo	Pornographic actor	0
+Alan D'Andrea	Professor	7
+Jules Levey	Pornographic actor	0
+Michael Bond (physician)	Professor	7
+Mislav Karoglan	Pornographic actor	0
+Barry Simon	Professor	7
+Chip Dunham	Pornographic actor	0
+Carl Wunsch	Professor	7
+Eric Teichman	Pornographic actor	0
+Shoshana Felman	Professor	7
+Trey Hodges	Pornographic actor	0
+Ruth Arnon	Professor	7
+Jamie Campbell Bower	Sailor	0
+Lala Shevket	Professor	7
+Imogen Cairns	Sailor	0
+Jonathan Lear	Professor	7
+Simon Britton	Sailor	0
+Thomas Diflo	Professor	7
+Tom Herrion	Sailor	0
+Timothy Sprigge	Professor	7
+Seiji Maehara	Sailor	0
+Katherine Freese	Professor	7
+Chandrashekhara Kambara	Sailor	0
+Nicola Roxon	Professor	7
+Bruno Munari	Sailor	0
+Gina Kim	Professor	7
+Cheri DiNovo	Sailor	0
+Boris Worm	Professor	7
+John W. Metzger	Sailor	0
+Renato Poggioli	Professor	7
+Stuart J. Byrne	Sailor	0
+Herbert Wilf	Professor	7
+Khalid Eisa	Polymath	0
+Gordon H. Bower	Professor	7
+Pete Cunningham (kickboxer)	Polymath	0
+David B. Wilkins	Professor	7
+Ari Ahonen	Polymath	0
+David W. Orr	Professor	7
+Fritz Gäbler	Polymath	0
+Loren H. Rieseberg	Professor	7
+Nia Sharma	Polymath	0
+Carl Alfred Meier	Professor	7
+Arturo Frondizi	Polymath	0
+Patricia Casey	Professor	7
+Rizia Rahman	Polymath	0
+Graham Hough	Professor	7
+Laurence Canter and Martha Siegel	Polymath	0
+Veronica Strong-Boag	Professor	7
+Bruno Putzulu	Polymath	0
+Edward Orton, Jr.	Professor	7
+Jason Vale	Polymath	0
+Sheena Iyengar	Professor	7
+Elsa Martinelli	Television presenter	0
+Anthony Venables	Professor	7
+John Williams (rugby league)	Television presenter	0
+Michael T. Goodrich	Professor	7
+Shawn Johnson	Television presenter	0
+Jan Kmenta	Professor	7
+Klaas Dijkhoff	Television presenter	0
+Nathan Stoltzfus	Professor	7
+Chris Withrow	Television presenter	0
+Patricia K. Kuhl	Professor	7
+Shammu	Television presenter	0
+Giovanni Battista Morgagni	Professor	7
+Jeff Dedmon	Television presenter	0
+Richard J. Evans	Professor	7
+Enrico De Angelis	Television presenter	0
+William H. Quillian	Professor	7
+Marcel Risse	Television presenter	0
+Mary S. Morgan	Professor	7
+Erik Brofoss	Television presenter	0
+Bassam Tibi	Professor	7
+Jacqueline Joubert	Film Producer	0
+Joseph Heller (zoologist)	Professor	7
+Howard C. Nielson	Film Producer	0
+Estia J. Eichten	Professor	7
+Erik Tryggelin	Film Producer	0
+Donald Rubin	Professor	7
+Kenny Egan	Film Producer	0
+Rafael Cox Alomar	Professor	7
+Alfred Walton	Film Producer	0
+Michael E. Smith	Professor	7
+Katsuei Hirasawa	Film Producer	0
+Milorad Bojic	Professor	7
+Zlata Bartl	Film Producer	0
+Robert West (chemist)	Professor	7
+Chris Schultz	Film Producer	0
+Françoise Meltzer	Professor	7
+Bill Karins	Film Producer	0
+Margaretta M. Lovell	Professor	7
+Joseph Addison	Film Producer	0
+Takeo Kanade	Professor	7
+Milt Okun	Professor	0
+Vernon W. Hughes	Professor	7
+Zakk Wylde	Professor	0
+Jill Macleod Clark	Professor	7
+Jamy Franco	Professor	0
+Horng-Tzer Yau	Professor	7
+Ole Brask	Professor	0
+Richard Peto	Professor	7
+Selina Griffiths	Professor	0
+Nathan Oliveira	Professor	7
+Fabrice Abriel	Professor	0
+Henry Frendo	Professor	7
+Alex Buzbee	Professor	0
+Peter B. Armentrout	Professor	7
+J. Rosamond Johnson	Professor	0
+Stanley Watson	Professor	7
+Jim McMahon	Professor	0
+Stephan Braunfels	Professor	7
+Marshay Green	Professor	0
+Miguel de Portilla y Esquivel	Professor	7
+Isaak Dunayevsky	Carpenter	0
+Peter B. Kronheimer	Professor	7
+Benay Venuta	Carpenter	0
+Adam Tomkins	Professor	7
+Jacques Klein	Carpenter	0
+Alasdair Urquhart	Professor	7
+Benjamin Morgan Harrod	Carpenter	0
+Alan Deardorff	Professor	7
+Bruce Fields	Carpenter	0
+John Sallis	Professor	7
+Hugh Wilson (RAF officer)	Carpenter	0
+Peter J. Bickel	Professor	7
+Arturo Dominici	Carpenter	0
+Robert Crawford (Scottish poet)	Professor	7
+Jimmie Keeling	Carpenter	0
+Martin Amis	Professor	7
+Terry Silverlight	Carpenter	0
+David Romer	Professor	7
+Dwight Loomis	Carpenter	0
+Michael Reiss	Professor	7
+John McDonell (Le Prêtre)	Businessperson	0
+Dwijendra Narayan Jha	Professor	7
+José Malavé	Businessperson	0
+Homi K. Bhabha	Professor	7
+Hannah Green	Businessperson	0
+Mad Professor	Professor	7
+Nathan Cox	Businessperson	0
+Paul F. Hoffman	Professor	7
+Michael Fleischhacker	Businessperson	0
+Paul Jankowski	Professor	7
+George Barna	Businessperson	0
+Kevin M. Murphy	Professor	7
+Marv Felderman	Businessperson	0
+David Rudolf	Professor	7
+Brett Laxton	Businessperson	0
+Peter J. N. Sinclair	Professor	7
+Cadambathur Tiruvenkatacharlu Rajagopal	Businessperson	0
+Ivan Png	Professor	7
+Herman Daly	Businessperson	0
+Rudolf Hoernes	Professor	7
+Marc Draisen	Bodybuilder	0
+Sanja Stijačić	Professor	7
+Jerrod Riggan	Bodybuilder	0
+Lew Hunter	Professor	7
+Marc Minguell	Bodybuilder	0
+Victor Horsley	Professor	7
+Craig Stott	Bodybuilder	0
+Patrick D. Miller	Professor	7
+Gajaman Nona	Bodybuilder	0
+Peter Rutkoff	Professor	7
+Cameron Kerry	Bodybuilder	0
+Divakar Sharma	Professor	7
+Lynne M. Thomas	Bodybuilder	0
+Sheldon Bach	Professor	7
+Mark French (ice hockey)	Bodybuilder	0
+Steven V. Ley	Professor	7
+Kathrin Zettel	Bodybuilder	0
+Michael H. Jameson	Professor	7
+Clive Arrowsmith	Bodybuilder	0
+Michael Heath (computer scientist)	Professor	7
+George Benson (saxophonist)	Ice hockey player	0
+Bonamy Dobrée	Professor	7
+George F. O'Shaunessy	Ice hockey player	0
+Gordon McVie	Professor	7
+Chris Columbus (filmmaker)	Ice hockey player	0
+Moshe Milevsky	Professor	7
+Oleksandr Isakov	Ice hockey player	0
+Katrina Brown	Professor	7
+William Edward David Allen	Ice hockey player	0
+Nancy Baym	Professor	7
+Noble Threewitt	Ice hockey player	0
+Pratap Bhanu Mehta	Professor	7
+Andre Fletcher	Ice hockey player	0
+Terry Carpenter	Carpenter	7
+Jacques d'Adelswärd-Fersen	Ice hockey player	0
+Nicholas Carpenter	Carpenter	7
+George Bates Nichols Tower	Ice hockey player	0
+Keion Carpenter	Carpenter	7
+Mikhail Gluzsky	Ice hockey player	0
+Elizabeth Carpenter	Carpenter	7
+Pauline Fisk	Philosopher	0
+Ken Carpenter (announcer)	Carpenter	7
+Jeff Kealty	Philosopher	0
+Peter J. McGuire	Carpenter	7
+Gourgen Yanikian	Philosopher	0
+Brian Andrews (actor)	Carpenter	7
+Carolyn Suzanne Sapp	Philosopher	0
+Hick Carpenter	Carpenter	7
+Eddie Lang	Philosopher	0
+Karen McConnaughay	Carpenter	7
+Togo Murano	Philosopher	0
+Paul J. Medford	Carpenter	7
+Nigel Wingrove	Philosopher	0
+Stephen Carpenter (writer)	Carpenter	7
+Ángel Pulgar	Philosopher	0
+Chris Schroder	Carpenter	7
+Christopher Kasparek	Philosopher	0
+Jim McCrary	Carpenter	7
+V. Viswanatha Menon	Philosopher	0
+Matt Carpenter (baseball)	Carpenter	7
+Jeff Bergman	Neurologist	0
+R. R. M. Carpenter	Carpenter	7
+Wayne Burnett	Neurologist	0
+Lorraine McNamara	Carpenter	7
+Alain Tanner	Neurologist	0
+Matthew Tishler	Carpenter	7
+Marv Felderman	Neurologist	0
+Thomas M. King	Philosopher	7
+Arthur Ahnger	Neurologist	0
+David Brett	Philosopher	7
+Domenic Priore	Neurologist	0
+Julian Baggini	Philosopher	7
+Steven R. Nagel	Neurologist	0
+Iman al-Asadi	Politician	7
+Joe Sullivan	Neurologist	0
+Ayten Amin	Politician	7
+John Monahan	Neurologist	0
+Friedrich Gustav Carl Ulrich Franz von Schnehen	Politician	7
+Dorris Bowdon	Neurologist	0
+Fania Oz-Salzberger	Law professor	7
+Dee Henderson	Politician	0
+Arun Majumdar	Law professor	7
+Louis Ulbach	Politician	0
+Daniel Drezner	Law professor	7
+Carlos Fernandes (goalkeeper)	Politician	0
+Denis Weaire	Law professor	7
+John Roberts	Politician	0
+Jack Bogdanski	Law professor	7
+Hiromi Nagakura	Politician	0
+Raoul Berger	Law professor	7
+Chris Grainger	Politician	0
+Thio Li-ann	Law professor	7
+Maury Kent	Politician	0
+Louis Lowenstein (lawyer)	Law professor	7
+Stu Holcomb	Politician	0
+William Harrison Moore	Law professor	7
+Walt Zeboski	Politician	0
+Frank Askin	Law professor	7
+Babe Ruth	Politician	0
+Robert Delahunty	Law professor	7
+Armaan Ebrahim	Law professor	0
+Alan Lipman	Law professor	7
+Seiji Hisamatsu	Law professor	0
+Louis Westerfield	Law professor	7
+Henry Christian Timm	Law professor	0
+David M. Smolin	Law professor	7
+Stéphane Lecat	Law professor	0
+Anthony P. Capozzi	Law professor	7
+Ilka Bessin	Law professor	0
+William Robert Ming	Law professor	7
+Colin MacIntyre	Law professor	0
+Linda R. Reade	Judge	7
+Henri de Régnier	Law professor	0
+Jack Panella	Judge	7
+Eduards Berklavs	Law professor	0
+Constance Grewe	Judge	7
+Yves Balasko	Law professor	0
+Dean Whipple	Judge	7
+Uladzimir Kazlou	Law professor	0
+Catherine C. Blake	Judge	7
+Sigurd Zienau	Physicist	0
+Henry Marshall Furman	Judge	7
+Bernardo Atxaga	Physicist	0
+Thomas J. Fiscus	Judge	7
+Alfred Vågnes	Physicist	0
+Roger Gyles	Judge	7
+Art Larsen	Physicist	0
+Ira W. Jayne	Judge	7
+Aqua Mizuto	Physicist	0
+Timothy Mark Burgess	Judge	7
+Fritz Klein	Physicist	0
+Jerry Buchmeyer	Judge	7
+Richard Lynn	Physicist	0
+Robert Walker, Baron Walker of Gestingthorpe	Judge	7
+Brad Keywell	Physicist	0
+William Forster (judge)	Judge	7
+Jerry Martin (ski jumper)	Physicist	0
+Gregory W. Carman	Judge	7
+Jeanette Aw	Physicist	0
+Gerard Niyungeko	Judge	7
+Jonas Martin	Judge	0
+Donald E. Belfi	Judge	7
+T. Lewis	Judge	0
+William Purington Cole, Jr.	Judge	7
+Gerrianne Raphael	Judge	0
+John D. Bates	Judge	7
+Keegan Daniel	Judge	0
+Walter Desmond	Judge	7
+Juwon Oshaniwa	Judge	0
+Mark Ciavarella	Judge	7
+Tom Bower (actor)	Judge	0
+Ellis Bent	Judge	7
+Haskell Wexler	Judge	0
+Ann Claire Williams	Judge	7
+Kim Hye-ja	Judge	0
+David Sage	Judge	7
+Andressa Urach	Judge	0
+William St Julien Arabin	Judge	7
+Frank Radice	Judge	0
+Philippe Sarde	Judge	7
+Pierre-Alain Frau	Police officer	0
+Leonard P. Stark	Judge	7
+Friedrich Karl Forberg	Police officer	0
+Robert R. Beezer	Judge	7
+Kevin Pasley	Police officer	0
+Alex Kozinski	Judge	7
+Evangeline Pascual	Police officer	0
+Bill Zuckert	Judge	7
+Chuck Negron	Police officer	0
+James E. Boasberg	Judge	7
+Claus Biederstaedt	Police officer	0
+Rya W. Zobel	Judge	7
+Bob Dylan	Police officer	0
+Warren Winkler	Judge	7
+Seán Dillon	Police officer	0
+Richard F. Cebull	Judge	7
+Henry G. Danforth	Police officer	0
+Mark Lund	Judge	7
+Zoe Rae	Police officer	0
+Rosemary Barkett	Judge	7
+Grant McCann	Television Producer	0
+D. Brooks Smith	Judge	7
+Jeannette D. Ahonsou	Television Producer	0
+Holland Taylor	Judge	7
+Gabriel Rodríguez (Argentine footballer)	Television Producer	0
+Mahadev Shankar	Judge	7
+Frank Y. Whiteley, Jr.	Television Producer	0
+Norman A. Mordue	Judge	7
+Aamir Ali	Television Producer	0
+John Gordon (South Londonderry MP)	Judge	7
+Patryk Dobek	Television Producer	0
+Sharon Prost	Judge	7
+Irmgard Flügge-Lotz	Television Producer	0
+J. Leroy Adair	Judge	7
+Andy Landers	Television Producer	0
+Tony Jay	Judge	7
+Klára Issová	Television Producer	0
+George Clementson	Judge	7
+Denis O'Brien (New York politician)	Television Producer	0
+Joan B. Gottschall	Judge	7
+H. Bentley Glass	Surveyor	0
+Stephen N. Limbaugh, Sr.	Judge	7
+Andy Rourke	Surveyor	0
+Michael Culkin	Judge	7
+Tommy Dysart	Surveyor	0
+Robert Boulter	Judge	7
+Antoine Marc Gaudin	Surveyor	0
+Fred Trump	Judge	7
+Stewart McInnes	Surveyor	0
+Judith Sheindlin	Judge	7
+John Baptista Ashe (representative)	Surveyor	0
+Roslyn O. Silver	Judge	7
+Michael Keyes	Surveyor	0
+Kent Dawson	Judge	7
+Birger Jarl	Surveyor	0
+V. Bhashyam Aiyangar	Judge	7
+Christine Schutt	Surveyor	0
+Avern Cohn	Judge	7
+Marie-Thérèse Assiga Ahanda	Surveyor	0
+Frederick Brune	Judge	7
+Paturi Rajagopala Naidu	Diplomat	0
+Stuart Milton Hodgson	Judge	7
+Ratnakar Matkari	Diplomat	0
+Todd J. Campbell	Judge	7
+Ira Hayes	Diplomat	0
+Freeborn G. Jewett	Judge	7
+Martin L. Pipes	Diplomat	0
+Roger T. Hughes	Judge	7
+Peter Lehner	Diplomat	0
+Todd McKenney (politician)	Judge	7
+Sean Solomon	Diplomat	0
+Malik Mohammad Qayyum	Judge	7
+Dean Refram	Diplomat	0
+Joel Gerber	Judge	7
+Hans Georg von Arnim-Boitzenburg	Diplomat	0
+Julie E. Carnes	Judge	7
+Ignatius Mattingly	Diplomat	0
+John Lowell	Judge	7
+Marcel Junod	Diplomat	0
+Timothy M. Cain	Judge	7
+Dominique Probst	Novelist	0
+Anthony Clarke, Baron Clarke of Stone-cum-Ebony	Judge	7
+Malcolm Margolin	Novelist	0
+Henry Hodge	Judge	7
+Suzanne Nora Johnson	Novelist	0
+Inge Solbrig	Judge	7
+Tusi Tamasese	Novelist	0
+Ian Oliver	Police officer	7
+Peter Feller	Novelist	0
+Dhilin Mehta	Police officer	7
+Alan Cartwright	Novelist	0
+Frank Serpico	Police officer	7
+Jaliya Wickramasuriya	Novelist	0
+Rameshwar Oraon	Police officer	7
+Debbie Muggli	Novelist	0
+Sharad Kumar	Police officer	7
+Lee Wallard	Novelist	0
+Aftab Ahmed Khan	Police officer	7
+Claude Luter	Novelist	0
+William Symonds	Surveyor	7
+Susan Nakazwe	Consultant	0
+Jonas Moore	Surveyor	7
+Sean Bergman	Consultant	0
+Edmund Kennedy	Surveyor	7
+Anna Hyatt Huntington	Consultant	0
+Lucius Lyon	Surveyor	7
+Andrew J. Offutt	Consultant	0
+William Benson (architect)	Surveyor	7
+Jeff Mutis	Consultant	0
+Martin Wight	Diplomat	7
+Alexander Radwan	Consultant	0
+Keith Bergelt	Diplomat	7
+Antonio Esparragoza	Consultant	0
+Cyril Svoboda	Diplomat	7
+Rick Barnes	Consultant	0
+Eileen Myles	Novelist	7
+Luke Scott	Consultant	0
+Brenda Jagger	Novelist	7
+William Edwards (inventor)	Consultant	0
+Ethan Wiley	Consultant	7
+Jerry L. Ross	Drummer	0
+Misako Uno	Consultant	7
+Grace Arnold	Drummer	0
+Adam Humphreys	Consultant	7
+Pete Dye	Drummer	0
+Sarah Jarvis	Consultant	7
+William Fielding Ogburn	Drummer	0
+Kelly DeVries	Consultant	7
+Marcelo Ribeiro	Drummer	0
+Charles Freeman (historian)	Consultant	7
+David Kudrave	Drummer	0
+Eddie Bayers	Drummer	7
+Cass Phang	Drummer	0
+Katherine Kennicott Davis	Drummer	7
+Ganja Karuppu	Drummer	0
+Patrick Califia	Drummer	7
+Phillip Hoose	Drummer	0
+Steve Smith (musician)	Drummer	7
+Luisito Espinosa	Drummer	0
