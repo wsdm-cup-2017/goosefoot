@@ -94,7 +94,7 @@ def init_positive_countries():
         person_file = os.path.join(definitions.PERSONS_DIR, p_lib.remove_spaces(person) + ".txt")
         if os.path.isfile(person_file):
             with open(person_file, 'r', encoding='utf8') as fr:
-                first_line = fr.readline()
+                first_line = fr.readline().split(".")[0]
                 for synonym, coun in c_lib.countries_dict.items():
                     first_line = first_line.replace(synonym, coun)
 
@@ -119,7 +119,7 @@ def init_negative_professions():
                     content = fr.read()
                     if not any(x in content for x in similarity_words):
                         result[profession].append(person)
-                        print(profession, person)
+                        # print(profession, person)
 
     return result
 
@@ -134,7 +134,7 @@ def init_positive_professions():
         person_file = os.path.join(definitions.PERSONS_DIR, p_lib.remove_spaces(person) + ".txt")
         if os.path.isfile(person_file):
             with open(person_file, 'r', encoding='utf8') as fr:
-                first_line = fr.readline()
+                first_line = fr.readline().split(".")[0]
                 mentioned_professions = []
 
                 for profession in result:
@@ -142,19 +142,18 @@ def init_positive_professions():
                     if all(x in first_line for x in similarity_words):
                         mentioned_professions.append(profession)
 
-
                 if len(mentioned_professions) == 1 and person not in result[mentioned_professions[0]]:
                     result[mentioned_professions[0]].append(person)
                     total_count += 1
-                    print(total_count, mentioned_professions[0], person)
+                    # print(total_count, mentioned_professions[0], person)
     return result
 
 
 init_persons()
 
-# positive_countries = init_positive_countries()
-# negative_countries = init_negative_countries()
-# save_train_data(positive_countries, negative_countries, os.path.join(definitions.TRAINING_DIR, "custom_nationality.train"))
+positive_countries = init_positive_countries()
+negative_countries = init_negative_countries()
+save_train_data(positive_countries, negative_countries, os.path.join(definitions.TRAINING_DIR, "custom_nationality.train"))
 
 positive_professions = init_positive_professions()
 negative_professions = init_negative_professions()
