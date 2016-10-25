@@ -5,6 +5,7 @@ from definitions import TRAINING_DIR
 import definitions
 import src.wsdm.ts.helpers.persons.persons as p_lib
 import src.wsdm.ts.helpers.countries.countries as c_lib
+import src.wsdm.ts.helpers.professions.professions as prof_lib
 
 NEGATIVE_EXAMPLES_COUNT = 10
 persons = []
@@ -41,6 +42,15 @@ def init_countries_empty_dict():
         for line in fr:
             country = line.rstrip()
             result[country] = []
+
+    return result
+
+def init_professions_empty_dict():
+    result = {}
+    with open(os.path.join(NOMENCLATURES_DIR, "professions.txt"), encoding='utf8', mode='r') as fr:
+        for line in fr:
+            profession = line.rstrip()
+            result[profession] = []
 
     return result
 
@@ -98,10 +108,38 @@ def init_positive_countries():
 
     return result
 
+def init_negative_professions():
+    global persons
+
+    result = init_professions_empty_dict()
+    for profession in result:
+        similarity_words = prof_lib.get_similarity_words(profession)
+        while len(result[profession]) < NEGATIVE_EXAMPLES_COUNT:
+            person = random.choice(persons)
+            person_file = os.path.join(definitions.PERSONS_DIR, p_lib.remove_spaces(person) + ".txt")
+            if os.path.isfile(person_file):
+                with open(person_file, 'r', encoding='utf8') as fr:
+                    content = fr.read()
+                    if not any(x in content for x in similarity_words):
+                        result[profession].append(person)
+                        print(profession, person)
+
+    return result
+
+def init_positive_professions():
+    global persons
+
+    result = init_professions_empty_dict()
+    return result
+
 
 init_persons()
 
-positive_countries = init_positive_countries()
-negative_countries = init_negative_countries()
+# positive_countries = init_positive_countries()
+# negative_countries = init_negative_countries()
+# save_train_data(positive_countries, negative_countries, os.path.join(definitions.TRAINING_DIR, "custom_nationality.train"))
 
-save_train_data(positive_countries, negative_countries, os.path.join(definitions.TRAINING_DIR, "custom_nationality.train"))
+positive_professions = init_positive_professions()
+negative_professions = init_negative_professions()
+save_train_data(positive_professions, negative_professions, os.path.join(definitions.TRAINING_DIR, "custom_profession.train"))
+
