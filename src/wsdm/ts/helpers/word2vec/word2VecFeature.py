@@ -6,7 +6,7 @@ from src.wsdm.ts.helpers.persons import persons
 from src.wsdm.ts.helpers.countries import countries
 from src.wsdm.ts.helpers.professions import professions
 
-from definitions import WORD2VEC_MODEL_DIR
+from definitions import WORD2VEC_MODEL_PATH
 
 DEFAULT_SIMILARITY = 3.5;
 NATIONALITY_MULTIPLIER = 5;
@@ -21,7 +21,7 @@ def custom_similarity(similarity, multiplier = 1):
 
 def load_module():
     global model
-    model = gensim.models.Word2Vec.load(WORD2VEC_MODEL_DIR)
+    model = gensim.models.Word2Vec.load(WORD2VEC_MODEL_PATH)
 
 def find_profession_similarity(person_name, profession):
     global model

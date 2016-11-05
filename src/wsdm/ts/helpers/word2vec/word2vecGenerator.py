@@ -3,7 +3,7 @@ import os
 from src.wsdm.ts.helpers.persons import persons
 from src.wsdm.ts.helpers.countries import countries
 
-from definitions import WORD2VEC_MODEL_DIR
+from definitions import WORD2VEC_MODEL_PATH
 from definitions import PERSONS_DIR
 from definitions import PROFESSIONS_DIR
 
@@ -38,4 +38,4 @@ if __name__ == '__main__':
     model = gensim.models.Word2Vec(MySentences(PERSONS_DIR), workers=4, min_count=1)
     model.train(MySentences(PROFESSIONS_DIR))
 
-    model.save(WORD2VEC_MODEL_DIR)
+    model.save(WORD2VEC_MODEL_PATH)
