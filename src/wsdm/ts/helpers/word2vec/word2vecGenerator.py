@@ -9,7 +9,6 @@ from definitions import PROFESSIONS_DIR
 
 from src.wsdm.ts.helpers.persons.common import split_to_words
 
-logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
 
 
 class MySentences(object):
@@ -33,7 +32,10 @@ class MySentences(object):
 
                 yield [word.lower() for word in splitted]
 
-model = gensim.models.Word2Vec(MySentences(PERSONS_DIR), workers=4, min_count=1)
-model.train(MySentences(PROFESSIONS_DIR))
+if __name__ == '__main__':
+    logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
 
-model.save(WORD2VEC_MODEL_DIR)
+    model = gensim.models.Word2Vec(MySentences(PERSONS_DIR), workers=4, min_count=1)
+    model.train(MySentences(PROFESSIONS_DIR))
+
+    model.save(WORD2VEC_MODEL_DIR)

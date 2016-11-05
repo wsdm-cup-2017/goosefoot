@@ -95,11 +95,12 @@ def init_positive_professions():
     return result
 
 
-positive_countries = init_positive_countries()
-negative_countries = init_negative_countries()
-common_train.save_train_data(positive_countries, negative_countries, os.path.join(definitions.TRAINING_DIR, "custom_nationality.train"))
+if __name__ == '__main__':
+    positive_countries = init_positive_countries()
+    negative_countries = init_negative_countries()
+    common_train.save_train_data(positive_countries, negative_countries, os.path.join(definitions.TRAINING_DIR, "custom_nationality.train"))
 
-positive_professions = init_positive_professions()
-negative_professions = init_negative_professions()
-common_train.save_train_data(positive_professions, negative_professions, os.path.join(definitions.TRAINING_DIR, "custom_profession.train"))
+    positive_professions = init_positive_professions()
+    negative_professions = init_negative_professions()
+    common_train.save_train_data(positive_professions, negative_professions, os.path.join(definitions.TRAINING_DIR, "custom_profession.train"))
 

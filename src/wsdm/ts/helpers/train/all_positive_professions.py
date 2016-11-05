@@ -4,9 +4,6 @@ import src.wsdm.ts.helpers.persons.persons as p_lib
 import src.wsdm.ts.helpers.professions.professions as prof_lib
 import src.wsdm.ts.helpers.train.common_train as common_train
 
-persons = common_train.init_persons()
-
-
 def init_all_positive_professions():
     global persons
 
@@ -39,7 +36,9 @@ def save_all_positive_train_data(positive_dict, train_file):
         for l in positive_lines:
             fw.write(l + "\n")
 
-all_positive_professions = init_all_positive_professions()
 
-save_all_positive_train_data(all_positive_professions, os.path.join(definitions.TRAINING_DIR, "all_positive_profession.train"))
+if __name__ == '__main__':
+    persons = common_train.init_persons()
+    all_positive_professions = init_all_positive_professions()
+    save_all_positive_train_data(all_positive_professions, os.path.join(definitions.TRAINING_DIR, "all_positive_profession.train"))
 

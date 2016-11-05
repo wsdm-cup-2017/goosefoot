@@ -36,3 +36,7 @@ def main():
     professions = init_dictionary()
     add_training_data(professions)
     write_files(professions)
+
+
+if __name__ == '__main__':
+    main()

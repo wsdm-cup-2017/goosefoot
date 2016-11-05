@@ -44,6 +44,7 @@ def download_file(*args):
         if dbpedia_file != None:
             dbpedia_file.close()
 
-with open(os.path.join(NOMENCLATURES_DIR, 'missing_persons.txt'), encoding='utf8', mode='r') as f:
-    pool = ThreadPool(4)
-    pool.map(download_file, f)
+if __name__ == '__main__':
+    with open(os.path.join(NOMENCLATURES_DIR, 'missing_persons.txt'), encoding='utf8', mode='r') as f:
+        pool = ThreadPool(4)
+        pool.map(download_file, f)

@@ -61,6 +61,8 @@ def handle_mayreferto_person(*args):
                 download_file(person_name, file_name)
                 print(person_name)
 
-with open(os.path.join(NOMENCLATURES_DIR, "persons.txt"), encoding='utf8', mode='r') as fr:
-    pool = ThreadPool(4)
-    pool.map(handle_mayreferto_person, fr)
+
+if __name__ == '__main__':
+    with open(os.path.join(NOMENCLATURES_DIR, "persons.txt"), encoding='utf8', mode='r') as fr:
+        pool = ThreadPool(4)
+        pool.map(handle_mayreferto_person, fr)

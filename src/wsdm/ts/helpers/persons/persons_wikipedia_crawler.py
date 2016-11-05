@@ -10,10 +10,10 @@ from multiprocessing.dummy import Pool as ThreadPool
 from src.wsdm.ts.helpers.persons.common import get_html_content
 from src.wsdm.ts.helpers.persons.common import modify_wikipedia_content
 
-base_wiki_url = 'http://en.wikipedia.org/wiki/'
-# base_wiki_url = 'http://deletionpedia.org/en/'
 
 def download_file(*args):
+    base_wiki_url = 'http://en.wikipedia.org/wiki/'
+    # base_wiki_url = 'http://deletionpedia.org/en/'
     line = args[0]
     person_name = line.split('	', 1)[0]
     modified_name = persons.remove_spaces(person_name)

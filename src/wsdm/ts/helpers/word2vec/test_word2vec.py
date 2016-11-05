@@ -2,7 +2,6 @@ from src.wsdm.ts.helpers.word2vec import word2VecFeature
 from src import definitions
 import os
 
-word2VecFeature.load_module()
 
 def calculate_similarities(filename, method):
     with open(os.path.join(definitions.TRAINING_DIR, filename), mode='r', encoding='utf8') as trainfile:
@@ -19,10 +18,13 @@ def calculate_similarities(filename, method):
 
         print("----- TOTAL ERROR: {0:.2f} -----".format(total_error / (index+1)))
 
-print("----- NATIONALITIES -----")
-# Nationalities
-calculate_similarities("wsdm_nationality.train", word2VecFeature.find_nationality_similarity)
 
-print("----- PROFESSIONS -----")
-# Professions
-calculate_similarities("wsdm_profession.train", word2VecFeature.find_profession_similarity)
+if __name__ == '__main__':
+    word2VecFeature.load_module()
+    print("----- NATIONALITIES -----")
+    # Nationalities
+    calculate_similarities("wsdm_nationality.train", word2VecFeature.find_nationality_similarity)
+
+    print("----- PROFESSIONS -----")
+    # Professions
+    calculate_similarities("wsdm_profession.train", word2VecFeature.find_profession_similarity)

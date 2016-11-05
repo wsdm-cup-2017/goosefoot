@@ -495,18 +495,19 @@ capitals_dict = {
     'cayman islands': 'george town'
 }
 
-# html_content = open('countries_table.html', mode='r', encoding='utf8')
-# soup = BeautifulSoup(html_content, "html.parser")
-# rows = soup.find_all("tr")
+# if __name__ == '__main__':
+#   html_content = open('countries_table.html', mode='r', encoding='utf8')
+#   soup = BeautifulSoup(html_content, "html.parser")
+#   rows = soup.find_all("tr")
 #
-# for row in rows:
-#     cells = row.find_all("td")
-#     country = cells[0].text
-#     for cell in cells:
-#         descriptions = cell.text.split('&')
-#         for desc in descriptions:
-#             if desc and desc != country:
-#                 countries_dict[desc] = country
-#                 print(desc + ' -> ' + country)
-# print(countries_dict)
+#   for row in rows:
+#       cells = row.find_all("td")
+#       country = cells[0].text
+#       for cell in cells:
+#           descriptions = cell.text.split('&')
+#           for desc in descriptions:
+#               if desc and desc != country:
+#                   countries_dict[desc] = country
+#                   print(desc + ' -> ' + country)
+#   print(countries_dict)
 
