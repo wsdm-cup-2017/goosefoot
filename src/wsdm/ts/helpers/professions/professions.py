@@ -203,5 +203,5 @@ all_professions = ['accountant',
  'writer']
 
 def get_similarity_words(profession):
-    return re.findall(r"[\w]+", profession)
+    return re.findall(r"[\w]+", profession.lower())
 
