@@ -27,7 +27,7 @@ def get_synonyms_by_url(url):
         result=''
         inner_content = soup.find('div', class_='relevancy-list')
         for link in inner_content:
-            if ('#fcbb45' in str(link)):
+            if ('#fcbb45' in str(link) or '#fbd48e' in str(link)):
                 relevant_links = link.findAll('span', class_='text')
                 for relevant_link in relevant_links:
                     relevant_link_str = str(relevant_link.contents)
@@ -35,10 +35,17 @@ def get_synonyms_by_url(url):
         return result.replace('\'][\'',';').replace('[','').replace(']','')
 
 def main(argv):
-    #Example
-    print(get_synonyms_by_url('http://www.thesaurus.com/browse/artisan'))
+    from wsdm.ts.helpers.professions import professions
+    for profession in professions.all_professions_list:
+        try:
+            #uncomment the next line to retrieve all professions synonyms
+            #synonyms = get_synonyms_by_url('http://www.thesaurus.com/browse/' + profession + '?s=t').lower()
+            if (synonyms == ''):
+                synonyms = ' '
+            print('\'' + profession + '\'' + ':' + synonyms + ',')
+        except:
+            print('\'' + profession + '\'' + ':' + '\' \',')
 
 if __name__ == '__main__':
-
     main([])
 
