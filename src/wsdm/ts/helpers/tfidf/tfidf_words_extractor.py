@@ -9,12 +9,11 @@ from definitions import NOMENCLATURES_DIR, TFIDF_PROFESSIONS_DIR
 
 
 def get_lower_words(text):
-    return re.findall(r"[\w]+", text.lower())
+    return re.findall(r"\b[a-z]+\b", text)
 
 
 def tf(word, words):
     return words.count(word) / len(words)
-
 
 
 def idf(word, total_count, words_dict):
@@ -36,6 +35,7 @@ def get_professions_words_list():
 def get_professions_list():
     return [line.rstrip() for line in open(os.path.join(NOMENCLATURES_DIR, 'professions.txt'), encoding='utf8', mode='r')]
 
+
 def init_words_dict():
     result = defaultdict(int)
     index = 1
@@ -48,6 +48,7 @@ def init_words_dict():
         index += 1
 
     return result
+
 
 def main():
     professions = get_professions_list()
