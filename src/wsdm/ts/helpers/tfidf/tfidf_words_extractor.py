@@ -41,10 +41,11 @@ def init_words_dict():
     index = 1
     for doc_words in get_professions_words_list():
         document_dict = Counter(doc_words)
-        for word in doc_words:
+        for word in document_dict:
             if len(result) % 20000 == 0:
                 print(index, "document:", len(result), "words", time.strftime("%H:%M:%S"))
-            result[word] += document_dict[word]
+            # result[word] += document_dict[word]
+            result[word] += 1
         index += 1
 
     return result
@@ -58,7 +59,7 @@ def main():
     for doc_words in get_professions_words_list():
         scores = {word: tfidf(word, doc_words, len(professions), words_dict) for word in doc_words}
 
-        sorted_words = sorted(scores.items(), key=lambda x: x[1], reverse=True)[:10]
+        sorted_words = sorted(scores.items(), key=lambda x: x[1], reverse=True)[:20]
         print(str(index), professions[index], ':')
         for word, score in sorted_words:
             print("\tWord: {}, TF-IDF: {}".format(word, round(score, 5)))
