@@ -56,15 +56,17 @@ def main():
     words_dict = init_words_dict()
 
     index = 0
+    print("{")
     for doc_words in get_professions_words_list():
         scores = {word: tfidf(word, doc_words, len(professions), words_dict) for word in doc_words}
 
         sorted_words = sorted(scores.items(), key=lambda x: x[1], reverse=True)[:20]
-        print(str(index), professions[index], ':')
+        print("'{0}': {{".format(professions[index]))
         for word, score in sorted_words:
-            print("\tWord: {}, TF-IDF: {}".format(word, round(score, 5)))
-        print('\n')
+            print("\t'{0}': {1},".format(word, round(score, 8)))
+        print('}')
         index += 1
+    print("}")
 
 if __name__ == '__main__':
     main()
