@@ -1,5 +1,10 @@
 import os
+
+import definitions
 from definitions import NOMENCLATURES_DIR
+import src.wsdm.ts.helpers.persons.persons as p_lib
+import src.wsdm.ts.helpers.nationalities.nationalities as nat_lib
+import src.wsdm.ts.helpers.professions.professions as prof_lib
 
 def init_persons():
     persons = []
@@ -46,3 +51,29 @@ def init_professions_empty_dict():
             result[profession] = []
 
     return result
+
+
+def is_nationality_negative(person, nationality):
+    person_file = os.path.join(definitions.PERSONS_DIR, p_lib.remove_spaces(person) + ".txt")
+    if os.path.isfile(person_file):
+        with open(person_file, 'r', encoding='utf8') as fr:
+            content = fr.read()
+            for synonym, coun in nat_lib.nationalities_dict.items():
+                content = content.replace(synonym, coun)
+
+            if nationality in content:
+                return False
+
+    return True
+
+
+def is_profession_negative(person, profession):
+    similarity_words = prof_lib.get_similarity_words(profession)
+    person_file = os.path.join(definitions.PERSONS_DIR, p_lib.remove_spaces(person) + ".txt")
+    if os.path.isfile(person_file):
+        with open(person_file, 'r', encoding='utf8') as fr:
+            content = fr.read()
+            if any(x in content for x in similarity_words):
+                return False
+
+    return True

@@ -16,16 +16,10 @@ def init_negative_nationalities():
     for nationality in result:
         while len(result[nationality]) < NEGATIVE_EXAMPLES_COUNT:
             person = random.choice(persons)
-            person_file = os.path.join(definitions.PERSONS_DIR, p_lib.remove_spaces(person) + ".txt")
-            if os.path.isfile(person_file):
-                with open(person_file, 'r', encoding='utf8') as fr:
-                    content = fr.read()
-                    for synonym, coun in nat_lib.nationalities_dict.items():
-                        content = content.replace(synonym, coun)
 
-                    if not nationality in content:
-                        result[nationality].append(person)
-                        print(nationality, person)
+            if person not in result[nationality] and common_train.is_nationality_negative(person, nationality):
+                result[nationality].append(person)
+                print(nationality, person)
 
     return result
 
@@ -59,13 +53,9 @@ def init_negative_professions():
         similarity_words = prof_lib.get_similarity_words(profession)
         while len(result[profession]) < NEGATIVE_EXAMPLES_COUNT:
             person = random.choice(persons)
-            person_file = os.path.join(definitions.PERSONS_DIR, p_lib.remove_spaces(person) + ".txt")
-            if os.path.isfile(person_file):
-                with open(person_file, 'r', encoding='utf8') as fr:
-                    content = fr.read()
-                    if not any(x in content for x in similarity_words):
-                        result[profession].append(person)
-                        print(profession, person)
+            if person not in result[profession] and common_train.is_profession_negative(person, profession):
+                result[profession].append(person)
+                print(profession, person)
 
     return result
 

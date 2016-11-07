@@ -405,5 +405,11 @@ profession_synonyms_map = {'accountant':'analyst;clerk;auditor;bookkeeper;comptr
 'writer':'correspondent;author;reporter;critic;columnist;poet;novelist;dramatist;journalist;contributor;scribe;editor;biographer;essayist;screenwriter;wordsmith;scribbler;stenographer;ghostwriter;freelancer;stringer;newspaper person;person of letters;scripter',
 }
 def get_similarity_words(profession):
-    return re.findall(r"[\w]+", profession.lower())
+    result = re.findall(r"[\w]+", profession.lower())
+
+    for word in ["in", "the"]:
+        if word in result:
+            result.remove(word)
+
+    return result
 
