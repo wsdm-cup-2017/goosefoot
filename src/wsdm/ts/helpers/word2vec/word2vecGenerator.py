@@ -1,7 +1,7 @@
 import gensim, logging
 import os
 from src.wsdm.ts.helpers.persons import persons
-from src.wsdm.ts.helpers.countries import countries
+from src.wsdm.ts.helpers.nationalities import nationalities
 
 from definitions import WORD2VEC_MODEL_PATH
 from definitions import PERSONS_DIR
@@ -26,7 +26,7 @@ class MySentences(object):
             file.seek(0)
 
             for line in file:
-                line = countries.process_line(line)
+                line = nationalities.process_line(line)
 
                 splitted = persons.process_splitted(split_to_words(line), person_name, alternative_names)
 

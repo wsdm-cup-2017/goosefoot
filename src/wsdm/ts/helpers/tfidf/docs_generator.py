@@ -6,7 +6,6 @@ from definitions import TFIDF_PROFESSIONS_DIR
 import definitions
 import src.wsdm.ts.helpers.persons.persons as p_lib
 
-
 def init_dictionary():
     professions = {}
     with open(os.path.join(NOMENCLATURES_DIR, 'professions.txt'), encoding='utf8', mode='r') as f:

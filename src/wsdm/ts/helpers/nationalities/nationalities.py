@@ -1,17 +1,17 @@
 
 def remove_spaces(input):
-    for country, modified_country in countries_spaces_dict.items():
-        input = input.replace(country, modified_country)
+    for nationality, modified_nationality in nationality_spaces_dict.items():
+        input = input.replace(nationality, modified_nationality)
     return input
 
 
 def process_line(line):
-    for synonym, country in countries_dict.items():
-        line = line.replace(synonym, country)
+    for synonym, nationality in nationalities_dict.items():
+        line = line.replace(synonym, nationality)
         line = remove_spaces(line)
     return line
 
-countries_spaces_dict = {
+nationality_spaces_dict = {
     'Bosnia and Herzegovina': 'Bosnia_and_Herzegovina',
     'Czech Republic': 'Czech_Republic',
     'Dominican Republic': 'Dominican_Republic',
@@ -30,7 +30,7 @@ countries_spaces_dict = {
     'United States of America': 'United_States_of_America'
 }
 
-countries_dict = {
+nationalities_dict = {
     'Dane': 'Denmark',
     'Czechoslovak': 'Czechoslovakia',
     'Trinidadian': 'Trinidad and Tobago',
@@ -496,18 +496,18 @@ capitals_dict = {
 }
 
 # if __name__ == '__main__':
-#   html_content = open('countries_table.html', mode='r', encoding='utf8')
+#   html_content = open('nationalities_table.html', mode='r', encoding='utf8')
 #   soup = BeautifulSoup(html_content, "html.parser")
 #   rows = soup.find_all("tr")
 #
 #   for row in rows:
 #       cells = row.find_all("td")
-#       country = cells[0].text
+#       nationality = cells[0].text
 #       for cell in cells:
 #           descriptions = cell.text.split('&')
 #           for desc in descriptions:
-#               if desc and desc != country:
-#                   countries_dict[desc] = country
-#                   print(desc + ' -> ' + country)
-#   print(countries_dict)
+#               if desc and desc != nationality:
+#                   nationalities_dict[desc] = nationality
+#                   print(desc + ' -> ' + nationality)
+#   print(nationalities_dict)
 

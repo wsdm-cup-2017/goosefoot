@@ -1,6 +1,6 @@
 import sys
 import src.wsdm.ts.main.Config as Config
-from src.wsdm.ts.helpers.countries import countries
+from src.wsdm.ts.helpers.nationalities import nationalities
 
 
 ''' Returns the content type in the corresponding file (PERSON or NATIONALITY).'''
@@ -10,7 +10,7 @@ def check_file_content_type(file_path):
         profession_or_nationality = first_line.split('\t')[1]
         f.close()
 
-    if profession_or_nationality.strip() in countries.countries_dict.values():
+    if profession_or_nationality.strip() in nationalities.nationalities_dict.values():
         return 'NATIONALITY'
     return 'PROFESSION'
 

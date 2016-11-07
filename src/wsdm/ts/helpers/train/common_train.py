@@ -29,12 +29,12 @@ def save_train_data(positive_dict, negative_dict, train_file):
             fw.write(pl + "\n")
             fw.write(nl + "\n")
 
-def init_countries_empty_dict():
+def init_nationalities_empty_dict():
     result = {}
     with open(os.path.join(NOMENCLATURES_DIR, "nationalities.txt"), encoding='utf8', mode='r') as fr:
         for line in fr:
-            country = line.rstrip()
-            result[country] = []
+            nationality = line.rstrip()
+            result[nationality] = []
 
     return result
 
