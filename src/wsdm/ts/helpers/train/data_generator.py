@@ -31,18 +31,11 @@ def init_positive_nationalities():
     total_count = 0
     while total_count < len(result) * NEGATIVE_EXAMPLES_COUNT:
         person = random.choice(persons)
-        person_file = os.path.join(definitions.PERSONS_DIR, p_lib.remove_spaces(person) + ".txt")
-        if os.path.isfile(person_file):
-            with open(person_file, 'r', encoding='utf8') as fr:
-                first_line = fr.readline().split(".")[0]
-                for synonym, coun in nat_lib.nationalities_dict.items():
-                    first_line = first_line.replace(synonym, coun)
-
-                mentioned_nationalities = tuple(temp_nationality for temp_nationality in result  if temp_nationality in first_line)
-                if len(mentioned_nationalities) == 1 and person not in result[mentioned_nationalities[0]]:
-                    result[mentioned_nationalities[0]].append(person)
-                    total_count += 1
-                    print(total_count, mentioned_nationalities[0], person)
+        positive_nationality = common_train.get_positive_nationality(person)
+        if positive_nationality != None and person not in result[positive_nationality]:
+            result[positive_nationality].append(person)
+            total_count += 1
+            print(total_count, positive_nationality, person)
     return result
 
 def init_negative_professions():
@@ -61,27 +54,15 @@ def init_negative_professions():
 
 def init_positive_professions():
     global persons
-
     result = common_train.init_professions_empty_dict()
-
     total_count = 0
     while total_count < len(result) * NEGATIVE_EXAMPLES_COUNT:
         person = random.choice(persons)
-        person_file = os.path.join(definitions.PERSONS_DIR, p_lib.remove_spaces(person) + ".txt")
-        if os.path.isfile(person_file):
-            with open(person_file, 'r', encoding='utf8') as fr:
-                first_line = fr.readline().split(".")[0]
-                mentioned_professions = []
-
-                for profession in result:
-                    similarity_words = prof_lib.get_similarity_words(profession)
-                    if all(x in first_line for x in similarity_words):
-                        mentioned_professions.append(profession)
-
-                if len(mentioned_professions) == 1 and person not in result[mentioned_professions[0]]:
-                    result[mentioned_professions[0]].append(person)
-                    total_count += 1
-                    print(total_count, mentioned_professions[0], person)
+        positive_profession = common_train.get_positive_profession(person)
+        if positive_profession != None and person not in result[positive_profession]:
+            result[positive_profession].append(person)
+            total_count += 1
+            print(total_count, positive_profession, person)
     return result
 
 

@@ -66,6 +66,23 @@ def is_nationality_negative(person, nationality):
 
     return True
 
+def get_positive_nationality(person):
+    nationalities_empty_dict = init_nationalities_empty_dict()
+    person_file = os.path.join(definitions.PERSONS_DIR, p_lib.remove_spaces(person) + ".txt")
+    if os.path.isfile(person_file):
+        with open(person_file, 'r', encoding='utf8') as fr:
+            first_sentence = fr.readline().split(".")[0]
+            fr.seek(0)
+            content = fr.read()
+            for synonym, coun in nat_lib.nationalities_dict.items():
+                content = content.replace(synonym, coun)
+
+            mentioned_nationalities = tuple(
+                temp_nationality for temp_nationality in nationalities_empty_dict if temp_nationality in content)
+            if len(mentioned_nationalities) == 1 and mentioned_nationalities[0] in first_sentence:
+                return mentioned_nationalities[0]
+    return None
+
 
 def is_profession_negative(person, profession):
     similarity_words = prof_lib.get_similarity_words(profession)
@@ -77,3 +94,27 @@ def is_profession_negative(person, profession):
                 return False
 
     return True
+
+
+def get_positive_profession(person):
+    professions_empty_dict = init_professions_empty_dict()
+    person_file = os.path.join(definitions.PERSONS_DIR, p_lib.remove_spaces(person) + ".txt")
+    if os.path.isfile(person_file):
+        with open(person_file, 'r', encoding='utf8') as fr:
+            first_sentence = fr.readline().split(".")[0]
+            fr.seek(0)
+            content = fr.read()
+            mentioned_professions = []
+            mentioned_professions_first_sentence = []
+
+            for profession in professions_empty_dict:
+                similarity_words = prof_lib.get_similarity_words(profession)
+                if all(x in content for x in similarity_words):
+                    mentioned_professions.append(profession)
+                if all(x in first_sentence for x in similarity_words):
+                    mentioned_professions_first_sentence.append(profession)
+
+            if len(mentioned_professions) == 1 and len(mentioned_professions_first_sentence) == 1:
+                return mentioned_professions_first_sentence[0]
+    return None
+
