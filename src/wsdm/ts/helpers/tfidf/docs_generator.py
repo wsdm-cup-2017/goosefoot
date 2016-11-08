@@ -28,7 +28,7 @@ def add_training_data(professions):
 
 def write_files(professions):
     for profession, text in professions.items():
-        with open(os.path.join(TFIDF_PROFESSIONS_DIR, "tfidf_professions", profession + ".txt"), encoding='utf8', mode='x') as f:
+        with open(os.path.join(TFIDF_PROFESSIONS_DIR, profession + ".txt"), encoding='utf8', mode='x') as f:
             f.write(text)
 
 def main():
