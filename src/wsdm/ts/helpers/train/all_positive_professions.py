@@ -8,24 +8,14 @@ def init_all_positive_professions():
     global persons
 
     result = common_train.init_professions_empty_dict()
-
     total_count = 0
     for person in persons:
         total_count += 1
-        person_file = os.path.join(definitions.PERSONS_DIR, p_lib.remove_spaces(person) + ".txt")
-        if os.path.isfile(person_file):
-            with open(person_file, 'r', encoding='utf8') as fr:
-                first_line = fr.readline().split(".")[0]
-                mentioned_professions = []
+        positive_profession = common_train.get_positive_profession(person)
+        if positive_profession != None:
+            result[positive_profession].append(person)
+            print(total_count, positive_profession, person)
 
-                for profession in result:
-                    similarity_words = prof_lib.get_similarity_words(profession)
-                    if all(x in first_line for x in similarity_words):
-                        mentioned_professions.append(profession)
-
-                if len(mentioned_professions) == 1 and person not in result[mentioned_professions[0]]:
-                    result[mentioned_professions[0]].append(person)
-                    print(total_count, mentioned_professions[0], person)
     return result
 
 
