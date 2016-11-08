@@ -1,6 +1,7 @@
-from src.wsdm.ts.helpers.word2vec import word2VecFeature
-from src import definitions
 import os
+
+from src import definitions
+from wsdm.ts.features import word2VecFeature
 
 
 def calculate_similarities(filename, method):
