@@ -49,10 +49,7 @@ def custom_similarity(person, key, words_dict):
         with open(person_file, 'r', encoding='utf8') as fr:
             tfidf_words = words_dict[key]
             sorted_tfidf_words = sorted(tfidf_words.items(), key=operator.itemgetter(1))
-            try:
-                max_weight = sorted_tfidf_words[-1][1]
-            except IndexError as err:
-                pass
+            max_weight = sorted_tfidf_words[-1][1]
 
             file_content = fr.read()
             person_words = p_lib.split_to_words(file_content.lower())
@@ -66,6 +63,10 @@ def custom_similarity(person, key, words_dict):
 
             result = result / sentences_count
 
+    result *= 55
+
+    if result > 7:
+        return 7
 
     return result
 
@@ -74,5 +75,5 @@ def find_profession_similarity(person_name, profession):
     return custom_similarity(person_name, profession, PROFESSIONS_DICT)
 
 
-def find_nationality_similarity(person_name, nationality):
-    return custom_similarity(person_name, nationality, NATIONALITIES_DICT)
+# def find_nationality_similarity(person_name, nationality):
+#     return custom_similarity(person_name, nationality, NATIONALITIES_DICT)
