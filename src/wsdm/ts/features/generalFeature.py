@@ -8,19 +8,21 @@ def has_file(person):
     return os.path.isfile(person_file)
 
 
-def is_nationality_negative(person, nationality):
-    return common_train.is_nationality_negative(person, nationality)
+def is_negative(person, term, inputType):
+    if inputType == definitions.TYPE_NATIONALITY:
+        return common_train.is_nationality_negative(person, term)
+    elif inputType == definitions.TYPE_PROFESSION:
+        return common_train.is_profession_negative(person, term)
+    else:
+        raise TypeError
 
 
-def is_profession_negative(person, profession):
-    return common_train.is_profession_negative(person, profession)
+def is_positive(person, term, inputType):
+    if inputType == definitions.TYPE_NATIONALITY:
+        positive_item = common_train.get_positive_nationality(person)
+    elif inputType == definitions.TYPE_PROFESSION:
+        positive_item = common_train.get_positive_profession(person)
+    else:
+        raise TypeError
 
-
-def is_nationality_positive(person, nationality):
-    positive_nationality = common_train.get_positive_nationality(person)
-    return nationality == positive_nationality
-
-
-def is_profession_positive(person, profession):
-    positive_profession = common_train.get_positive_profession(person)
-    return profession == positive_profession
+    return term == positive_item

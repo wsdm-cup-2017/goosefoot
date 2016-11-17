@@ -1,7 +1,16 @@
 import sys
+
+import definitions
 import src.wsdm.ts.main.Config as Config
 from src.wsdm.ts.helpers.nationalities import nationalities
 
+from src.wsdm.ts.features import generalFeature
+from src.wsdm.ts.features import word2VecFeature
+from src.wsdm.ts.features import tfIdfFeature
+
+DEFAULT_VALUE = 3
+MAX_VALUE = 7
+MIN_VALUE = 0
 
 ''' Returns the content type in the corresponding file (PERSON or NATIONALITY).'''
 def check_file_content_type(file_path):
@@ -11,17 +20,36 @@ def check_file_content_type(file_path):
         f.close()
 
     if profession_or_nationality.strip() in nationalities.nationalities_dict.values():
-        return 'NATIONALITY'
-    return 'PROFESSION'
+        return definitions.TYPE_NATIONALITY
+    return definitions.TYPE_PROFESSION
 
+
+def get_score(person, term, inputType):
+    if not generalFeature.has_file(person):
+        return DEFAULT_VALUE
+
+    if generalFeature.is_positive(person, term, inputType):
+        return MAX_VALUE
+
+    if generalFeature.is_negative(person, term, inputType):
+        return MIN_VALUE
+
+    return DEFAULT_VALUE
 
 
 def main(argv):
     inputFile, outputFile = Config.getIOFiles(argv)
-    print('Input file is: ', inputFile)
-    print('Output file is: ', outputFile)
-    print('Content type is: ' + check_file_content_type(inputFile))
+    inputType = check_file_content_type(inputFile)
 
+    with open(inputFile, encoding='utf8', mode='r') as inputFR:
+        with open(outputFile, encoding='utf8', mode='w') as inputFW:
+            for line in inputFR:
+                splitted = line.split('\t')
+                assert len(splitted) == 2, "Invalid input row"
+                person = splitted[0]
+                term = splitted[1]
+                score = get_score(person, term, inputType)
+                inputFW.write("{0}	{1}	{2}\n".format(person, term, score))
 
 
 if __name__ == '__main__':

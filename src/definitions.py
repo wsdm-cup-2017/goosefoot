@@ -12,3 +12,6 @@ PERSONS_DIR = os.path.join(BIG_DATA_DIR, "persons")
 TFIDF_PROFESSIONS_DIR = os.path.join(BIG_DATA_DIR, "tfidf_professions")
 TFIDF_NATIONALITIES_DIR = os.path.join(BIG_DATA_DIR, "tfidf_nationalities")
 WORD2VEC_MODEL_PATH = os.path.join(BIG_DATA_DIR, "word2vec/word2vec_model.txt")
+
+TYPE_NATIONALITY = 'NATIONALITY'
+TYPE_PROFESSION = 'PROFESSION'
