@@ -2,6 +2,7 @@ import gensim
 import logging
 import traceback
 
+import definitions
 from src.wsdm.ts.helpers.persons import persons
 from src.wsdm.ts.helpers.nationalities import nationalities
 from src.wsdm.ts.helpers.professions import professions
@@ -58,3 +59,11 @@ def find_nationality_similarity(person_name, nationality):
     except Exception as e:
         logging.error(traceback.format_exc())
         return DEFAULT_SIMILARITY
+
+def find_similarity(person_name, term, inputType):
+    if inputType == definitions.TYPE_NATIONALITY:
+        return find_nationality_similarity(person_name, term)
+    elif inputType == definitions.TYPE_PROFESSION:
+        return find_profession_similarity(person_name, term)
+    else:
+        raise TypeError

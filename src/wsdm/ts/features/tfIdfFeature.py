@@ -71,9 +71,12 @@ def custom_similarity(person, key, words_dict):
     return result
 
 
-def find_profession_similarity(person_name, profession):
-    return custom_similarity(person_name, profession, PROFESSIONS_DICT)
+def find_similarity(person_name, term, inputType):
+    if inputType == definitions.TYPE_NATIONALITY:
+        dict = NATIONALITIES_DICT
+    elif inputType == definitions.TYPE_PROFESSION:
+        dict = PROFESSIONS_DICT
+    else:
+        raise TypeError
 
-
-# def find_nationality_similarity(person_name, nationality):
-#     return custom_similarity(person_name, nationality, NATIONALITIES_DICT)
+    return custom_similarity(person_name, term, dict)
