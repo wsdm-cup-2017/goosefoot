@@ -8,9 +8,6 @@ from src.wsdm.ts.features import generalFeature
 from src.wsdm.ts.features import word2VecFeature
 from src.wsdm.ts.features import tfIdfFeature
 
-DEFAULT_VALUE = 3
-MAX_VALUE = 7
-MIN_VALUE = 0
 
 ''' Returns the content type in the corresponding file (PERSON or NATIONALITY).'''
 def check_file_content_type(file_path):
@@ -26,15 +23,18 @@ def check_file_content_type(file_path):
 
 def get_score(person, term, inputType):
     if not generalFeature.has_file(person):
-        return DEFAULT_VALUE
+        return definitions.DEFAULT_SIMILARITY
 
     if generalFeature.is_positive(person, term, inputType):
-        return MAX_VALUE
+        return definitions.MAX_SIMILARITY
 
     if generalFeature.is_negative(person, term, inputType):
-        return MIN_VALUE
+        return definitions.MIN_SIMILARITY
 
-    return DEFAULT_VALUE
+    tfidif_similarity = tfIdfFeature.find_similarity(person, term, inputType)
+    word2vec_similarity = word2VecFeature.find_similarity(person, term, inputType)
+
+    return tfidif_similarity
 
 
 def main(argv):

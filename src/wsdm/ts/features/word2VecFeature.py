@@ -9,7 +9,6 @@ from src.wsdm.ts.helpers.professions import professions
 
 from definitions import WORD2VEC_MODEL_PATH
 
-DEFAULT_SIMILARITY = 3.5
 NATIONALITY_MULTIPLIER = 5
 PROFESSION_MULTIPLIER = 3
 model = None
@@ -40,10 +39,8 @@ def find_profession_similarity(person_name, profession):
             result += abs(model.similarity(person_name.lower(), word.lower()))
             total_count += 1
         except Exception as e:
-            logging.error(traceback.format_exc())
-
-    if total_count == 0:
-        return DEFAULT_SIMILARITY
+            # logging.error(traceback.format_exc())
+            return definitions.DEFAULT_SIMILARITY
 
     result /= total_count
     return custom_similarity(result, PROFESSION_MULTIPLIER)
@@ -57,8 +54,8 @@ def find_nationality_similarity(person_name, nationality):
     try:
         return custom_similarity(abs(model.similarity(person_name.lower(), nationality.lower())), NATIONALITY_MULTIPLIER)
     except Exception as e:
-        logging.error(traceback.format_exc())
-        return DEFAULT_SIMILARITY
+        # logging.error(traceback.format_exc())
+        return definitions.DEFAULT_SIMILARITY
 
 def find_similarity(person_name, term, inputType):
     if inputType == definitions.TYPE_NATIONALITY:
