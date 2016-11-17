@@ -44,7 +44,7 @@ def main(argv):
     with open(inputFile, encoding='utf8', mode='r') as inputFR:
         with open(outputFile, encoding='utf8', mode='w') as inputFW:
             for line in inputFR:
-                splitted = line.split('\t')
+                splitted = line.rstrip().split('\t')
                 assert len(splitted) == 2, "Invalid input row"
                 person = splitted[0]
                 term = splitted[1]
