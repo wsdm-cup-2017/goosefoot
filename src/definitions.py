@@ -12,7 +12,8 @@ PERSONS_DIR = os.path.join(BIG_DATA_DIR, "persons")
 TFIDF_PROFESSIONS_DIR = os.path.join(BIG_DATA_DIR, "tfidf_professions")
 TFIDF_NATIONALITIES_DIR = os.path.join(BIG_DATA_DIR, "tfidf_nationalities")
 WORD2VEC_MODEL_PATH = os.path.join(BIG_DATA_DIR, "word2vec/word2vec_model.txt")
-LOGISTIC_MODEL_PATH = os.path.join(DATA_DIR, "logistic", "logistic_model.txt")
+LOGISTIC_MODEL_NATIONALITY_PATH = os.path.join(DATA_DIR, "logistic", "logistic_nationality_model.txt")
+LOGISTIC_MODEL_PROFESSION_PATH = os.path.join(DATA_DIR, "logistic", "logistic_profession_model.txt")
 
 TYPE_NATIONALITY = 'NATIONALITY'
 TYPE_PROFESSION = 'PROFESSION'

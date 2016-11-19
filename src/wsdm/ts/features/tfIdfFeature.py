@@ -61,6 +61,9 @@ def custom_similarity(person, key, words_dict):
                 if word in document_dict:
                     result += document_dict[word] * current_word_weight
 
+            if sentences_count == 0:
+                sentences_count = 1
+
             result = result / sentences_count
 
     result *= 55
