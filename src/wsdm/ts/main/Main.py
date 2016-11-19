@@ -41,6 +41,8 @@ def main(argv):
     inputFile, outputFile = Config.getIOFiles(argv)
     inputType = check_file_content_type(inputFile)
 
+    word2VecFeature.load_module()
+
     with open(inputFile, encoding='utf8', mode='r') as inputFR:
         with open(outputFile, encoding='utf8', mode='w') as inputFW:
             for line in inputFR:
