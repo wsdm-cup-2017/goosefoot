@@ -7,6 +7,7 @@ from src.wsdm.ts.helpers.nationalities import nationalities
 from src.wsdm.ts.features import generalFeature
 from src.wsdm.ts.features import word2VecFeature
 from src.wsdm.ts.features import tfIdfFeature
+from wsdm.ts.features import logisticFeature
 
 
 ''' Returns the content type in the corresponding file (PERSON or NATIONALITY).'''
@@ -33,8 +34,9 @@ def get_score(person, term, inputType):
 
     tfidif_similarity = tfIdfFeature.find_similarity(person, term, inputType)
     word2vec_similarity = word2VecFeature.find_similarity(person, term, inputType)
+    logistic_similarity = logisticFeature.find_similarity(person, term, inputType)
 
-    return tfidif_similarity
+    return logistic_similarity
 
 
 def main(argv):
@@ -42,6 +44,7 @@ def main(argv):
     inputType = check_file_content_type(inputFile)
 
     word2VecFeature.load_module()
+    logisticFeature.load_modules(word2VecFeature)
 
     with open(inputFile, encoding='utf8', mode='r') as inputFR:
         with open(outputFile, encoding='utf8', mode='w') as inputFW:

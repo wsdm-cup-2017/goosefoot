@@ -5,14 +5,7 @@ import definitions
 import os
 
 from src.wsdm.ts.features import word2VecFeature
-from src.wsdm.ts.features import tfIdfFeature
-
-def get_features_values(person_name, term, inputType, w2vecFeature):
-    # TODO: Add more features
-    return np.array([
-        tfIdfFeature.find_similarity(person_name, term, inputType),
-        w2vecFeature.find_similarity(person_name, term, inputType)
-    ])
+from src.wsdm.ts.helpers.logistic import logistic_utils
 
 def get_data_and_labels(inputType):
     if inputType == definitions.TYPE_NATIONALITY:
@@ -31,7 +24,7 @@ def get_data_and_labels(inputType):
             term = splitted[1]
             score = splitted[2]
 
-            data.append(get_features_values(person, term, inputType, word2VecFeature))
+            data.append(logistic_utils.get_features_values(person, term, inputType, word2VecFeature))
             labels.append(score)
 
     return np.array(data), np.array(labels)
@@ -50,6 +43,6 @@ def train_and_save(inputType):
 
 if __name__ == '__main__':
     word2VecFeature.load_module()
-    
+
     train_and_save(definitions.TYPE_NATIONALITY)
     train_and_save(definitions.TYPE_PROFESSION)
