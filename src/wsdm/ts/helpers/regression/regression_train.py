@@ -5,7 +5,7 @@ import definitions
 import os
 
 from src.wsdm.ts.features import word2VecFeature
-from src.wsdm.ts.helpers.logistic import logistic_utils
+from src.wsdm.ts.helpers.regression import regression_utils
 
 def get_data_and_labels(inputType):
     if inputType == definitions.TYPE_NATIONALITY:
@@ -24,7 +24,7 @@ def get_data_and_labels(inputType):
             term = splitted[1]
             score = float(splitted[2])
 
-            data.append(logistic_utils.get_features_values(person, term, inputType, word2VecFeature))
+            data.append(regression_utils.get_features_values(person, term, inputType, word2VecFeature))
             labels.append(score)
 
     return np.array(data), np.array(labels)
@@ -32,9 +32,9 @@ def get_data_and_labels(inputType):
 
 def train_and_save(inputType):
     if inputType == definitions.TYPE_NATIONALITY:
-        filename = definitions.LOGISTIC_MODEL_NATIONALITY_PATH
+        filename = definitions.REGRESSION_MODEL_NATIONALITY_PATH
     elif inputType == definitions.TYPE_PROFESSION:
-        filename = definitions.LOGISTIC_MODEL_PROFESSION_PATH
+        filename = definitions.REGRESSION_MODEL_PROFESSION_PATH
 
     data, labels = get_data_and_labels(inputType)
     log_model = linear_model.LinearRegression(normalize=True)

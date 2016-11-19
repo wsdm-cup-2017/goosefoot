@@ -1,6 +1,6 @@
 import definitions
 import pickle
-from src.wsdm.ts.helpers.logistic import logistic_utils
+from src.wsdm.ts.helpers.regression import regression_utils
 import numpy as np
 
 nationality_model = None
@@ -12,8 +12,8 @@ def load_modules(w2vFeature):
     global profession_model
     global word2VecFeature
 
-    nationality_model =  pickle.load(open(definitions.LOGISTIC_MODEL_NATIONALITY_PATH, 'rb'))
-    profession_model =  pickle.load(open(definitions.LOGISTIC_MODEL_PROFESSION_PATH, 'rb'))
+    nationality_model =  pickle.load(open(definitions.REGRESSION_MODEL_NATIONALITY_PATH, 'rb'))
+    profession_model =  pickle.load(open(definitions.REGRESSION_MODEL_PROFESSION_PATH, 'rb'))
     word2VecFeature = w2vFeature
 
 
@@ -22,7 +22,7 @@ def find_similarity(person_name, term, inputType):
     global profession_model
     global word2VecFeature
 
-    data = logistic_utils.get_features_values(person_name, term, inputType, word2VecFeature)
+    data = regression_utils.get_features_values(person_name, term, inputType, word2VecFeature)
     data = data.reshape(1,-1)
 
     if inputType == definitions.TYPE_NATIONALITY:
