@@ -22,7 +22,7 @@ def get_data_and_labels(inputType):
             assert len(splitted) == 3, "Invalid input row"
             person = splitted[0]
             term = splitted[1]
-            score = splitted[2]
+            score = float(splitted[2])
 
             data.append(logistic_utils.get_features_values(person, term, inputType, word2VecFeature))
             labels.append(score)
@@ -37,7 +37,7 @@ def train_and_save(inputType):
         filename = definitions.LOGISTIC_MODEL_PROFESSION_PATH
 
     data, labels = get_data_and_labels(inputType)
-    log_model = linear_model.LogisticRegression()
+    log_model = linear_model.LinearRegression(normalize=True)
     log_model.fit(data, labels)
     pickle.dump(log_model, open(filename, 'wb'))
 

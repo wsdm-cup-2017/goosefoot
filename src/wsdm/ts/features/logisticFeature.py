@@ -33,7 +33,7 @@ def find_similarity(person_name, term, inputType):
         raise TypeError
 
     assert len(score) == 1
-    result = float(score[0])
+    result = score[0]
     if result > 7:
         result = 7
     if result < 0:
