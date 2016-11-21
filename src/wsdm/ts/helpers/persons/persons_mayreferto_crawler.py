@@ -1,14 +1,14 @@
 import os
 import urllib.request
 import urllib.parse
-from src.wsdm.ts.helpers.persons import persons
+from wsdm.ts.helpers.persons import persons
 import logging
 import traceback
 from definitions import PERSONS_DIR
 from definitions import NOMENCLATURES_DIR
 from bs4 import BeautifulSoup
-from src.wsdm.ts.helpers.persons.common import get_html_content
-from src.wsdm.ts.helpers.persons.common import modify_wikipedia_content
+from wsdm.ts.helpers.persons.common import get_html_content
+from wsdm.ts.helpers.persons.common import modify_wikipedia_content
 from multiprocessing.dummy import Pool as ThreadPool
 
 def get_alternative_urls(main_url):

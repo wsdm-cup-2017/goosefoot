@@ -1,12 +1,12 @@
 import sys
 
-import definitions
-import src.wsdm.ts.main.Config as Config
-from src.wsdm.ts.helpers.nationalities import nationalities
+import definitions as definitions
+import wsdm.ts.main.Config as Config
+from wsdm.ts.helpers.nationalities import nationalities
 
-from src.wsdm.ts.features import generalFeature
-from src.wsdm.ts.features import word2VecFeature
-from src.wsdm.ts.features import tfIdfFeature
+from wsdm.ts.features import generalFeature
+from wsdm.ts.features import word2VecFeature
+from wsdm.ts.features import tfIdfFeature
 from wsdm.ts.features import regressionFeature
 
 

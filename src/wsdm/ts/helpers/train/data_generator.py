@@ -1,10 +1,10 @@
 import random
 import os
 import definitions
-import src.wsdm.ts.helpers.persons.persons as p_lib
-import src.wsdm.ts.helpers.nationalities.nationalities as nat_lib
-import src.wsdm.ts.helpers.professions.professions as prof_lib
-import src.wsdm.ts.helpers.train.common_train as common_train
+import wsdm.ts.helpers.persons.persons as p_lib
+import wsdm.ts.helpers.nationalities.nationalities as nat_lib
+import wsdm.ts.helpers.professions.professions as prof_lib
+import wsdm.ts.helpers.train.common_train as common_train
 
 NEGATIVE_EXAMPLES_COUNT = 10
 persons = common_train.init_persons()

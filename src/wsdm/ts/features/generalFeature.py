@@ -1,7 +1,7 @@
 import os
 import definitions
-import src.wsdm.ts.helpers.persons.persons as p_lib
-import src.wsdm.ts.helpers.train.common_train as common_train
+import wsdm.ts.helpers.persons.persons as p_lib
+import wsdm.ts.helpers.train.common_train as common_train
 
 def has_file(person):
     person_file = os.path.join(definitions.PERSONS_DIR, p_lib.remove_spaces(person) + ".txt")

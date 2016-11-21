@@ -4,8 +4,8 @@ import pickle
 import definitions
 import os
 
-from src.wsdm.ts.features import word2VecFeature
-from src.wsdm.ts.helpers.regression import regression_utils
+from wsdm.ts.features import word2VecFeature
+from wsdm.ts.helpers.regression import regression_utils
 
 def get_data_and_labels(inputType):
     if inputType == definitions.TYPE_NATIONALITY:

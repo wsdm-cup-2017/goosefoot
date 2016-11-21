@@ -1,5 +1,5 @@
 import re
-from src.wsdm.ts.helpers.persons.common import split_to_words
+from wsdm.ts.helpers.persons.common import split_to_words
 
 def process_splitted(splitted, person_name, alternative_names):
     for index, word in enumerate(splitted):

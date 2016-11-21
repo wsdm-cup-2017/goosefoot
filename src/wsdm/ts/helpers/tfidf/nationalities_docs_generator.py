@@ -3,7 +3,7 @@ from definitions import NOMENCLATURES_DIR
 from definitions import TRAINING_DIR
 from definitions import TFIDF_NATIONALITIES_DIR
 import definitions
-import src.wsdm.ts.helpers.persons.persons as p_lib
+import wsdm.ts.helpers.persons.persons as p_lib
 
 def init_dictionary():
     nationalities = {}

@@ -1,5 +1,5 @@
 import os
-from src.wsdm.ts.helpers.persons import persons
+from wsdm.ts.helpers.persons import persons
 from definitions import NOMENCLATURES_DIR
 from definitions import PERSONS_DIR
 

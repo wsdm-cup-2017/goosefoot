@@ -1,6 +1,6 @@
-import src.wsdm.ts.helpers.persons.persons as p_lib
-from src.wsdm.ts.helpers.tfidf.professions_tfidf_dictionary import PROFESSIONS_DICT
-from src.wsdm.ts.helpers.tfidf.nationalities_tfidf_dictionary import NATIONALITIES_DICT
+import wsdm.ts.helpers.persons.persons as p_lib
+from wsdm.ts.helpers.tfidf.professions_tfidf_dictionary import PROFESSIONS_DICT
+from wsdm.ts.helpers.tfidf.nationalities_tfidf_dictionary import NATIONALITIES_DICT
 import os
 import definitions
 from collections import Counter

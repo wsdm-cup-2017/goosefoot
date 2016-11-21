@@ -3,9 +3,9 @@ import logging
 import traceback
 
 import definitions
-from src.wsdm.ts.helpers.persons import persons
-from src.wsdm.ts.helpers.nationalities import nationalities
-from src.wsdm.ts.helpers.professions import professions
+from wsdm.ts.helpers.persons import persons
+from wsdm.ts.helpers.nationalities import nationalities
+from wsdm.ts.helpers.professions import professions
 
 from definitions import WORD2VEC_MODEL_PATH
 

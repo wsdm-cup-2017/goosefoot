@@ -1,5 +1,5 @@
 import numpy as np
-from src.wsdm.ts.features import tfIdfFeature
+from wsdm.ts.features import tfIdfFeature
 
 def get_features_values(person_name, term, inputType, w2vecFeature):
     # TODO: Add more features

@@ -2,9 +2,9 @@ import os
 
 import definitions
 from definitions import NOMENCLATURES_DIR
-import src.wsdm.ts.helpers.persons.persons as p_lib
-import src.wsdm.ts.helpers.nationalities.nationalities as nat_lib
-import src.wsdm.ts.helpers.professions.professions as prof_lib
+import wsdm.ts.helpers.persons.persons as p_lib
+import wsdm.ts.helpers.nationalities.nationalities as nat_lib
+import wsdm.ts.helpers.professions.professions as prof_lib
 
 def init_persons():
     persons = []

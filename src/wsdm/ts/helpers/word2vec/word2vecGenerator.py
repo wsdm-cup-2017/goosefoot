@@ -1,13 +1,13 @@
 import gensim, logging
 import os
-from src.wsdm.ts.helpers.persons import persons
-from src.wsdm.ts.helpers.nationalities import nationalities
+from wsdm.ts.helpers.persons import persons
+from wsdm.ts.helpers.nationalities import nationalities
 
 from definitions import WORD2VEC_MODEL_PATH
 from definitions import PERSONS_DIR
 from definitions import PROFESSIONS_DIR
 
-from src.wsdm.ts.helpers.persons.common import split_to_words
+from wsdm.ts.helpers.persons.common import split_to_words
 
 
 

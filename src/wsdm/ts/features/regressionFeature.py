@@ -1,6 +1,6 @@
 import definitions
 import pickle
-from src.wsdm.ts.helpers.regression import regression_utils
+from wsdm.ts.helpers.regression import regression_utils
 import numpy as np
 
 nationality_model = None
