@@ -36,8 +36,6 @@ def get_score(person, term, inputType):
     word2vec_similarity = word2VecFeature.find_similarity(person, term, inputType)
     regression_similarity = regressionFeature.find_similarity(person, term, inputType)
 
-    # print("\t".join(["%.2f" % x for x in [tfidif_similarity, word2vec_similarity, regression_similarity]]))
-
     return regression_similarity
 
 
@@ -52,12 +50,18 @@ def main(argv):
 
     with open(inputFile, encoding='utf8', mode='r') as inputFR:
         with open(outputFile, encoding='utf8', mode='w') as inputFW:
+            index = 0
             for line in inputFR:
+                index +=1
                 splitted = line.rstrip().split('\t')
                 assert len(splitted) == 2, "Invalid input row"
                 person = splitted[0]
                 term = splitted[1]
                 score = get_score(person, term, inputType)
+
+                if index % 1000 == 0:
+                    print("\t".join([str(index), "%.2f" % score]))
+                    
                 inputFW.write("{0}	{1}	{2}\n".format(person, term, score))
 
 
