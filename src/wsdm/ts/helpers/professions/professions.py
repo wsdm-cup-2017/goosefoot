@@ -1,4 +1,6 @@
 import re
+import nltk
+
 
 all_professions_list = ['accountant',
  'activist',
@@ -433,3 +435,20 @@ def get_similar_professions(profession):
         return ''
     else:
         return profession_synonyms_map.get(profession)
+
+def get_person_professions(file):
+    result={}
+    #f = open(file_path, "r")
+    lines = file.readlines()
+    profession_majority = 7
+    for line in lines:
+        words = nltk.word_tokenize(line.lower())
+        for profession in profession_synonyms_map.keys():
+            if (profession in words) and profession not in result:
+                result[profession] = profession_majority
+                #print(words)
+                #print(profession + '  ->' + str(profession_majority))
+                if profession_majority > 0:
+                    profession_majority-=1
+    #f.close()
+    return result
