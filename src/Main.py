@@ -36,6 +36,8 @@ def get_score(person, term, inputType):
     word2vec_similarity = word2VecFeature.find_similarity(person, term, inputType)
     regression_similarity = regressionFeature.find_similarity(person, term, inputType)
 
+    # print("\t".join(["%.2f" % x for x in [tfidif_similarity, word2vec_similarity, regression_similarity]]))
+
     return regression_similarity
 
 
@@ -43,7 +45,9 @@ def main(argv):
     inputFile, outputFile = Config.getIOFiles(argv)
     inputType = check_file_content_type(inputFile)
 
+    print('Load word2Vec model')
     word2VecFeature.load_module()
+    print('Load regression models')
     regressionFeature.load_modules(word2VecFeature)
 
     with open(inputFile, encoding='utf8', mode='r') as inputFR:
