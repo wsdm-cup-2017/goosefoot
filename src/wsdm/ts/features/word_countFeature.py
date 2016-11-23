@@ -78,18 +78,18 @@ def get_person_professions(file):
 
         for profession in professions.profession_synonyms_map.keys():
             profession_words = profession.split(' ')
-            profession_last_word=''
             for word in words:
                 profession_length = len(profession_words)
-                profession_first_word=profession_words[0]
-                if (profession_length > 2):
+                profession_first_word = profession_words[0]
+                profession_last_word = profession_words[0]
+
+                if (profession_length == 2):
+                    profession_last_word = profession_words[1]
+                elif (profession_length > 2):
                     profession_first_word = profession_words[-2]
-                else:
-                    profession_first_word = profession_words[0]
-                profession_last_word = profession_words[-1]
+                    profession_last_word = profession_words[-1]
 
-
-                if (profession_first_word == word or profession_first_word == word) and (profession not in result):
+                if (profession_first_word == word or '''profession_last_word''' == word) and (profession not in result):
                     result[profession] = profession_majority
                     if profession_majority > 0:
                         profession_majority-=1
@@ -104,19 +104,16 @@ def get_person_nationalities(file):
     for line in lines:
         words = nltk.word_tokenize(line.lower())
         for person, country in nationalities.nationalities_dict.items():
-            #print(person + ' -> ' + country)
-            if (country not in result) and ((person in words) or (country in words)):
+            if (country not in result) and ((person in line) or (country in line)):
                 result[country] = nationality_majority
                 if nationality_majority > 0:
                     nationality_majority-=1
     return result
 
 
-
-
 def main(argv):
-    f = codecs.open('D:/education/FMI_Sofia_University/III_sem/wsdm_2017/data/DATA_2016_10_15/persons/Max_Mosley.txt', 'r', encoding='utf8')
-    result = get_person_professions(f)
+    f = codecs.open('D:/education/FMI_Sofia_University/III_sem/wsdm_2017/data/DATA_2016_10_15/persons/Gowin_Knight.txt', 'r', encoding='utf8')
+    result = get_person_nationalities(f)
     f.close()
     print(result)
 
