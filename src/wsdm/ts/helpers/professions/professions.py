@@ -344,7 +344,7 @@ profession_synonyms_map = {'accountant':'analyst;clerk;auditor;bookkeeper;comptr
 'political activist': '',
 'politician':'lawmaker;senator;leader;legislator;partisan;boss;speaker;orator;president;chieftain;public servant;officeholder;grandstander;democrat;republican;baby-kisser;congressperson;handshaker',
 'polymath':'educated;scientific;studied;scholarly;accomplished;sound;experienced;versed;cultured;lettered;cultivated;grave;studious;well-grounded;well-read;well-rounded;well-educated;grounded;posted;in the know;pansophic;philosophic;professorial',
-'pornographic actor':'immoral;lewd;salacious;indecent;sexy',
+'pornographic actor':'immoral;lewd;salacious;indecent;sexy;actress',
 'preacher':'cleric;evangelist;missionary;clergy;parson;divine;ecclesiastic;minister;clerical;reverend;sermonizer;revivalist',
 'presenter':'contributor;benefactor;patron;backer;angel;subscriber;philanthropist;savior;benefactress;santa claus;donator;altruist;almsgiver;bestower;conferrer;grantor;heavy hitter',
 'priest':'cleric;father;monk;preacher;elder;rector;vicar;curate;divine;ecclesiastic;pontiff;clergyperson;father confessor;man of god;lama;friar;padre;holy man;man of the cloth',
@@ -410,6 +410,7 @@ profession_synonyms_map = {'accountant':'analyst;clerk;auditor;bookkeeper;comptr
 def get_similarity_words(profession):
     return re.findall(r"[\w]+", profession.lower())
 
+#TODO revise the function to return list !
 def get_similar_professions(profession):
     profession_synonyms = profession_synonyms_map.get(profession)
 
@@ -436,19 +437,3 @@ def get_similar_professions(profession):
     else:
         return profession_synonyms_map.get(profession)
 
-def get_person_professions(file):
-    result={}
-    #f = open(file_path, "r")
-    lines = file.readlines()
-    profession_majority = 7
-    for line in lines:
-        words = nltk.word_tokenize(line.lower())
-        for profession in profession_synonyms_map.keys():
-            if (profession in words) and profession not in result:
-                result[profession] = profession_majority
-                #print(words)
-                #print(profession + '  ->' + str(profession_majority))
-                if profession_majority > 0:
-                    profession_majority-=1
-    #f.close()
-    return result
