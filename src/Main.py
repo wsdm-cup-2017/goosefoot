@@ -24,17 +24,22 @@ def check_file_content_type(file_path):
 
 def get_score(person, term, inputType):
     if not generalFeature.has_file(person):
+        print("No file", person)
         return definitions.DEFAULT_SIMILARITY
 
     if generalFeature.is_positive(person, term, inputType):
+        print("Positive", person, term)
         return definitions.MAX_SIMILARITY
 
     if generalFeature.is_negative(person, term, inputType):
+        print("Negative", person, term)
         return definitions.MIN_SIMILARITY
 
     tfidif_similarity = tfIdfFeature.find_similarity(person, term, inputType)
     word2vec_similarity = word2VecFeature.find_similarity(person, term, inputType)
     regression_similarity = regressionFeature.find_similarity(person, term, inputType)
+
+    print("%.2f" % regression_similarity, person, term)
 
     return regression_similarity
 
