@@ -410,30 +410,3 @@ profession_synonyms_map = {'accountant':'analyst;clerk;auditor;bookkeeper;comptr
 def get_similarity_words(profession):
     return re.findall(r"[\w]+", profession.lower())
 
-#TODO revise the function to return list !
-def get_similar_professions(profession):
-    profession_synonyms = profession_synonyms_map.get(profession)
-
-    if not profession_synonyms:
-        profession_words = profession.split(' ')
-        #the next transformation is relevant only if the
-        #profession consist more than one word, e.g. 'electronical engineer'
-        if len(profession_words) > 1:
-            last_word = profession_words[-1]
-            #search for synonyms of the last word
-            last_word_synonyms = profession_synonyms_map.get(last_word.strip())
-            if not last_word_synonyms:
-                return ''
-            result=''
-
-            #get the profession, without the last word
-            profession_prefix = profession.replace(last_word, '').strip()
-            for last_word_synonym in last_word_synonyms.split(';'):
-                #add the first part of the word + the newly found synonym
-                result+=profession_prefix + ' ' + last_word_synonym + ';'
-
-            return result[:-2]
-        return ''
-    else:
-        return profession_synonyms_map.get(profession)
-
