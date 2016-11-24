@@ -1,15 +1,35 @@
 import sys
 
 import definitions as definitions
-import wsdm.ts.main.Config as Config
+import getopt
+import ntpath
 from wsdm.ts.helpers.nationalities import nationalities
 
 from wsdm.ts.features import generalFeature
 from wsdm.ts.features import word2VecFeature
-from wsdm.ts.features import tfIdfFeature
 from wsdm.ts.features import word_countFeature
 from wsdm.ts.features import regressionFeature
 
+
+def get_io_files(argv):
+    inputFiles = []
+    outputDir = ''
+    try:
+        opts, args = getopt.getopt(argv, "i:o:")
+    except getopt.GetoptError:
+        print('Incorrect arguments. Please provide values for input and output file paths (-i <inputFile> -o <outputFile>)')
+        return
+    for opt, arg in opts:
+        if opt == '-i':
+            inputFiles.append(arg)
+        elif opt == '-o':
+            outputDir = arg
+
+
+    return list(
+        (inputFile, "{0}/{1}".format(outputDir, ntpath.basename(inputFile)))
+        for inputFile in inputFiles
+    )
 
 ''' Returns the content type in the corresponding file (PERSON or NATIONALITY).'''
 def check_file_content_type(file_path):
@@ -57,14 +77,8 @@ def get_score(person, term, inputType):
     return score
 
 
-def main(argv):
-    inputFile, outputFile = Config.getIOFiles(argv)
+def process(inputFile, outputFile):
     inputType = check_file_content_type(inputFile)
-
-    print('Load word2Vec model')
-    word2VecFeature.load_module()
-    print('Load regression models')
-    regressionFeature.load_modules(word2VecFeature)
 
     with open(inputFile, encoding='utf8', mode='r') as inputFR:
         with open(outputFile, encoding='utf8', mode='w') as inputFW:
@@ -84,12 +98,13 @@ def main(argv):
 
 
 if __name__ == '__main__':
-    '''
-    For unit test purposes, main can be called with arguments, different than sys.argv, e.g.:
+    print('Load word2Vec model')
+    word2VecFeature.load_module()
+    print('Load regression models')
+    regressionFeature.load_modules(word2VecFeature)
 
-    main(['-i','D:/eclipse/workspaces/wsdm_2017/triple-scoring/goosefoot/_DATA/test_sets/nationality.kb','-o' 'D:/temp/asd.txt'])'''
-
-    main(sys.argv[1:])
+    for inputFile, outputFile in get_io_files(sys.argv[1:]):
+        process(inputFile, outputFile)
 
 
 
