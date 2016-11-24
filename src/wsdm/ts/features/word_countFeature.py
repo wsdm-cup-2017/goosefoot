@@ -22,16 +22,6 @@ def find_similarity(person_name, term, inputType):
 
     return 0
 
-
-def remove_quoted_words(text):
-    text=text.lower()
-    #quoted_word_pattern = re.compile(r"'([a-z]\w*)'")
-    result = re.findall(r"\".*?\"", text)
-    for word in result:
-        text=text.replace(word,'')
-    return text
-
-
 def refine_results(lines, initial_result):
     first_profession_word_map={}
     for line in lines:
@@ -52,11 +42,6 @@ def get_person_professions(file):
     from wsdm.ts.helpers.professions import professions
 
     for line in lines:
-        #It`s important to remove all quoted strings as
-        #this may cause problems when searching professions
-        #or nationalities
-        line = remove_quoted_words(line)
-
         words = p_lib.split_to_words(line.lower())
 
         for profession in professions.profession_synonyms_map.keys():
