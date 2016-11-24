@@ -1,8 +1,5 @@
 import src.wsdm.ts.helpers.persons.persons as p_lib
-from src.wsdm.ts.helpers.tfidf.professions_tfidf_dictionary import PROFESSIONS_DICT
-from src.wsdm.ts.helpers.tfidf.nationalities_tfidf_dictionary import NATIONALITIES_DICT
 import definitions
-import nltk
 import sys
 
 import re
@@ -54,23 +51,13 @@ def get_person_professions(file):
     profession_majority = 7
     from wsdm.ts.helpers.professions import professions
 
-    #if the exact profession is found return 7
-    #and continue
-    for profession in professions.profession_synonyms_map.keys():
-        #get the first two rows from the file
-        overview_line = lines[0] + lines[1] + lines[2]
-        line_words = nltk.word_tokenize(overview_line.lower())
-        if (profession in line_words):
-            result[profession.lower()] = profession_majority
-            profession_majority-=1
-
     for line in lines:
         #It`s important to remove all quoted strings as
         #this may cause problems when searching professions
         #or nationalities
         line = remove_quoted_words(line)
 
-        words = nltk.word_tokenize(line.lower())
+        words = p_lib.split_to_words(line.lower())
 
         for profession in professions.profession_synonyms_map.keys():
             profession_words = profession.split(' ')

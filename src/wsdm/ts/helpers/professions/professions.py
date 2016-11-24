@@ -1,5 +1,4 @@
 import re
-import nltk
 
 
 all_professions_list = ['accountant',
