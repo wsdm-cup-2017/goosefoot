@@ -35,8 +35,6 @@ def get_score(person, term, inputType):
         print("Negative", person, term)
         return definitions.MIN_SIMILARITY
 
-    tfidif_similarity = tfIdfFeature.find_similarity(person, term, inputType)
-    word2vec_similarity = word2VecFeature.find_similarity(person, term, inputType)
     regression_similarity = regressionFeature.find_similarity(person, term, inputType)
 
     print("%.2f" % regression_similarity, person, term)
