@@ -68,11 +68,26 @@ def get_person_nationalities(file):
     nationality_majority = 7
     from wsdm.ts.helpers.nationalities import nationalities
     for line in file:
-        for person, country in nationalities.nationalities_dict.items():
-            if (country not in result) and ((person in line) or (country in line)):
-                result[country] = nationality_majority
+        nationality_indexes = {}
+        for person, nationality in nationalities.nationalities_dict.items():
+            line = line.replace(person, nationality)
+
+        with open(os.path.join(definitions.NOMENCLATURES_DIR, "nationalities.txt"), encoding='utf8', mode='r') as fr:
+            for nationality_line in fr:
+                nationality = nationality_line.rstrip()
+                if nationality not in result:
+                    if nationality in line:
+                        nationality_indexes[nationality] = line.index(nationality)
+
+        if len(nationality_indexes) > 0:
+            for nationality in sorted(nationality_indexes, key=nationality_indexes.get):
+                result[nationality] = nationality_majority
                 if nationality_majority > 0:
                     nationality_majority-=1
+
+        if nationality_majority <= 0:
+            break
+
     return result
 
 
