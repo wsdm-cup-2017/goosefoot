@@ -94,7 +94,7 @@ def process(inputFile, outputFile):
                 if index % 1000 == 0:
                     print("\t".join([str(index), "%.2f" % score]))
                     
-                inputFW.write("{0}	{1}	{2}\n".format(person, term, "%.2f" % score))
+                inputFW.write("{0}	{1}	{2}\n".format(person, term, "%.0f" % score))
 
 
 if __name__ == '__main__':
