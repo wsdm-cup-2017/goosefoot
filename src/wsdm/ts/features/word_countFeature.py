@@ -2,6 +2,7 @@ import src.wsdm.ts.helpers.persons.persons as p_lib
 import definitions
 import sys
 
+import re
 import numpy as np
 import os
 
@@ -22,11 +23,21 @@ def find_similarity(person_name, term, inputType):
 
     return 0
 
+def remove_quoted_words(text):
+    text=text.lower()
+    #quoted_word_pattern = re.compile(r"'([a-z]\w*)'")
+    result = re.findall(r"\".*?\"", text)
+    for word in result:
+        text=text.replace(word,'')
+    return text
+
+
 def get_person_professions(file):
     result={}
     profession_majority = 7
 
     file_content = file.read().lower()
+    file_content = remove_quoted_words(file_content)
     profession_indexes = {}
 
     with open(os.path.join(definitions.NOMENCLATURES_DIR, "professions.txt"), encoding='utf8', mode='r') as fr:
