@@ -37,11 +37,10 @@ def refine_results(lines, initial_result):
 
 def get_person_professions(file):
     result={}
-    lines = file.readlines()
     profession_majority = 7
     from wsdm.ts.helpers.professions import professions
 
-    for line in lines:
+    for line in file:
         words = p_lib.split_to_words(line.lower())
 
         for profession in professions.profession_synonyms_map.keys():
@@ -66,10 +65,9 @@ def get_person_professions(file):
 
 def get_person_nationalities(file):
     result={}
-    lines = file.readlines()
     nationality_majority = 7
     from wsdm.ts.helpers.nationalities import nationalities
-    for line in lines:
+    for line in file:
         for person, country in nationalities.nationalities_dict.items():
             if (country not in result) and ((person in line) or (country in line)):
                 result[country.lower()] = nationality_majority
