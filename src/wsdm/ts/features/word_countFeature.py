@@ -70,7 +70,7 @@ def get_person_nationalities(file):
     for line in file:
         for person, country in nationalities.nationalities_dict.items():
             if (country not in result) and ((person in line) or (country in line)):
-                result[country.lower()] = nationality_majority
+                result[country] = nationality_majority
                 if nationality_majority > 0:
                     nationality_majority-=1
     return result
