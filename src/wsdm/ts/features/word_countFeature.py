@@ -2,7 +2,7 @@ import src.wsdm.ts.helpers.persons.persons as p_lib
 import definitions
 import sys
 
-import re
+import numpy as np
 import os
 
 def find_similarity(person_name, term, inputType):
@@ -22,44 +22,31 @@ def find_similarity(person_name, term, inputType):
 
     return 0
 
-def refine_results(lines, initial_result):
-    first_profession_word_map={}
-    for line in lines:
-        for profession in initial_result:
-            profession_words = profession.split()
-            if (profession_words[0] in line):
-                if (profession_words[0] in first_profession_word_map):
-                    first_profession_word_map[profession_words[0]] = first_profession_word_map[profession_words] + 1
-                else:
-                    first_profession_word_map[profession_words[0]] = 1
-    #print(first_profession_word_map)
-    return {}
-
 def get_person_professions(file):
     result={}
     profession_majority = 7
-    from wsdm.ts.helpers.professions import professions
 
-    for line in file:
-        words = p_lib.split_to_words(line.lower())
+    file_content = file.read().lower()
+    profession_indexes = {}
 
-        for profession in professions.profession_synonyms_map.keys():
-            profession_words = profession.split(' ')
-            for word in words:
-                profession_length = len(profession_words)
-                profession_first_word = profession_words[0]
-                profession_last_word = profession_words[0]
+    with open(os.path.join(definitions.NOMENCLATURES_DIR, "professions.txt"), encoding='utf8', mode='r') as fr:
+        for profession_line in fr:
+            profession = profession_line.rstrip()
+            profession_lower = profession.lower()
+            profession_words = profession_lower.split(' ')
 
-                if (profession_length == 2):
-                    profession_last_word = profession_words[1]
-                elif (profession_length > 2):
-                    profession_first_word = profession_words[-2]
-                    profession_last_word = profession_words[-1]
-                     #'''or profession_last_word == word'''
-                if (profession_first_word == word) and (profession not in result):
-                    result[profession.lower()] = profession_majority
-                    if profession_majority > 0:
-                        profession_majority-=1
+            if profession_lower in file_content:
+                profession_indexes[profession] = file_content.index(profession_lower)
+            elif len(profession_words) > 1 and all(word in file_content for word in profession_words):
+                profession_indexes[profession] = np.mean([file_content.index(word) for word in profession_words])
+
+    for profession in sorted(profession_indexes, key=profession_indexes.get):
+        result[profession] = profession_majority
+        if profession_majority > 0:
+            profession_majority -= 1
+
+        if profession_majority <= 0:
+            break
 
     return result
 
