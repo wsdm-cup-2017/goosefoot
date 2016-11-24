@@ -7,6 +7,7 @@ from wsdm.ts.helpers.nationalities import nationalities
 from wsdm.ts.features import generalFeature
 from wsdm.ts.features import word2VecFeature
 from wsdm.ts.features import tfIdfFeature
+from wsdm.ts.features import word_countFeature
 from wsdm.ts.features import regressionFeature
 
 
@@ -36,10 +37,24 @@ def get_score(person, term, inputType):
         return definitions.MIN_SIMILARITY
 
     regression_similarity = regressionFeature.find_similarity(person, term, inputType)
+    word_count_similarity = word_countFeature.find_similarity(person, term, inputType)
+
+    score = definitions.REGRESSION_MULTIPLIER * regression_similarity \
+                + definitions.WORD_COUNT_MULTIPLIER * word_count_similarity
+
+    '''
+    print('\t'.join("%.2f" % score for score in [
+        word2VecFeature.find_similarity(person, term, inputType),
+        tfIdfFeature.find_similarity(person, term, inputType),
+        word_countFeature.find_similarity(person, term, inputType),
+        regressionFeature.find_similarity(person, term, inputType),
+        score
+    ]))
+    '''
 
     print("%.2f" % regression_similarity, person, term)
 
-    return regression_similarity
+    return score
 
 
 def main(argv):
@@ -65,7 +80,7 @@ def main(argv):
                 if index % 1000 == 0:
                     print("\t".join([str(index), "%.2f" % score]))
                     
-                inputFW.write("{0}	{1}	{2}\n".format(person, term, score))
+                inputFW.write("{0}	{1}	{2}\n".format(person, term, "%.2f" % score))
 
 
 if __name__ == '__main__':
