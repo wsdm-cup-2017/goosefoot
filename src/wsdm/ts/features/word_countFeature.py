@@ -9,43 +9,22 @@ import re
 import os
 
 def find_similarity(person_name, term, inputType):
-    if inputType == definitions.TYPE_NATIONALITY:
-        dict = NATIONALITIES_DICT
-    elif inputType == definitions.TYPE_PROFESSION:
-        dict = PROFESSIONS_DICT
-    else:
-        raise TypeError
-
-    return custom_similarity(person_name, term, dict)
-
-def custom_similarity(person, key, words_dict):
     result={}
-    person_file_path = os.path.join(definitions.PERSONS_DIR, p_lib.remove_spaces(person) + ".txt")
-    if(words_dict == NATIONALITIES_DICT):
-        f = open(person_file_path)
-        result = get_person_nationalities(f)
-        f.close()
-    elif words_dict == PROFESSIONS_DICT:
-        f = open(person_file_path)
-        result = get_person_professions(f)
-        f.close()
-    else:
-        TypeError
+    person_file = os.path.join(definitions.PERSONS_DIR, p_lib.remove_spaces(person_name) + ".txt")
+    if os.path.isfile(person_file):
+        with open(person_file, 'r', encoding='utf8') as f:
+            if inputType == definitions.TYPE_NATIONALITY:
+                result = get_person_nationalities(f)
+            elif inputType == definitions.TYPE_PROFESSION:
+                result = get_person_professions(f)
+            else:
+                raise TypeError
 
-    if (key in result.keys()):
-        return result[key]
+    if (term in result.keys()):
+        return result[term]
+
     return 0
 
-
-def find_similarity(person_name, term, inputType):
-    if inputType == definitions.TYPE_NATIONALITY:
-        dict = NATIONALITIES_DICT
-    elif inputType == definitions.TYPE_PROFESSION:
-        dict = PROFESSIONS_DICT
-    else:
-        raise TypeError
-
-    return custom_similarity(person_name, term.lower(), dict)
 
 def remove_quoted_words(text):
     text=text.lower()
