@@ -1,4 +1,4 @@
-import src.wsdm.ts.helpers.persons.persons as p_lib
+import wsdm.ts.helpers.persons.persons as p_lib
 import definitions
 import sys
 
