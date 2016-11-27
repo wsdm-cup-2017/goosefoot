@@ -495,6 +495,44 @@ capitals_dict = {
     'cayman islands': 'george town'
 }
 
+popular_names_by_country = {'argentina':'sofía;camila;valentina;martina;agustina;micaela;lucía;milagros;victoria;julieta;santiago;lautaro;matías;tomás;lucas;joaquín;franco;agustín;thiago;nicolás',
+'australia':'ella;emily;mia;isabella;chloe;charlotte;olivia;sophie;lily;sienna;jack;joshua;lachlan;william;thomas;riley;james;cooper;ethan;noah',
+'austria':'lena;leonie;sarah;anna;julia;katharina;hannah;sophie;laura;lisa;lukas;tobias;david;florian;simon;maximilian;fabian;alexander;sebastian;julian',
+'belgium':'lina;sarah;aya;yasmine;rania;sara;salma;imane;ines;clara;mohamed;adam;rayan;nathan;gabriel;amine;ayoub;mehdi;lucas;anas;emma;louise;sarah;marie;julie;clara;manon;charlotte;elise;laura;nathan;lucas;noah;louis;thomas;arthur;mohamed;milan;mathis,hugo;lotte;emma;lore;julie;marie;amber;hanne;louise;elise;luna;milan;wout;lars;daan;senne;robbe;stan;noah;kobe;jasper;léa;clara;emma;lucie;manon;camille;sarah;chloé;louise;zoé;nathan;lucas;noah;hugo;théo;louis;tom;ethan;thomas;arthur',
+'brazil':'maria;ana;júlia;letícia;vitória;giovanna;yasmin;beatriz;mariana;larissa;joão;gabriel;pedro;thiago;matheus;guilherme;luiz;lucas;rafael;vinícius',
+'canada':'emma;sophia;olivia;emily;ava;hailey;abigail;madison;hannah;isabella;aidan;ethan;jacob;noah;lucas;logan;liam;owen;joshua;matthew',
+'chile':'martina;constanza;catalina;valentina;sofía;javiera;antonia;maría;isidora;francesca;benjamín;vicente;matías;martín;sebastían;joaquín;diego;nicolás;josé;cristóbal',
+'czech republic':'jana;petra;lenka;kateřina;martina;lucie;eva;monika;hana;markéta;jakub;jan;thomáš;lukáš;ondřej;vojtĕch;matĕj;adam;daniel;filip',
+'denmark':'anne;kirsten;hanne;mette;anna;helle;susanne;lene;karen;inge;jens;peter;lars;michael;henrik;soren;niels;thomas;hans;jorgen',
+'england and wales':'grace;ruby;olivia;emily;jessica;sophie;chloe;lily;ella;amelia;jack;thomas;oliver;joshua;harry;charlie;daniel;william;james;alfie',
+'wales': 'grace;ruby;olivia;emily;jessica;sophie;chloe;lily;ella;amelia;jack;thomas;oliver;joshua;harry;charlie;daniel;william;james;alfie',
+'finland':'maria;emilia;sofia;olivia;aino;amanda;aurora;matilda;helmi;ilona;juhani;johannes;mikael;matias;onni;olavi;elias;oskari;ilmari;aleksi',
+'france':'clara;emma;louanne;maëlys;chloé;inès;camille;sarah;océane;jade;mathéo;enzo;mathis;noah;lucas;nolan;kilian;raphaël;tom;nathan',
+'germany':'sophie; sofie;marie;maria;anna; anne;johanna;leonie;lena;hannah; hana;mia;charlotte;maximilian;alexander;leon;paul;luca;felix;elias;lukas; lucas;david;tim',
+'hungary':'anna;boglárka;réka;hanna;zsófia;lili;viktória;petra;eszter;laura;bence;máté;levente;dávid;balázs;dániel;ádám;péter;bálint;tamás',
+'ireland':'sarah;emma;ella;katie;sophie;ava;aoife;emily;grace;kate;jack;sean;conor;daniel;james;adam;ryan;luke;cian;michael',
+'isle of man':'lily; lillie;isabelle; isabella;emily;lucy;summer;chloe;holly;ella;ruby;charlotte;josh; joshua;thomas;lewis;charles; charlie;alex; alexander;sam; samuel;oliver;harry;george;ben; benjamin',
+'italy':'giulia;sara;sofia;martina;chiara;alessia;giorgia;aurora;francesca;giada;francesco;alessandro;andrea;matteo;lorenzo;mattia;simone;luca;gabriele;davide',
+'lithuania':'emiliia;gabiia;kamilė;gabrielė;austėja;ugnė;goda;viltė;urtė;karina;matas;lukas;nojus;dovvdas;kajus;rokas;dominvkas;mantas;ignas;arnas',
+'macedonia':'marja;biljana;elena;vesna;snezana;violeta;aleksandra;suzana;ljubica;katerina;aleksandar;zoran;nikola;goran;dragan;dejan;ilija;igor;petar;ljupco',
+'malta':'maria;martina;julia;christina;elisa;sarah;emma; maya;nicole;amy; jasmine;michela;luke;matthew;jake;julian;john;nicholas;kieran;isaac;andrew;nathan',
+'mexico':'maria fernanda;valeria;ximena;maria guadalupe;daniela;camila;mariana;andrea;maria jose;sofia;miguel angel;diego;luis angel;santiago;alejandro;emiliano;daniel;jesus;leonardo;eduardo',
+'netherlands':'sanne;lotte;julia;sophie;lieke;emma;anna;eva;lisa;fleur;sem;tim;daan;ruben;thomas;jesse;milan;thijs;lucas;stijn',
+'new zealand':'ella;sophie;olivia;emma;charlotte;emily;lily;grace;hannah;isabella;jack;james;joshua;daniel;william;oliver;samuel;benjamin;ethan;ryan',
+'ireland':'katie;grace;sophie;lucy;emma;ellie;sarah;erin;hannah;anna;jack;james;matthew;daniel;ryan;thomas;adam;joshua;dylan;ben',
+'norway':'sara;thea;emma;julie;nora;ida;emilie;ingrid;anna;sofie;mathias;jonas;markus;alexander;lukas;kristian;magnus;elias;emilhenrik',
+'poland':'anna;maria;katarzyna;malgorzata;agnieszka;krystyna;barbara;ewa;elzbieta;zofia;jan;andrezj;piotr;krzysztof;stanislaw;tomasz;pawel;józef;marcin;marek',
+'russia':'anastasiya;mariya;dariya;inna;polina;yekaterina;ksenia;viktoria;yelizaveta;sofia;alexander;ivan;maxim;artyom;mikhail;nikita;danil;yegor;dmitry;alexei',
+'romania':'ana-maria;maria;andreea;alexandra;ilona;elena;maria alexandra;denisa;bianca maria;georgiana;andrei;alexandru;stefan;david;mihai;ionut;florin;daniel;gabriel;matei',
+'scotland':'sophie;emma;lucy;katie;erin;ellie;amy;emily;chloe;olivia;lewis;jack;ryan;james;callum;cameron;daniel;liam;jamie;kyle',
+'serbia':'milica;andjela;jovana;teodora;marija;ana;katarina;sara;anja;jelena;nikola;luka;marko;stefan;aleksa;lazar;aleksandar;filip;nemanja;miloš',
+'south korea':'seo-yeon;min-suh;ji-min;seo-hyeon;seo-yun;ye-eun;ha-eun;ji-eun;min-jun;ji-hun;hyun-woo;jun-suh;woo-jin;gun-woo;ye-jun;hyun-jun',
+'spain':'lucia;maria;paula;sara;laura;claudia;irene;marta;alba;carla;daniel;alejandro;pablo;david;adrian;alvaro;hugo;javier;diego;sergio;júlia; julia;lucía;paula;laia;maria; maría;carla;martina;clàudia; claudia;alba;sara;àlex; álex;pol;pau;david;arnau;eric;daniel;jan;martí;iker',
+'sweden':'wilma;maja;ella;emma;julia;alice;alva;linnea;ida;ebba;william;lucas;elias;oscar;hugo;viktor;filip;erik;emil;isak',
+'switzerland':'lena;sara;nina;laura;julia;alina;lea;lara;anna;leonie;tim;noah;luca;david;leon;jonas;nico;jan;simon;luka',
+'ukraine':'anastasia;alina;daria;kateryna;maria;natalia;sophia;yulia;victoria;yelyzaveta;olexandr;danylo;maksym;vladyslav;mykyta;artem;ivan;kyrylo;yegor;ilya;'}
+
+
 # if __name__ == '__main__':
 #   html_content = open('nationalities_table.html', mode='r', encoding='utf8')
 #   soup = BeautifulSoup(html_content, "html.parser")
