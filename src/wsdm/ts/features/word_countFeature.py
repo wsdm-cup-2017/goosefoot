@@ -61,38 +61,61 @@ def get_person_professions(file):
 
     return result
 
-def get_person_nationalities(file):
+#returns all countries, which have the given name
+#as popular
+def get_popular_country_names(person_name):
+    from wsdm.ts.helpers.nationalities import nationalities
+    all_countries_with_this_name = []
+
+    for country, names in nationalities.popular_names_by_country.items():
+        person_first_name = person_name.split()[0]
+        if (person_first_name.lower() in names.split(';')):
+            all_countries_with_this_name.append(country)
+
+    return all_countries_with_this_name
+
+def swap_ratings(map, key):
+    temp = map[key]
+    if (temp >=7):
+        return
+    second_key = ''
+    for _key, value in map.items():
+        if (value == temp+1):
+            second_key = _key
+            break;
+    #probably the next check is not necessary !
+    if (second_key == ''):
+        return map
+
+    map[key] = map[key] + 1
+    map[second_key] = map[second_key]-1
+    return map
+
+def get_person_nationalities(file, person_name):
     result={}
+    lines = file.readlines()
     nationality_majority = 7
     from wsdm.ts.helpers.nationalities import nationalities
-    for line in file:
-        nationality_indexes = {}
-        for person, nationality in nationalities.nationalities_dict.items():
-            line = line.replace(person, nationality)
-
-        with open(os.path.join(definitions.NOMENCLATURES_DIR, "nationalities.txt"), encoding='utf8', mode='r') as fr:
-            for nationality_line in fr:
-                nationality = nationality_line.rstrip()
-                if nationality not in result:
-                    if nationality in line:
-                        nationality_indexes[nationality] = line.index(nationality)
-
-        if len(nationality_indexes) > 0:
-            for nationality in sorted(nationality_indexes, key=nationality_indexes.get):
-                result[nationality] = nationality_majority
+    for line in lines:
+        for person, country in nationalities.nationalities_dict.items():
+            if (country not in result) and ((person in line) or (country in line)):
+                result[country.lower()] = nationality_majority
                 if nationality_majority > 0:
                     nationality_majority-=1
-
-        if nationality_majority <= 0:
-            break
-
+    #set higher ratings to countries, which has the
+    #given name as popular local name
+    all_country_names = get_popular_country_names(person_name)
+    for country in all_country_names:
+        if country in result.keys():
+            if (result[country] < 7):
+                result = swap_ratings(result, country)
     return result
 
 
 def main(argv):
-    #f = codecs.open('D:/education/FMI_Sofia_University/III_sem/wsdm_2017/data/DATA_2016_10_15/persons/Richard_Séguin.txt', 'r', encoding='utf8')
+    f = open('D:/education/FMI_Sofia_University/III_sem/wsdm_2017/data/DATA_2016_10_15/persons/Richard_Séguin.txt', 'r', encoding='utf8')
     #result = get_person_nationalities(f)
-    print(find_similarity('Richard Séguin', 'Germany', definitions.TYPE_NATIONALITY))
+    print(get_person_nationalities(f, 'Richard Séguin'))
     #f.close()
     #print(result)
 
