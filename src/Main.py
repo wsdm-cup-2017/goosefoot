@@ -45,15 +45,15 @@ def check_file_content_type(file_path):
 
 def get_score(person, term, inputType):
     if not generalFeature.has_file(person):
-        print("No file", person)
+        # print("No file", person)
         return definitions.DEFAULT_SIMILARITY
 
     if generalFeature.is_positive(person, term, inputType):
-        print("Positive", person, term)
+        # print("Positive", person, term)
         return definitions.MAX_SIMILARITY
 
     if generalFeature.is_negative(person, term, inputType):
-        print("Negative", person, term)
+        # print("Negative", person, term)
         return definitions.MIN_SIMILARITY
 
     regression_similarity = regressionFeature.find_similarity(person, term, inputType)
@@ -70,9 +70,9 @@ def get_score(person, term, inputType):
         regressionFeature.find_similarity(person, term, inputType),
         score
     ]))
-    '''
 
     print("%.2f" % regression_similarity, person, term)
+    '''
 
     return score
 
@@ -91,8 +91,10 @@ def process(inputFile, outputFile):
                 term = splitted[1]
                 score = get_score(person, term, inputType)
 
+                '''
                 if index % 1000 == 0:
                     print("\t".join([str(index), "%.2f" % score]))
+                '''
                     
                 inputFW.write("{0}	{1}	{2}\n".format(person, term, "%.0f" % score))
 
