@@ -12,7 +12,7 @@ def find_similarity(person_name, term, inputType):
     if os.path.isfile(person_file):
         with open(person_file, 'r', encoding='utf8') as f:
             if inputType == definitions.TYPE_NATIONALITY:
-                result = get_person_nationalities(f)
+                result = get_person_nationalities(f, person_name)
             elif inputType == definitions.TYPE_PROFESSION:
                 result = get_person_professions(f)
             else:
