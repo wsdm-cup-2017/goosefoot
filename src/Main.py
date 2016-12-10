@@ -33,10 +33,9 @@ def get_io_files(argv):
 
 ''' Returns the content type in the corresponding file (PERSON or NATIONALITY).'''
 def check_file_content_type(file_path):
-    with open(file_path, 'r') as f:
+    with open(file_path, encoding='utf8', mode='r') as f:
         first_line = f.readline()
         profession_or_nationality = first_line.split('\t')[1]
-        f.close()
 
     if profession_or_nationality.strip() in nationalities.nationalities_dict.values():
         return definitions.TYPE_NATIONALITY
